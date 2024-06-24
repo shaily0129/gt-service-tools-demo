@@ -1,0 +1,3700 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="triage_score" for="edge" attr.name="triage_score" attr.type="string" />
+  <key id="triage_category" for="edge" attr.name="triage_category" attr.type="string" />
+  <key id="type_casualty" for="node" attr.name="type_casualty" attr.type="string" />
+  <key id="casualty_id" for="node" attr.name="casualty_id" attr.type="long" />
+  <key id="type_triage_category_uninjured" for="node" attr.name="type_triage_category_uninjured" attr.type="string" />
+  <key id="type_triage_category_minor" for="node" attr.name="type_triage_category_minor" attr.type="string" />
+  <key id="type_triage_category_delayed" for="node" attr.name="type_triage_category_delayed" attr.type="string" />
+  <key id="type_triage_category_urgent" for="node" attr.name="type_triage_category_urgent" attr.type="string" />
+  <key id="type_triage_category_immediate" for="node" attr.name="type_triage_category_immediate" attr.type="string" />
+  <key id="type_triage_category_expectant" for="node" attr.name="type_triage_category_expectant" attr.type="string" />
+  <key id="triage_category_id" for="node" attr.name="triage_category_id" attr.type="long" />
+  <key id="ninety_hundred" for="node" attr.name="ninety_hundred" attr.type="string" />
+  <key id="seventy_ninety" for="node" attr.name="seventy_ninety" attr.type="string" />
+  <key id="fifty_seventy" for="node" attr.name="fifty_seventy" attr.type="string" />
+  <key id="thirty_fifty" for="node" attr.name="thirty_fifty" attr.type="string" />
+  <key id="zero_thirty" for="node" attr.name="zero_thirty" attr.type="string" />
+  <key id="type_score" for="node" attr.name="type_score" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="0">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="1">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="2">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="3">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="4">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="5">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="6">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="7">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="8">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="9">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="10">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="11">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="12">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="13">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="14">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="15">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="16">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="17">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="18">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="19">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="20">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="21">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="22">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="23">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="24">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="25">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="26">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="27">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="28">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="29">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="30">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="31">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="32">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="33">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="34">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="35">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="36">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="37">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="38">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="39">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="40">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="41">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="42">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="43">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="44">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="45">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="46">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="47">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="48">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="49">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="50">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="51">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="52">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="53">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="54">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="55">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="56">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="57">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="58">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="59">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="60">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="61">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="62">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="63">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="64">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="65">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="66">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="67">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="68">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="69">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="70">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="71">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="72">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="73">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="74">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="75">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="76">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="77">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="78">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="79">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="80">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="81">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="82">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="83">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="84">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="85">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="86">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="87">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="88">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="89">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="90">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="91">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="92">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="93">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="94">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="95">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="96">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="97">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="98">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="99">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="100">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="expectant">
+      <data key="triage_category_id">2</data>
+      <data key="type_triage_category_expectant">1,1</data>
+    </node>
+    <node id="immediate">
+      <data key="triage_category_id">3</data>
+      <data key="type_triage_category_immediate">1,1</data>
+    </node>
+    <node id="urgent">
+      <data key="triage_category_id">4</data>
+      <data key="type_triage_category_urgent">1,1</data>
+    </node>
+    <node id="delayed">
+      <data key="triage_category_id">5</data>
+      <data key="type_triage_category_delayed">1,1</data>
+    </node>
+    <node id="minor">
+      <data key="triage_category_id">6</data>
+      <data key="type_triage_category_minor">1,1</data>
+    </node>
+    <node id="uninjured">
+      <data key="triage_category_id">7</data>
+      <data key="type_triage_category_uninjured">1,1</data>
+    </node>
+    <node id="Adrian Monk">
+      <data key="casualty_id">2</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Natalie Tieger">
+      <data key="casualty_id">3</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Leland Stottlemeyer">
+      <data key="casualty_id">4</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Jake Peralta">
+      <data key="casualty_id">5</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Sharona Fleming">
+      <data key="casualty_id">6</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Randy Disher">
+      <data key="casualty_id">7</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Trudy Monk">
+      <data key="casualty_id">8</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Charles Kroger">
+      <data key="casualty_id">9</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Julie Trieger">
+      <data key="casualty_id">10</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Benjy Fleming">
+      <data key="casualty_id">11</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <edge source="Adrian Monk" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+  </graph>
+</graphml>
