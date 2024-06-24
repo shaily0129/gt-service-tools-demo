@@ -5,6 +5,16 @@ The goal of this framework is to define a suite of flexible tool that enable a r
 
 <img src="https://comicvine.gamespot.com/a/uploads/scale_small/0/77/118292-44795-batman.jpg" alt="Batman" width="300" height="300">
 
+Think of the tools as being like Batmans toolbelt.   We can define a suite of tools that are responsbile for calculating specific values or interactions.
+In the same way Batmans tool belt is on show, the tools will be on show.  The plan is to expose these as REST services that can be invoked remotely.
+
+## Direction of Travel
+* Update algos to explicitly employ the InteractionRequest approach
+* Expose Tools as WebServices
+* Extend the range of tools to deal with increasingly more sophisticated requirements and situations
+* Extend the Tools into a Chain of execution that enables sequential and parallel compute
+* Ensure all logs / results are surface in a central logging and dashboarding capability
+
 ## Algorithms
 Document List of Algos....
 * Triage
@@ -17,9 +27,7 @@ Triage algorithms vary in complexity and scope, ranging from basic systems that 
 Common triage algorithms include the Simple Triage and Rapid Treatment (START) algorithm, the JumpSTART algorithm for pediatric patients, the Manchester Triage System (MTS), the Canadian Triage and Acuity Scale (CTAS), and the Emergency Severity Index (ESI), among others.
 These algorithms may be tailored for specific environments, such as mass casualty incidents, emergency departments, or pre-hospital settings.
 
-Triage algorithms typically assess patients based on various factors, including vital signs (e.g., heart rate, respiratory rate, oxygen saturation), chief complaints, mechanism of injury, and potential for deterioration.
-They often use a combination of objective measurements and subjective assessments to assign patients to different triage categories.
-Some algorithms prioritize rapid assessment and treatment (e.g., START), while others focus on comprehensive evaluations to ensure appropriate resource allocation (e.g., CTAS).
+Triage algorithms typically assess patients based on various factors, including vital signs (e.g., heart rate, respiratory rate, oxygen saturation), chief complaints, mechanism of injury, and potential for deterioration.  They often use a combination of objective measurements and subjective assessments to assign patients to different triage categories.  Some algorithms prioritize rapid assessment and treatment (e.g., START), while others focus on comprehensive evaluations to ensure appropriate resource allocation (e.g., CTAS).
 
 The landscape of emergency medical care is dynamic, with evolving patient needs, clinical guidelines, and resource availability.
 
