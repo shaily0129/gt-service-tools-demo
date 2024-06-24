@@ -6,8 +6,13 @@ The goal of this framework is to define a suite of flexible tool that enable a r
 ![Batman.png](https://comicvine.gamespot.com/a/uploads/scale_small/0/77/118292-44795-batman.jpg)
 
 
+<img src="https://comicvine.gamespot.com/a/uploads/scale_small/0/77/118292-44795-batman.jpg" alt="Batman" width="300" height="300">
+
 ## Algorithms
 Document List of Algos....
+* Triage
+* Patient Selection
+* Optimisation
 
 ### Triage Algorithms
 In emergency medical care, triage algorithms play a crucial role in prioritizing patient care based on the severity of their condition and the available resources. Here's a summary of triage algorithms in emergency medical care:
