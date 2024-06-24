@@ -21,7 +21,7 @@ Such a framework facilitates the integration of new algorithms as they are devel
 
 ![Triage.png](./gt-service-tools/docs%2FTriage.png)
 
-![Triage2.png](docs%2FTriage2.png)
+![Triage2.png](./gt-service-tools/docs%2FTriage2.png)
 
 Triage algorithms are essential tools in emergency medical care, providing structured approaches to prioritize patient care based on the severity of their condition. 
 A flexible framework for enabling a library of triage algorithms within an application ensures that we can evolve the algorithms whilst scaffolding the rest of the application
@@ -30,7 +30,7 @@ A flexible framework for enabling a library of triage algorithms within an appli
 The framework has at its core the TriageFactory.  This Class is responsible for initialising
 all algorithms in a consistant approach.  The Factory, as the name suggests, is built o
 
-![Sw-TriageFramework.png](docs%2FSw-TriageFramework.png)
+![Sw-TriageFramework.png](./gt-service-tools/docs%2FSw-TriageFramework.png)
 
 
 ## Algo Developers
@@ -47,7 +47,7 @@ To do this they need to do follow the following threestep process following:
     ```
 
 * Update the FactoryAlgoTriage class an insert their Algo Name into the Factory, ensuring to add to the TriageAlgoName ENUM types
-    ![Factory.png](docs/Factory.png)
+    ![Factory.png](./gt-service-tools/docs/Factory.png)
 
 
 ## Key Design Considerations
