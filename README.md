@@ -1,8 +1,10 @@
-# MCP
+# Guardian Twin Tool Kit
 
 ## Overview Test
-The goal of this framework is to define a flexible approach for enabling a library of Triage 
-Algorithms, whilst defining common structures, enabling the application to be scaffolded whilst the algortithms are in development.
+The goal of this framework is to define a suite of flexible tool that enable a range of GT related compute.  Compute tasks vary from calculating a triage Algorithm, Evacuation Priorisation and evacuation optimisation.  These tools are designed to compute a specific outcome, but the differentiator here is that tool may ask for additional input above and beyond the data that was made available to it at time of kicking off the request.  It does this by raising interaction requests, which the client application ( web app, language model, workflow ) is responsible for driving.  
+
+## Algorithms
+Document List of Algos....
 
 ### Triage Algorithms
 In emergency medical care, triage algorithms play a crucial role in prioritizing patient care based on the severity of their condition and the available resources. Here's a summary of triage algorithms in emergency medical care:
@@ -26,14 +28,14 @@ Such a framework facilitates the integration of new algorithms as they are devel
 Triage algorithms are essential tools in emergency medical care, providing structured approaches to prioritize patient care based on the severity of their condition. 
 A flexible framework for enabling a library of triage algorithms within an application ensures that we can evolve the algorithms whilst scaffolding the rest of the application
 
-## Approach
+#### Approach
 The framework has at its core the TriageFactory.  This Class is responsible for initialising
 all algorithms in a consistant approach.  The Factory, as the name suggests, is built o
 
 ![Sw-TriageFramework.png](./gt-service-tools/docs%2FSw-TriageFramework.png)
 
 
-## Algo Developers
+#### Algo Developers
 Simwerx has engaged with a University to provide a rules based approach for defining TriageScores
 It is expected that the development team will conform to the framework and add their specific implementation into the library
 To do this they need to do follow the following threestep process following:
@@ -50,7 +52,7 @@ To do this they need to do follow the following threestep process following:
     ![Factory.png](./gt-service-tools/docs/Factory.png)
 
 
-## Key Design Considerations
+#### Key Design Considerations
 * Factory Approach for Algo Instantiation
 * Flexible Approach needed for modelling a Patient
 * Formality required for input and output of the Triage Process
