@@ -19,7 +19,7 @@ The landscape of emergency medical care is dynamic, with evolving patient needs,
 A flexible framework for enabling a library of triage algorithms within an application allows healthcare providers to adapt to changing circumstances and tailor triage protocols to their specific needs.
 Such a framework facilitates the integration of new algorithms as they are developed or modified, ensuring that PRCC teams have access to the most appropriate and up-to-date triage tools.
 
-![Triage.png](docs%2FTriage.png)
+![Triage.png](./gt-service-tools/docs%2FTriage.png)
 
 ![Triage2.png](docs%2FTriage2.png)
 
