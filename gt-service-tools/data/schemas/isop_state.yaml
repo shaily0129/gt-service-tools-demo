@@ -1,4 +1,5 @@
 isop_id:
+last_updated:
 mechanism_of_injury: #
   date: #date of injury
   time: # time of injury
@@ -7,9 +8,6 @@ mechanism_of_injury: #
   summary: # Gun shot wound to chest max-40char
   description: # Gun shot wound to the chest with small caliber pistol, no exit wound...
 
-# The rest of these are timeseries... 
-# %%% PHASE 1 %%%
-  
 litter: # boolean - Set by PRDO on ISOP intake.  Not sure if this should remain here or move to mission_requirements
 ambulatory: # boolean - Set by PRDO on ISOP intake
 
