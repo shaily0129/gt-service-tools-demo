@@ -72,6 +72,7 @@
       abbreviation: "SBP    "
       value: 110
       unit: "mmHG"
+    - triage
     - timestamp: "2024-06-30T03:42:19Z"
       insult_id: 11
       label: "hemorrhage"
@@ -79,6 +80,7 @@
       sublocation: "upper"
       lateral_position: "left"
       AIS_score: 2
+    - triage
     - timestamp: "2024-06-30T03:42:19Z"
       insult_id: 22
       label: "burn"
@@ -86,6 +88,7 @@
       sublocation: "upper"
       lateral_position: ""
       AIS_score: 3
+    - triage
     - timestamp: "2024-06-30T03:42:19Z"
       insult_id: 33
       label: "hemorrhage"
@@ -93,6 +96,8 @@
       sublocation: "lower"
       lateral_position: "left"
       AIS_score: 2
+    - triage
+    
 
 - isop_id: 2
   mechanism_of_injury:

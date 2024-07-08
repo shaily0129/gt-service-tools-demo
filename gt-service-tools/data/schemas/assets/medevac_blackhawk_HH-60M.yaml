@@ -1,0 +1,73 @@
+  asset_id:
+    _generate_id:
+  serial_number: (1000, 9999)
+  name: "MEDEVAC Black Hawk"
+  manufacturer: "Sikorsky Aircraft"
+  model: "HH-60M"
+  asset_type: "VTOL"
+  sub_type: ""
+  mission_types: "medevac"
+  landing_distance_required: # if type:CTOL
+  takeoff_distance_required: # if type:CTOL
+  estimated_value(usd): "$20M"
+  range (km): 
+    average: 670 # range with fuel reserve safety margins
+    max: 1111
+    max_with_aux_fuel_tanks: 2555 # see optional_equipment below
+  speed(km/h):  
+    cruise: 280 
+    max: 357
+    max_with_aux_fuel_tanks: 300
+  fuel:
+    types: 
+      - "JP-8"
+      - "Jet A-1"
+    fueltank_capacity(L):
+      internal: 1360
+      total_with_selected_equipment_options: 3100 
+    fuel_reserves(%): 
+      ideal: 15
+      min: 5
+  weight_capacity(kg):
+    takeoff_max: 9979
+      with_selected_equipment_options: 8500
+    landing_max: 9979
+      with_selected_equipment_options: 8500
+  operational_altitude(m):
+    service: 5790
+    max: 5914
+  crew:
+    number: 4
+    roles:
+      - "pilot" 
+      - "co-pilot"
+      - "crew chief"
+      - "flight medic"
+  patient_capacity:
+    litter: 6  
+    ambulatory: 6
+  equipment_options:
+    auxillary_fuel_tanks: TRUE #affects speed, capacity, range
+      number_of_tanks: 2
+      fueltank_capacity(L):
+        each: 870
+        total: 1740
+  operational_conditions:
+    day: TRUE
+    night: TRUE
+    temperature(C):
+      min: 0
+      max: 50
+    adverse_weather: TRUE
+    min_visability_required(km):
+  medevac_capabilities:
+    equipment:
+    - "IV provisions"
+    - "Medical monitoring systems (vital signs, EKG, etc.)"
+    - "Advanced life support equipment (ventilators, defibrillators, etc.)"
+    - "oxygen generation system"
+    - "medical suction system"
+    - "medical electrical power (115VAC/60Hz)"
+    - "high intensity lighting"
+    patient_handling:
+    - "patient litter lift system"
