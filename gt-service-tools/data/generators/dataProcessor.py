@@ -12,7 +12,7 @@ class Process:
         # self.counters = {}
         self.id_generator = IDGenerator()
         self.list_generator = ListGenerator(self)
-        self.timestamp_generator = TimestampGenerator(self)
+        self.timestamp_generator = TimestampGenerator(self, Utils)
         self.set_range_generator = SetRangeGenerator()
         self.special_keys = {
             "first_name": Random.fake_first_name,
@@ -90,8 +90,8 @@ class Process:
             try:
                 # TODO: Refactor to def handle_special_keys(self, node_dict):
                 # Handle the special_keys
-                if key in self.special_keys and value == "*":
-                    processed_node[key] = self.special_keys[key]()
+                if key in self.special_keys:
+                    processed_node[key] = self.special_keys[key](value)
 
                 # TODO: Refactor to handle_other_types(self, node_dict):
                 # Handle other types of values 

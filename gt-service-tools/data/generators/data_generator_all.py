@@ -4,24 +4,25 @@ from datetime import datetime, timedelta
 import os
 from utils import Utils
 from dataProcessor import Process
+from randomizer import Random
 
 # Instantiations
 process = Process()
 
-def process_isop_state(self, schema):
-    if 'isop_state.yaml' in schema.get('source', ''):
-        # Assuming 'insults' is a key in the schema that contains a list of insult objects
-        for insult in schema.get('insults', []):
-            insult_id = insult.get('insult_id')
-            # Assuming each insult object has a 'records' key with a list of record objects
-            for record in insult.get('records', []):
-                # Copying the insult_id to each of the insult's record objects
-                record['insult_id'] = insult_id
-            # Assuming there's a 'patient_records' list in the schema to copy all insult records to
-            if 'patient_records' not in schema:
-                schema['patient_records'] = []
-            schema['patient_records'].extend(insult.get('records', []))
-    return schema
+# def process_isop_state(self, schema):
+#     if 'isop_state.yaml' in schema.get('source', ''):
+#         # Assuming 'insults' is a key in the schema that contains a list of insult objects
+#         for insult in schema.get('insults', []):
+#             insult_id = insult.get('insult_id')
+#             # Assuming each insult object has a 'records' key with a list of record objects
+#             for record in insult.get('records', []):
+#                 # Copying the insult_id to each of the insult's record objects
+#                 record['insult_id'] = insult_id
+#             # Assuming there's a 'patient_records' list in the schema to copy all insult records to
+#             if 'patient_records' not in schema:
+#                 schema['patient_records'] = []
+#             schema['patient_records'].extend(insult.get('records', []))
+#     return schema
 
 def generate_all_test_data(test_cases, format):
     for test_case in test_cases:
@@ -62,4 +63,9 @@ def generate_all_test_data(test_cases, format):
 if __name__ == "__main__":
     format = 'yaml'
     test_cases = Utils.load_schema('../test_cases/test_cases.yaml')
+    missing_data_factor = 100 # (0-100) Percentage of data to be missing for select params
+
+    # Set the missing data factor for various classes
+    Random.set_missing_data_factor(missing_data_factor)
+
     generate_all_test_data(test_cases, format)

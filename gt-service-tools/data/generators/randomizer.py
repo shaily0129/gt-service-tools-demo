@@ -11,22 +11,47 @@ class Random:
         self.id_counters = {}
         self.last_for_set_range = {}
     #     already_selected = []
+
+    missing_data_factor = 0 # The percentage of missing data to generate
     
-    def fake_first_name():
-        """Generate a fake first name if the key is 'first_name: "*"'."""
-        return fake.first_name()
 
-    def fake_last_name():
-        """Generate a fake last name if the key is 'last_name:  "*"'."""
-        return fake.last_name()
+    @classmethod
+    def set_missing_data_factor(cls, factor):
+        cls.missing_data_factor = factor
+    
+    @staticmethod
+    def random_missing_data():
+        empty = Random.missing_data_factor
+        filled = 100 - empty
+        return random.choices([True, False], weights=[filled, empty])[0]
 
-    def fake_callsign():
-        """Generate a fake callsign if the key is 'callsign:  "*"'."""
+    @staticmethod
+    def handle_random_fake(fake_value, indicator):
+        if indicator == "*":
+            return fake_value
+        elif indicator == "!":
+            return fake_value if Random.random_missing_data() else ""
+        else:
+            return indicator
+
+    @staticmethod
+    def fake_first_name(indicator):
+        first_name = fake.first_name()
+        return Random.handle_random_fake(first_name, indicator)
+
+    @staticmethod
+    def fake_last_name(indicator):
+        last_name = fake.last_name()
+        return Random.handle_random_fake(last_name, indicator)
+
+    def fake_callsign(indicator):
         letters = ''.join(random.choices(string.ascii_uppercase, k=2))
         numbers = ''.join(random.choices(string.digits, k=3))
-        return f"{letters}{numbers}"
+        callsign = f"{letters}{numbers}"
+        return Random.handle_random_fake(callsign, indicator)
+
     
-    def fake_datetime():
+    def fake_datetime(indicator):
         """Generate a fake datetime within the past 8 hours if the key is 'dateTime: "*"'.."""
         now = datetime.now()
         # Generate a random number of seconds within the past 8 hours
@@ -35,7 +60,7 @@ class Random:
         past_datetime = now - timedelta(seconds=seconds_past)
         # Convert to ISO format string
         date_time_str = past_datetime.isoformat()
-        return date_time_str
+        return Random.handle_random_fake(date_time_str, indicator)
 
     def date_today():
         """Generate a date object for today if the key is 'date: "*"'."""
@@ -72,8 +97,14 @@ class Random:
     def random_from_tuple(value):
         """Generate a random value within the range specified by a tuple string."""
 
+        # Initialize the allow missing data indicator
+        indicator = None
+
         # Convert value from string to tuple if it's a string
         if isinstance(value, str):
+            if value.startswith("(") and value.endswith("!"): # tuples that can be ommitted are represented as (min, max)!
+                value = value[:-1]
+                indicator = "!"
             try:
                 value = ast.literal_eval(value)
             except (ValueError, SyntaxError):
@@ -83,18 +114,22 @@ class Random:
 
         
         min_val, max_val = value  # Use the tuple directly
-
+        random_value = None
         # Check if the values are integer or floating-point
         if isinstance(min_val, int) and isinstance(max_val, int):
             # Generate a random integer if both min and max are integers
             random_number = random.randint(min_val, max_val)
-            return random_number
+            random_value = random_number
         else:
             # Generate a random floating-point number if either min or max is a float
             min_val, max_val = float(min_val), float(max_val)
             random_float = random.uniform(min_val, max_val)
-            return random_float
-    
+            random_value = random_float
+
+        if indicator == "!":
+            return random_value if Random.random_missing_data() else None
+        else:
+            return random_value
 
 
 
@@ -111,10 +146,16 @@ class Random:
     def select_from_options(options, selection_type, already_selected=[]):
         """Select items from options based on selection_type, excluding already selected if unique."""
         options = [option for option in options if option not in already_selected]
-        if selection_type == "single" or selection_type == "unique":
-            return random.choice(options) if options else None
-        elif selection_type == "multiple":
+        if selection_type == "single" or selection_type == "single!" or selection_type == "unique":
+            selection = random.choice(options) if options else None
+            if selection_type == "single!":
+                selection = selection if Random.random_missing_data() else None
+            return selection
+        elif selection_type == "multiple" or selection_type == "multiple!":
             num_choices = random.randint(1, len(options))
-            return random.sample(options, k=num_choices) if options else []
+            selections = random.sample(options, k=num_choices) if options else []
+            if selection_type == "multiple!":
+                selections = selections if Random.random_missing_data() else []
+            return selections
         else:
             raise ValueError(f"Invalid selection_type: {selection_type}")
