@@ -7,6 +7,7 @@ from setRangeGenerator import SetRangeGenerator
 # from dataProcessor import Process
 
 
+TIMESTAMP_KEY = '_generate_timestamps'
 class TimestampGenerator:
     def __init__(self, process_instance, Utils):
         self.process_instance = process_instance
@@ -38,7 +39,7 @@ class TimestampGenerator:
         return timestamp_obj, next_datetime, unique_selections
 
 
-    def generate_timestamps_from_multiple_schemas(self, timestamp_meta, base_datetime, min_delta, max_delta):
+
         timestamps = []
         unique_selections = {}
         
@@ -152,7 +153,7 @@ class TimestampGenerator:
 
         return timestamps
 
-    def generate_timestamps(self, node):
+    # def generate_timestamps(self, node):
         timestamps = []
         if isinstance(node, dict):
             timestamp_meta = node.pop('_generate_timestamps', None)
@@ -161,34 +162,93 @@ class TimestampGenerator:
                 min_delta, max_delta = map(int, timestamp_meta['timedelta(min)'].strip("()").split(","))
                 base_datetime = datetime.now()
                 unique_selections = {}
+                schema_path = None
+                schemas_with_max_count = {}
 
-                if 'schemas' in timestamp_meta:
-                    timestamps = self.generate_timestamps_from_multiple_schemas(timestamp_meta, base_datetime, min_delta, max_delta)
-                
-                # if 'schemas' in timestamp_meta:
-                #     schema_paths = timestamp_meta['schemas']
-                #     for _ in range(count):
-                #         schema_path = random.choice(schema_paths)
-                #         loaded_schemas = Utils.load_schema(schema_path)
-                #         # If loaded_schemas is a list, select a random schema from the list
-                #         schema = random.choice(loaded_schemas) if isinstance(loaded_schemas, list) else loaded_schemas
-                #         timestamp_obj, next_datetime, unique_selections = self.generate_single_timestamp(
-                #             base_datetime, schema, min_delta, max_delta, unique_selections)
-                #         timestamps.append(timestamp_obj)
-                #         base_datetime = next_datetime
-                else:
-                    schema_path = timestamp_meta.get('schema')
+                for _ in range(count):
+                    if 'schemas' in timestamp_meta:
+                        all_schemas = timestamp_meta['schemas']
+                        schema_meta = random.choice(all_schemas)
+                        schema_key = str(schema_meta['schema'])  # Convert schema_meta to string to use as key
+                        # if max_count <= 0 for the schema, do not generate any more instances of this schema
+                        if schema_key in schemas_with_max_count and schemas_with_max_count[schema_key]['max_count'] <= 0:
+                            schema_path = None
+                            continue
+
+                        if 'max_count' in schema_meta:
+                            # if schema_meta not already in schemas_with_max_count, set the max_count to a random number -1 and add to schemas_with_max_count
+                            if schema_key not in schemas_with_max_count:
+                                schema_meta['max_count'] = Random.random_from_tuple(schema_meta['max_count']) - 1
+                                schemas_with_max_count[schema_key] = schema_meta
+                            else:
+                                # find the schema_meta in schemas_with_max_count and decrement the max_count by 1
+                                schemas_with_max_count[schema_key]['max_count'] -= 1
+                                
+
+                        schema_path = schema_meta['schema']
+                    else:
+                        schema_path = timestamp_meta.get('schema')
+
                     if schema_path:
                         loaded_schema = Utils.load_schema(schema_path)
                         # Ensure loaded_schema is a dictionary
                         schema = loaded_schema if isinstance(loaded_schema, dict) else loaded_schema[0]
-                        for _ in range(count):
-                            timestamp_obj, next_datetime, unique_selections = self.generate_single_timestamp(
-                                base_datetime, schema, min_delta, max_delta, unique_selections)
-                            timestamps.append(timestamp_obj)
-                            base_datetime = next_datetime
+                       
+                        timestamp_obj, next_datetime, unique_selections = self.generate_single_timestamp(base_datetime, schema, min_delta, max_delta, unique_selections)
+                        timestamps.append(timestamp_obj)
+                        base_datetime = next_datetime
+        return timestamps
+    
+
+    def generate_timestamps(self, node):
+        timestamps = []
+        if isinstance(node, dict):
+            timestamp_meta = node.pop(TIMESTAMP_KEY, None)
+            if timestamp_meta:
+                total_timestamps = Random.random_from_tuple(timestamp_meta['count'])
+                min_delta, max_delta = self.get_time_deltas(timestamp_meta)
+                base_datetime = datetime.now()
+                unique_selections = {}
+                schemas_with_max_count = {}
+
+                for _ in range(total_timestamps):
+                    schema_path, schemas_with_max_count = self.get_schema_path(timestamp_meta, schemas_with_max_count)
+                    if schema_path:
+                        timestamp_obj, base_datetime = self.generate_and_append_timestamp(schema_path, base_datetime, min_delta, max_delta, unique_selections, timestamps)
         return timestamps
 
+    def get_time_deltas(self, timestamp_meta):
+        return map(int, timestamp_meta['timedelta(min)'].strip("()").split(","))
+
+    def get_schema_path(self, timestamp_meta, schemas_with_max_count):
+        schema_path = None
+        if 'schemas' in timestamp_meta:
+            all_schemas = timestamp_meta['schemas']
+            schema_meta = random.choice(all_schemas)
+            schema_key = str(schema_meta['schema'])  # Convert schema_meta to string to use as key
+            if schema_key in schemas_with_max_count and schemas_with_max_count[schema_key]['max_count'] <= 0:
+                return None, schemas_with_max_count
+            schemas_with_max_count = self.update_max_count(schema_meta, schema_key, schemas_with_max_count)
+            schema_path = schema_meta['schema']
+        else:
+            schema_path = timestamp_meta.get('schema')
+        return schema_path, schemas_with_max_count
+
+    def update_max_count(self, schema_meta, schema_key, schemas_with_max_count):
+        if 'max_count' in schema_meta:
+            if schema_key not in schemas_with_max_count:
+                schema_meta['max_count'] = Random.random_from_tuple(schema_meta['max_count']) - 1
+                schemas_with_max_count[schema_key] = schema_meta
+            else:
+                schemas_with_max_count[schema_key]['max_count'] -= 1
+        return schemas_with_max_count
+
+    def generate_and_append_timestamp(self, schema_path, base_datetime, min_delta, max_delta, unique_selections, timestamps):
+        loaded_schema = Utils.load_schema(schema_path)
+        schema = loaded_schema if isinstance(loaded_schema, dict) else loaded_schema[0]
+        timestamp_obj, next_datetime, unique_selections = self.generate_single_timestamp(base_datetime, schema, min_delta, max_delta, unique_selections)
+        timestamps.append(timestamp_obj)
+        return timestamp_obj, next_datetime
 
     def _process_schema_item(self, key, value, timestamp_obj, unique_selections):
         """ Process each item in the schema.

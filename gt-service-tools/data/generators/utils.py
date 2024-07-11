@@ -30,3 +30,5 @@ class Utils:
         plural_schema_base_name = schema_base_name + 's'  # Simple pluralization by appending 's'
         output_file_name = plural_schema_base_name + '.' + format  # Construct output file name
         return output_file_name
+    
+

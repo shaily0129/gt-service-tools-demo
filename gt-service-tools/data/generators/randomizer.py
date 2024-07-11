@@ -12,16 +12,16 @@ class Random:
         self.last_for_set_range = {}
     #     already_selected = []
 
-    missing_data_factor = 0 # The percentage of missing data to generate
+    data_gap = 0 # The percentage of missing data to generate
     
 
     @classmethod
-    def set_missing_data_factor(cls, factor):
-        cls.missing_data_factor = factor
+    def set_data_gap_factor(cls, factor):
+        cls.data_gap = factor
     
     @staticmethod
     def random_missing_data():
-        empty = Random.missing_data_factor
+        empty = Random.data_gap
         filled = 100 - empty
         return random.choices([True, False], weights=[filled, empty])[0]
 
@@ -62,7 +62,7 @@ class Random:
         date_time_str = past_datetime.isoformat()
         return Random.handle_random_fake(date_time_str, indicator)
 
-    def date_today():
+    def date_today(indicator):
         """Generate a date object for today if the key is 'date: "*"'."""
         date = datetime.now()
         date = date.strftime("%Y-%m-%d")
