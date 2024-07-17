@@ -1,0 +1,15 @@
+- timestamp:
+  type: "Observation"
+  label: "GCS Evaluation"
+  GCS_score: (3,15)
+  eye:
+  verbal:
+  motor:
+- timestamp:
+  type: "Observation"
+  label: "Shock Index"
+  shock_index: (0,1)
+- timestamp:
+  type: "Observation"
+  label: "Pain Index"
+  pain_index: (0,10)

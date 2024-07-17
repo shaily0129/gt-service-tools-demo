@@ -1,0 +1,12 @@
+# This is the config file for the dataGenerator package.
+"format": 'yaml'
+"output_path": '../data/scenario_data/'
+"output_filename_prefix": 'scenario_'
+"scenarios_path": '../dataSchemas/_scenarios/scenarios_1.yaml'
+"specific_scenario_ids": []
+
+# format: required - can be 'yaml' or 'json'
+# output_path: required - example '../data/test_data/'
+# output_filename_prefix: optional - example 'scenario_'
+# scenario_path:  required - example '../dataSchemas/_scenarios/scenarios_1.yaml
+# specific_scenario_ids: optional - If specified, only the scenarios with the specified ids will be generated. If not specified, all scenarios will be generated. Example ["5a"]

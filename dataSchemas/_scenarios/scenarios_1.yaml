@@ -1,0 +1,69 @@
+- scenario_id: 1
+  name: Assign Life Triage Scores, Categories, and MEDEVAC priority
+  description: Contains complete data for isop_details and isop_states.
+  functionality_to_test: 
+    - Assign Life Triage Scores and Triage Categories based on Injuries, GCS, and Vitals for 10 patients.
+    - Rank them for medevac based on the triage score/category. 
+  coda_link: 
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+- scenario_id: 2
+  name: Handle incomplete data for isop_details.
+  description: 
+  functionality_to_test:
+    - Trigger questions to get info for Empty, null, or [] values
+    - Handle required vs optional fields 
+  coda_link:
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+      data_gap: 50 # 
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+- scenario_id: 3
+  name: Handle incomplete data for isop_states.
+  description: 
+  functionality_to_test:
+    - Trigger questions to get info for Empty, null, or [] values
+    - Handle required vs optional fields 
+    - Handle missing data for LIFE triage score
+  coda_link:
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+      data_gap: 50
+- scenario_id: 4
+  name: Handle incomplete data for both isop_details and isop_states.
+  description: 
+  functionality_to_test:
+    - Same as cases 2 and 3
+  coda_link:
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+      data_gap: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+      data_gap: 10
+- scenario_id: "5a"
+  name: Handle incomplete data for both isop_details and isop_states.
+  description: 
+  functionality_to_test:
+    - Coarse evaluate medevac assets against mission requirements
+        - mission_requirements.
+        - Litter/ambulatory capacity available vs required
+  coda_link:
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+    - path: '../dataSchemas/mission/mission_requirement.yaml'
+      iterations: 5
+    - path: '../dataSchemas/assets/medevac_blackhawk_HH-60M.yaml'
+      iterations: 3

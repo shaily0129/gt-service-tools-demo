@@ -1,0 +1,17 @@
+- information:
+    selection_type: "single!"
+    options:
+      - "Critical"
+      - "High"
+      - "Moderate"
+      - "Low"
+- geopolitcal:
+    selection_type: "single!"
+    options:
+      - "Critical"
+      - "High"
+      - "Moderate"
+      - "Low"
+- other:
+    label:
+    description:

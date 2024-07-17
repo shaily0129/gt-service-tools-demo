@@ -1,0 +1,14 @@
+# Data generated at 2024-07-17 13:51:11
+scenario_id: 1
+name: Assign Life Triage Scores, Categories, and MEDEVAC priority
+description: Contains complete data for isop_details and isop_states.
+functionality_to_test:
+- Assign Life Triage Scores and Triage Categories based on Injuries, GCS, and Vitals
+    for 10 patients.
+- Rank them for medevac based on the triage score/category.
+coda_link: null
+input_schemas:
+-   path: ../dataSchemas/personnel/isop_detail.yaml
+    iterations: 10
+-   path: ../dataSchemas/personnel/isop_state.yaml
+    iterations: 10

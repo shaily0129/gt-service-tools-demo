@@ -1,0 +1,493 @@
+-   isop_id: 59a1a6a6-49c9-4b2e-881b-6735b8e49d22
+    first_name: Kiara
+    last_name: Roman
+    callsign: SU940
+    military_data:
+        -   branch: Coast Guard
+            rank: Lieutenant
+    gender: male
+    age(yrs): null
+    weight(kg): 92
+    height(cm): null
+    blood_type: AB+
+    allergies:
+        - Penicillin and related antibiotics
+        - Penicillin and related antibiotics
+    preexisting:
+        conditions: []
+        medications:
+            - Venlafaxine (Effexor)
+            - Lamotrigine (Lamictal)
+            - Anticoagulants (blood thinners)
+            - Anticoagulants (blood thinners)
+    profile_pictures: null
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 10
+        body_mass_index: 32
+        vo2_max:
+            value: 37
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+    sere_training:
+        dateTime: '2024-07-17T11:15:25.891816'
+        sere_skills: []
+-   isop_id: accc1250-3483-4489-8596-d4c9696124ec
+    first_name: Mitchell
+    last_name: Kerr
+    callsign: PN553
+    military_data: []
+    gender: male
+    age(yrs): 56
+    weight(kg): 75
+    height(cm): 215
+    blood_type: B+
+    allergies:
+        - Radiocontrast media
+        - Contrast dyes
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+        - Insulin
+    preexisting:
+        conditions:
+            - Diabetes
+        medications:
+            - Fluoxetine (Prozac)
+    profile_pictures: null
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 23
+        body_mass_index: 31
+        vo2_max:
+            value: 32
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Critical
+    sere_training:
+        dateTime: '2024-07-17T09:25:54.923865'
+        sere_skills:
+            -   Survival:
+                    - Food Procurement
+                    - First Aid
+                    - Water Procurement
+                    - Fire Making
+            -   Escape:
+                    - Improvised Tools
+                    - Planning and Execution
+                    - Lock Picking and Restraint Defeat
+                    - Post-Escape Survival
+            -   Escape:
+                    - Post-Escape Survival
+                    - Lock Picking and Restraint Defeat
+                    - Planning and Execution
+-   isop_id: 26ef9226-3e47-4e70-aa02-6639bfa60fcc
+    first_name: Haley
+    last_name: Martin
+    callsign: CK802
+    military_data: []
+    gender: female
+    age(yrs): 42
+    weight(kg): null
+    height(cm): 239
+    blood_type: O+
+    allergies:
+        - Sulfa drugs
+        - Local anesthetics
+    preexisting:
+        conditions:
+            - Depression
+        medications:
+            - Trazodone
+            - Inhalers
+            - Fluoxetine (Prozac)
+    profile_pictures: null
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 3
+        body_mass_index: 39
+        vo2_max:
+            value: 48
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Critical
+        -   geopolitcal: null
+        -   information: High
+    sere_training:
+        dateTime: '2024-07-17T12:36:39.945712'
+        sere_skills:
+            -   Survival:
+                    - Water Procurement
+                    - Fire Making
+            -   Escape:
+                    - Planning and Execution
+                    - Post-Escape Survival
+                    - Improvised Tools
+                    - Lock Picking and Restraint Defeat
+            -   Resistance:
+                    - Physical Conditioning
+                    - Code of Conduct
+            -   Escape:
+                    - Post-Escape Survival
+                    - Lock Picking and Restraint Defeat
+-   isop_id: 740d90b5-06f4-4b93-a936-3c6ba4d494fb
+    first_name: Stephanie
+    last_name: ''
+    callsign: ER404
+    military_data: []
+    gender: male
+    age(yrs): 65
+    weight(kg): 125
+    height(cm): 218
+    blood_type: B-
+    allergies: []
+    preexisting:
+        conditions:
+            - High blood pressure (hypertension)
+        medications:
+            - Quetiapine
+            - Lamotrigine (Lamictal)
+            - Anticoagulants (blood thinners)
+            - Prazosin (for nightmares and insomnia)
+    profile_pictures: null
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 49
+        body_mass_index: 36
+        vo2_max:
+            value: 69
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+    sere_training:
+        dateTime: '2024-07-17T09:22:58.961362'
+        sere_skills:
+            -   Resistance:
+                    - Psychological Preparation
+            -   Survival:
+                    - Food Procurement
+                    - Fire Making
+            -   Survival:
+                    - First Aid
+                    - Fire Making
+                    - Water Procurement
+                    - Food Procurement
+-   isop_id: 425c4f39-c9af-42b4-b013-2a0c2a8f329d
+    first_name: Aaron
+    last_name: Cabrera
+    callsign: WQ464
+    military_data:
+        -   branch: Marine Corps
+            rank: Captain
+    gender: male
+    age(yrs): null
+    weight(kg): 134
+    height(cm): 197
+    blood_type: A+
+    allergies:
+        - Penicillin and related antibiotics
+        - Radiocontrast media
+    preexisting:
+        conditions:
+            - Arthritis
+            - HIV/AIDS
+            - High cholesterol
+            - HIV/AIDS
+        medications:
+            - Paroxetine (Paxil)
+            - Lithium (Lithium)
+    profile_pictures: null
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 29
+        body_mass_index: 15
+        vo2_max:
+            value: 39
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T11:01:17.977495'
+        sere_skills:
+            -   Evasion:
+                    - Camouflage and Concealment
+                    - Navigation
+            -   Evasion:
+                    - Navigation
+            -   Survival:
+                    - Food Procurement
+                    - Fire Making
+                    - Water Procurement
+                    - Shelter Building
+-   isop_id: 00bf1525-ff01-4796-ab3a-af8a5c0c32a4
+    first_name: Evan
+    last_name: Neal
+    callsign: CR230
+    military_data:
+        -   branch: Navy
+            rank: Chief Warrant Officer 4
+    gender: female
+    age(yrs): 26
+    weight(kg): 114
+    height(cm): 244
+    blood_type: AB+
+    allergies:
+        - ACE inhibitors
+        - Contrast dyes
+        - Local anesthetics
+        - ACE inhibitors
+    preexisting:
+        conditions:
+            - Pregnancy
+        medications: []
+    profile_pictures: null
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: null
+        body_mass_index: null
+        vo2_max:
+            value: 47
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Critical
+        -   other:
+                label: null
+                description: null
+        -   information: Low
+    sere_training:
+        dateTime: '2024-07-17T07:52:44.993003'
+        sere_skills:
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment
+            -   Escape:
+                    - Planning and Execution
+                    - Improvised Tools
+                    - Lock Picking and Restraint Defeat
+                    - Post-Escape Survival
+            -   Escape:
+                    - Planning and Execution
+                    - Post-Escape Survival
+                    - Improvised Tools
+                    - Lock Picking and Restraint Defeat
+-   isop_id: be2a3948-e601-4b0c-9b2a-4442b279d95c
+    first_name: ''
+    last_name: Marshall
+    callsign: EX701
+    military_data: []
+    gender: null
+    age(yrs): 51
+    weight(kg): 123
+    height(cm): 174
+    blood_type: B-
+    allergies:
+        - Insulin
+        - Anticonvulsants
+        - Sulfa drugs
+        - Sulfa drugs
+    preexisting:
+        conditions:
+            - Back injuries
+            - Congestive heart failure
+            - Cancer
+            - Arthritis
+        medications:
+            - Trazodone (Zolpidem)
+            - Sertraline (Zoloft)
+            - Insulin (for diabetics)
+    profile_pictures: null
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 16
+        body_mass_index: 26
+        vo2_max:
+            value: null
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T12:04:05.008640'
+        sere_skills:
+            -   Resistance:
+                    - Physical Conditioning
+                    - Psychological Preparation
+                    - Code of Conduct
+            -   Resistance:
+                    - Physical Conditioning
+            -   Evasion:
+                    - Camouflage and Concealment
+            -   Escape:
+                    - Improvised Tools
+                    - Post-Escape Survival
+                    - Planning and Execution
+-   isop_id: 26ccabd8-e138-4afa-89e3-e289474e3f31
+    first_name: ''
+    last_name: Cruz
+    callsign: OM198
+    military_data:
+        -   branch: Marine Corps
+            rank: Lance Corporal
+    gender: female
+    age(yrs): 22
+    weight(kg): 119
+    height(cm): 203
+    blood_type: O+
+    allergies:
+        - Local anesthetics
+        - Sulfa drugs
+        - Anticonvulsants
+    preexisting:
+        conditions:
+            - Back injuries
+            - High blood pressure (hypertension)
+            - Asthma
+            - Cancer
+        medications:
+            - Paroxetine (Paxil)
+            - Paroxetine (Paxil)
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 31
+        body_mass_index: 40
+        vo2_max:
+            value: 46
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+        -   information: Moderate
+        -   information: High
+    sere_training:
+        dateTime: '2024-07-17T12:09:51.039888'
+        sere_skills:
+            -   Survival:
+                    - Shelter Building
+                    - Water Procurement
+            -   Evasion:
+                    - Camouflage and Concealment
+                    - Navigation
+            -   Evasion:
+                    - Navigation
+            -   Survival:
+                    - Shelter Building
+                    - Fire Making
+                    - First Aid
+                    - Food Procurement
+                    - Water Procurement
+-   isop_id: ed613f64-1155-4907-bfd4-d9364d66b8d2
+    first_name: Katie
+    last_name: Greer
+    callsign: LZ553
+    military_data: []
+    gender: female
+    age(yrs): 24
+    weight(kg): 59
+    height(cm): 209
+    blood_type: O-
+    allergies:
+        - Insulin
+    preexisting:
+        conditions: []
+        medications:
+            - Olanzapine
+            - Prazosin (for nightmares and insomnia)
+            - Venlafaxine (Effexor)
+            - Olanzapine
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 5
+        body_mass_index: 23
+        vo2_max:
+            value: 64
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: Critical
+        -   information: Moderate
+    sere_training:
+        dateTime: '2024-07-17T12:10:49.055515'
+        sere_skills:
+            -   Escape: []
+            -   Survival:
+                    - Shelter Building
+                    - Fire Making
+                    - Food Procurement
+                    - First Aid
+            -   Survival:
+                    - First Aid
+                    - Shelter Building
+                    - Food Procurement
+            -   Escape:
+                    - Post-Escape Survival
+                    - Planning and Execution
+                    - Improvised Tools
+-   isop_id: 2f81639e-988d-433d-8e45-dc2c574a7359
+    first_name: Steven
+    last_name: Baker
+    callsign: PK975
+    military_data:
+        -   branch: Navy
+            rank: Petty Officer Second Class
+    gender: male
+    age(yrs): 54
+    weight(kg): 100
+    height(cm): 209
+    blood_type: O+
+    allergies:
+        - Sulfa drugs
+        - Chemotherapy drugs
+    preexisting:
+        conditions:
+            - Epilepsy
+            - Cancer
+            - Epilepsy
+        medications:
+            - Corticosteroids
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 28
+        body_mass_index: 23
+        vo2_max:
+            value: 48
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T11:13:37.071140'
+        sere_skills:
+            -   Survival:
+                    - Water Procurement
+                    - Food Procurement
+            -   Survival:
+                    - Food Procurement
+                    - Water Procurement
+            -   Resistance:
+                    - Code of Conduct
+                    - Physical Conditioning
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+                    - Planning and Execution
+                    - Post-Escape Survival

@@ -1,0 +1,122 @@
+# This list contains value range specifications for each vital
+# The intent is that when we get a value for a vital, we can check the range and assign a risk score and condition
+# patient_state.patient_record.
+# patient_state.forecast
+
+
+# Blood Pressure Vitals & Circulation
+- vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+  abbreviation: "HR"
+  label: "Heart Rate"
+  unit: "bpm"
+  conditions:
+    - range: (0,40)
+      label: "Brachycardic"
+      risk_score: 3
+    - range: (41,50)
+      label: "Mildly Brachycardic"
+      risk_score: 1
+    - range: (51,90)
+      label: normal
+      risk_score: 0
+    - range: (91,110)
+      label: "Mildly Tachycardic"
+      risk_score: 1
+    - range: (111,130)
+      label: "Moderately Tachycardic"
+      risk_score: 2
+    - range: (131,200)
+      label: "Severely Tachycardic"
+      risk_score: 3  
+
+- vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+  abbreviation: "SBP"
+  label: "Systolic Blood Pressure"
+  unit: "mmHg"
+  conditions:
+  - range: (0,90)
+    label: "Severely Hypotensive"
+    risk_score: 3
+  - range: (91, 100)
+    label: "Moderately Hypotensive"
+    risk_score: 2
+  - range: (101,110)
+    label: "Mildly Hypotensive"
+    risk_score: 1
+  - range: (111,120)
+    label: "Normal"
+    risk_score: 0
+  - range: (121,130)
+    label: "Mildly Hypertensive"
+    risk_score: 1 # confirm with SME
+  - range: (131,140)
+    label: "Moderately Hypertensive"
+    risk_score: 2 # confirm with SME
+  - range: (141,200)
+    label: "Severely Hypertensive"
+    risk_score: 3 # confirm with SME
+
+
+- vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+  abbreviation: "DBP"
+  label: "Diastolic Blood Pressure"
+  unit: "mmHg"
+  conditions:
+  - range: (0,40)
+    label: "Severely Hypotensive"
+    risk_score: 3
+  - range: (41,59)
+    label: "Hypotensive"
+    risk_score: 2
+  - range: (60,70)
+    label: "Normal"
+    risk_score: 0
+  - range: (71,80)
+    label: "Mildly Hypertensive"
+    risk_score: 1
+  - range: (81,139)
+    label: "Moderately Hypertensive"
+    risk_score: 2
+  - range: (140,200)
+    label: "Severely Hypertensive"
+    risk_score: 3
+
+
+- vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+  abbreviation: "MAP"
+  label: "Mean Arterial Pressure"
+  unit: "mmHg"
+  conditions:
+  
+
+# Respiratory Vitals
+- vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+  abbreviation: "RR"
+  label: "Respiratory Rate"
+  unit: "rpm"
+  conditions:
+
+- vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+  abbreviation: "Spo2"
+  label: "Oxygen Saturation"
+  unit: "%"
+  conditions:
+
+- vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6 
+  abbreviation: "ETCO2"
+  label: "End Tidal CO2"
+  unit: "mmHg"
+  conditions:
+
+# Other
+- vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+  abbreviation: "Temp"
+  label: "Temperature"
+  unit: "C"
+  conditions:
+
+- vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+  abbreviation: "UO/hr"
+  label: "Urinary Output per hour"
+  unit: "ml/hr"
+  conditions:

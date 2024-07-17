@@ -1,0 +1,486 @@
+-   isop_id: 767edd03-1f34-401a-bb71-0f1b8c47c4bd
+    first_name: Emily
+    last_name: Bryan
+    callsign: CI891
+    military_data: []
+    gender: male
+    age(yrs): 50
+    weight(kg): 120
+    height(cm): 231
+    blood_type: A+
+    allergies:
+        - Radiocontrast media
+    preexisting:
+        conditions:
+            - Congestive heart failure
+        medications:
+            - Risperidone
+    profile_pictures: null
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 39
+        body_mass_index: 31
+        vo2_max:
+            value: 36
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: High
+        -   geopolitcal: Moderate
+    sere_training:
+        dateTime: '2024-07-17T07:54:30.742421'
+        sere_skills:
+            -   Escape:
+                    - Post-Escape Survival
+                    - Planning and Execution
+                    - Lock Picking and Restraint Defeat
+            -   Evasion:
+                    - Camouflage and Concealment
+                    - Navigation
+            -   Resistance:
+                    - Psychological Preparation
+                    - Code of Conduct
+                    - Physical Conditioning
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment
+-   isop_id: ffb66d86-fe6f-4c20-b718-718f16de867c
+    first_name: Eric
+    last_name: Lewis
+    callsign: XT273
+    military_data: []
+    gender: male
+    age(yrs): 36
+    weight(kg): 112
+    height(cm): 209
+    blood_type: B+
+    allergies:
+        - Insulin
+        - Contrast dyes
+        - Insulin
+        - Penicillin and related antibiotics
+    preexisting:
+        conditions:
+            - Back injuries
+            - Severe mental disorders
+            - Cancer
+        medications:
+            - Lamotrigine (Lamictal)
+    profile_pictures: null
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 25
+        body_mass_index: 21
+        vo2_max:
+            value: 46
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Low
+        -   geopolitcal: High
+        -   information: High
+    sere_training:
+        dateTime: '2024-07-17T07:53:01.761816'
+        sere_skills:
+            -   Resistance:
+                    - Code of Conduct
+                    - Physical Conditioning
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment
+-   isop_id: abedfaf7-5738-4a32-8f72-be64077b46d7
+    first_name: Robert
+    last_name: Robbins
+    callsign: ZN527
+    military_data:
+        -   branch: Marine Corps
+            rank: First Sergeant
+    gender: female
+    age(yrs): 30
+    weight(kg): 43
+    height(cm): 213
+    blood_type: O+
+    allergies: []
+    preexisting:
+        conditions:
+            - Back injuries
+            - Severe mental disorders
+            - HIV/AIDS
+        medications:
+            - Corticosteroids
+            - Insulin (for diabetics)
+            - Paroxetine (Paxil)
+    profile_pictures: null
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 40
+        body_mass_index: 26
+        vo2_max:
+            value: 67
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Low
+        -   geopolitcal: Moderate
+    sere_training:
+        dateTime: '2024-07-17T09:59:52.780509'
+        sere_skills:
+            -   Escape:
+                    - Planning and Execution
+                    - Post-Escape Survival
+                    - Lock Picking and Restraint Defeat
+            -   Resistance:
+                    - Psychological Preparation
+-   isop_id: d48c7c17-5212-405d-a261-6fad6f4a0374
+    first_name: Steve
+    last_name: Greene
+    callsign: TC019
+    military_data: []
+    gender: male
+    age(yrs): 23
+    weight(kg): 85
+    height(cm): 209
+    blood_type: AB+
+    allergies:
+        - Radiocontrast media
+    preexisting:
+        conditions: []
+        medications:
+            - Promethazine (Zoloft)
+            - Insulin (for diabetics)
+            - Insulin (for diabetics)
+            - Fluoxetine (Prozac)
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 11
+        body_mass_index: 34
+        vo2_max:
+            value: 45
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+        -   geopolitcal: Critical
+        -   geopolitcal: Moderate
+    sere_training:
+        dateTime: '2024-07-17T09:12:21.796160'
+        sere_skills:
+            -   Escape:
+                    - Improvised Tools
+                    - Lock Picking and Restraint Defeat
+                    - Planning and Execution
+            -   Resistance:
+                    - Physical Conditioning
+            -   Survival:
+                    - Food Procurement
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+                    - Post-Escape Survival
+                    - Planning and Execution
+-   isop_id: cbd65f61-2d12-4ae0-b2f1-b259b8fc2191
+    first_name: Hunter
+    last_name: Horton
+    callsign: CF467
+    military_data:
+        -   branch: Navy
+            rank: Master Chief Petty Officer of the Navy
+    gender: male
+    age(yrs): 31
+    weight(kg): 76
+    height(cm): 168
+    blood_type: A+
+    allergies:
+        - Contrast dyes
+        - ACE inhibitors
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+        - Insulin
+    preexisting:
+        conditions:
+            - Diabetes
+            - Arthritis
+            - Depression
+            - Arthritis
+        medications:
+            - Risperidone
+            - Lamotrigine (Lamictal)
+            - NSAIDs (e.g., ibuprofen, naproxen)
+            - Lithium (Lithium)
+    profile_pictures: null
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 15
+        body_mass_index: 36
+        vo2_max:
+            value: 58
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+        -   geopolitcal: Critical
+    sere_training:
+        dateTime: '2024-07-17T12:40:25.811783'
+        sere_skills:
+            -   Resistance:
+                    - Physical Conditioning
+                    - Code of Conduct
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment
+            -   Survival:
+                    - Fire Making
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+-   isop_id: 1953b944-574a-4d4c-8866-b6507786da9b
+    first_name: Amy
+    last_name: Brooks
+    callsign: OT964
+    military_data:
+        -   branch: Coast Guard
+            rank: Senior Chief Petty Officer
+    gender: female
+    age(yrs): 64
+    weight(kg): 96
+    height(cm): 156
+    blood_type: AB-
+    allergies:
+        - ACE inhibitors
+        - Contrast dyes
+        - Sulfa drugs
+    preexisting:
+        conditions:
+            - High cholesterol
+            - Congestive heart failure
+        medications:
+            - Risperidone
+            - Insulin (for diabetics)
+            - Citalopram (Celexa)
+            - Paroxetine (Paxil)
+    profile_pictures: null
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 24
+        body_mass_index: 31
+        vo2_max:
+            value: 51
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: Low
+        -   other:
+                label: null
+                description: null
+    sere_training:
+        dateTime: '2024-07-17T06:18:16.827407'
+        sere_skills:
+            -   Resistance:
+                    - Physical Conditioning
+                    - Code of Conduct
+            -   Resistance:
+                    - Code of Conduct
+                    - Psychological Preparation
+            -   Survival:
+                    - Fire Making
+                    - Shelter Building
+                    - First Aid
+                    - Food Procurement
+            -   Survival:
+                    - First Aid
+                    - Food Procurement
+                    - Shelter Building
+                    - Fire Making
+-   isop_id: 901b7193-ae4a-43e1-8a61-652da29a8723
+    first_name: Gilbert
+    last_name: Barry
+    callsign: BJ882
+    military_data:
+        -   branch: Coast Guard
+            rank: Chief Warrant Officer 5
+    gender: female
+    age(yrs): 55
+    weight(kg): 130
+    height(cm): 172
+    blood_type: O-
+    allergies: []
+    preexisting:
+        conditions:
+            - Depression
+        medications:
+            - Paroxetine (Paxil)
+            - Citalopram (Celexa)
+            - Fluoxetine (Prozac)
+    profile_pictures: null
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 24
+        body_mass_index: 15
+        vo2_max:
+            value: 43
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T12:04:34.858662'
+        sere_skills:
+            -   Resistance:
+                    - Psychological Preparation
+                    - Physical Conditioning
+                    - Code of Conduct
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+                    - Post-Escape Survival
+                    - Improvised Tools
+                    - Planning and Execution
+            -   Escape:
+                    - Improvised Tools
+                    - Planning and Execution
+                    - Post-Escape Survival
+                    - Lock Picking and Restraint Defeat
+            -   Resistance:
+                    - Psychological Preparation
+                    - Code of Conduct
+-   isop_id: 0b67c143-2b07-4133-bb9b-4bf5ce053bd7
+    first_name: David
+    last_name: Duffy
+    callsign: UB142
+    military_data:
+        -   branch: Army
+            rank: Staff Sergeant
+    gender: female
+    age(yrs): 41
+    weight(kg): 86
+    height(cm): 188
+    blood_type: A-
+    allergies:
+        - ACE inhibitors
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+    preexisting:
+        conditions:
+            - Epilepsy
+        medications:
+            - Sertraline (Zoloft)
+            - Trazodone (Zolpidem)
+            - Insulin (for diabetics)
+    profile_pictures: null
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 14
+        body_mass_index: 39
+        vo2_max:
+            value: 55
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: Moderate
+        -   other:
+                label: null
+                description: null
+        -   information: High
+    sere_training:
+        dateTime: '2024-07-17T08:36:32.874284'
+        sere_skills:
+            -   Survival:
+                    - Fire Making
+                    - First Aid
+            -   Escape:
+                    - Planning and Execution
+                    - Improvised Tools
+            -   Escape:
+                    - Post-Escape Survival
+                    - Planning and Execution
+            -   Escape:
+                    - Improvised Tools
+                    - Planning and Execution
+                    - Post-Escape Survival
+                    - Lock Picking and Restraint Defeat
+-   isop_id: 84106918-e0cf-4f54-be8d-fb4b330a7e0d
+    first_name: Daniel
+    last_name: Lloyd
+    callsign: IR422
+    military_data: []
+    gender: female
+    age(yrs): 31
+    weight(kg): 43
+    height(cm): 218
+    blood_type: O+
+    allergies:
+        - Local anesthetics
+        - Radiocontrast media
+    preexisting:
+        conditions: []
+        medications: []
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 36
+        body_mass_index: 16
+        vo2_max:
+            value: 31
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Low
+        -   geopolitcal: Critical
+    sere_training:
+        dateTime: '2024-07-17T12:13:00.889911'
+        sere_skills:
+            -   Survival:
+                    - Shelter Building
+                    - First Aid
+                    - Food Procurement
+            -   Resistance:
+                    - Psychological Preparation
+-   isop_id: cbca0d10-342b-4908-8ff2-4e8194b6dd61
+    first_name: Jeffrey
+    last_name: Castro
+    callsign: YN632
+    military_data: []
+    gender: female
+    age(yrs): 33
+    weight(kg): 45
+    height(cm): 216
+    blood_type: A-
+    allergies:
+        - ACE inhibitors
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+    preexisting:
+        conditions:
+            - HIV/AIDS
+            - High blood pressure (hypertension)
+            - Back injuries
+            - Severe mental disorders
+        medications:
+            - Inhalers
+            - Prazosin (for nightmares and insomnia)
+    profile_pictures: null
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 13
+        body_mass_index: 19
+        vo2_max:
+            value: 39
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Critical
+    sere_training:
+        dateTime: '2024-07-17T11:45:54.905532'
+        sere_skills:
+            -   Survival:
+                    - Food Procurement
+            -   Survival:
+                    - First Aid

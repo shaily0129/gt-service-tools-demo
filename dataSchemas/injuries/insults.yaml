@@ -1,0 +1,84 @@
+- insult_id:
+    _generate_uuid: "insult_id"
+  label: "External Hemorrhage - Extremity"
+  category: "Hemorrhage" 
+  location:
+    selection_type: "single" 
+    options:
+      - "Arm"
+      - "Leg"
+  sublocation: 
+    selection_type: "single" 
+    options:
+      - "Upper"
+      - "Lower"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+  coronal_position: # eg "anterior / front"
+    selection_type: "single"
+    options:
+      - "Anterior"
+      - "Posterior"
+- insult_id:
+    _generate_uuid: "insult_id"
+  label: "External Hemorrhage - Trunk"
+  category: "Hemorrhage" 
+  location:
+    selection_type: "single" 
+    options:
+      - "Chest"
+      - "Abdomen"
+      - "Back"
+  sublocation: 
+    selection_type: "single" 
+    options:
+      - "Upper"
+      - "Lower"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+      - "Center"
+    coronal_position: "NA"
+- insult_id:
+    _generate_uuid: "insult_id"
+  label: "External Hemorrhage - Pelvis"
+  category: "Hemorrhage" 
+  location: "Pelvis"
+  sublocation:
+    selection_type: "single"
+    options:
+      - "Groin"
+      - "Buttocks"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+      - "Center"
+  coronal_position: "NA"
+- insult_id:
+    _generate_uuid: "insult_id"
+  label: "External Hemorrhage - Head"
+  category: "Hemorrhage" 
+  location: "Head"
+  sublocation:
+    selection_type: "single"
+    options:
+      - ""
+      - "Face"
+      - "Top"
+      - "Back"
+      - "Side"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+      - "Center"
+  coronal_position: "NA"
+

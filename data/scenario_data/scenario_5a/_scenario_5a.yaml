@@ -1,0 +1,17 @@
+# Data generated at 2024-07-17 13:51:14
+scenario_id: 5a
+name: Handle incomplete data for both isop_details and isop_states.
+description: null
+functionality_to_test:
+- Coarse evaluate medevac assets against mission requirements - mission_requirements.
+    - Litter/ambulatory capacity available vs required
+coda_link: null
+input_schemas:
+-   path: ../dataSchemas/personnel/isop_detail.yaml
+    iterations: 10
+-   path: ../dataSchemas/personnel/isop_state.yaml
+    iterations: 10
+-   path: ../dataSchemas/mission/mission_requirement.yaml
+    iterations: 5
+-   path: ../dataSchemas/assets/medevac_blackhawk_HH-60M.yaml
+    iterations: 3

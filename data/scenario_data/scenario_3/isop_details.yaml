@@ -1,0 +1,457 @@
+-   isop_id: bf7519a4-0339-45d3-92c1-ec77239f4484
+    first_name: Joshua
+    last_name: Cooper
+    callsign: TI309
+    military_data: []
+    gender: male
+    age(yrs): 26
+    weight(kg): 48
+    height(cm): 172
+    blood_type: A+
+    allergies:
+        - ACE inhibitors
+        - Contrast dyes
+        - Local anesthetics
+    preexisting:
+        conditions: []
+        medications:
+            - Sertraline (Zoloft)
+            - Inhalers
+            - Citalopram (Celexa)
+    profile_pictures: null
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 38
+        body_mass_index: 19
+        vo2_max:
+            value: 38
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+    sere_training:
+        dateTime: '2024-07-17T09:31:49.068729'
+        sere_skills:
+            -   Survival:
+                    - Water Procurement
+                    - First Aid
+                    - Shelter Building
+            -   Resistance:
+                    - Code of Conduct
+                    - Physical Conditioning
+                    - Psychological Preparation
+-   isop_id: 2b5a52bb-0ba9-49d7-bf80-6eade89f62d2
+    first_name: Christopher
+    last_name: Greene
+    callsign: OU450
+    military_data:
+        -   branch: Marine Corps
+            rank: Chief Warrant Officer 3
+    gender: female
+    age(yrs): 45
+    weight(kg): 147
+    height(cm): 238
+    blood_type: AB+
+    allergies:
+        - Contrast dyes
+        - Contrast dyes
+    preexisting:
+        conditions:
+            - Pregnancy
+            - High cholesterol
+            - Congestive heart failure
+        medications: []
+    profile_pictures: null
+    ethnicity: Asian
+    fitness:
+        body_fat_percentage: 23
+        body_mass_index: 24
+        vo2_max:
+            value: 33
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T08:28:36.089521'
+        sere_skills:
+            -   Survival:
+                    - Shelter Building
+                    - Food Procurement
+                    - First Aid
+                    - Fire Making
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+                    - Improvised Tools
+                    - Post-Escape Survival
+                    - Planning and Execution
+-   isop_id: f1fc922a-94fb-4ef7-81db-f308304922f9
+    first_name: Roy
+    last_name: Ingram
+    callsign: AW261
+    military_data:
+        -   branch: Navy
+            rank: Petty Officer Third Class
+    gender: female
+    age(yrs): 62
+    weight(kg): 106
+    height(cm): 174
+    blood_type: AB-
+    allergies:
+        - Sulfa drugs
+        - Sulfa drugs
+    preexisting:
+        conditions:
+            - Heart disease
+        medications:
+            - Fluoxetine (Prozac)
+            - Opioids (in cases of severe pain)
+            - Olanzapine
+            - Insulin (for diabetics)
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 26
+        body_mass_index: 21
+        vo2_max:
+            value: 66
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T07:16:46.099443'
+        sere_skills:
+            -   Survival:
+                    - Fire Making
+                    - Water Procurement
+            -   Resistance:
+                    - Code of Conduct
+                    - Physical Conditioning
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment
+            -   Escape:
+                    - Planning and Execution
+                    - Improvised Tools
+                    - Post-Escape Survival
+                    - Lock Picking and Restraint Defeat
+-   isop_id: 5425f839-ff31-4e6d-9f6e-b98bd7943652
+    first_name: Steven
+    last_name: Simpson
+    callsign: ZA872
+    military_data: []
+    gender: female
+    age(yrs): 40
+    weight(kg): 84
+    height(cm): 211
+    blood_type: A+
+    allergies:
+        - Local anesthetics
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+    preexisting:
+        conditions:
+            - Depression
+            - High blood pressure (hypertension)
+            - Diabetes
+            - Severe mental disorders
+        medications:
+            - Promethazine (Zoloft)
+            - Anticonvulsants (for seizure disorders)
+            - Anticonvulsants (for seizure disorders)
+            - Lamotrigine (Lamictal)
+    profile_pictures: null
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 42
+        body_mass_index: 40
+        vo2_max:
+            value: 61
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+    sere_training:
+        dateTime: '2024-07-17T08:35:51.127131'
+        sere_skills:
+            -   Evasion:
+                    - Camouflage and Concealment
+                    - Navigation
+            -   Evasion:
+                    - Navigation
+-   isop_id: 952e376e-4d9a-44fc-8483-38f938876482
+    first_name: Steven
+    last_name: Robinson
+    callsign: LT658
+    military_data: []
+    gender: male
+    age(yrs): 50
+    weight(kg): 112
+    height(cm): 159
+    blood_type: O-
+    allergies: []
+    preexisting:
+        conditions:
+            - Back injuries
+        medications:
+            - NSAIDs (e.g., ibuprofen, naproxen)
+    profile_pictures: null
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 38
+        body_mass_index: 24
+        vo2_max:
+            value: 63
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T13:46:02.142756'
+        sere_skills:
+            -   Escape:
+                    - Improvised Tools
+                    - Planning and Execution
+            -   Survival:
+                    - Water Procurement
+                    - Food Procurement
+-   isop_id: 69ef627c-13c3-4108-a2dd-7720176aee8b
+    first_name: Emily
+    last_name: Smith
+    callsign: HN582
+    military_data:
+        -   branch: Air Force
+            rank: First Sergeant (Master Sergeant)
+    gender: female
+    age(yrs): 57
+    weight(kg): 51
+    height(cm): 201
+    blood_type: A-
+    allergies:
+        - Penicillin and related antibiotics
+        - Anticonvulsants
+        - Sulfa drugs
+    preexisting:
+        conditions:
+            - Arthritis
+            - Heart disease
+            - Severe mental disorders
+            - HIV/AIDS
+        medications:
+            - Inhalers
+            - Inhalers
+    profile_pictures: null
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 14
+        body_mass_index: 20
+        vo2_max:
+            value: 37
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Critical
+    sere_training:
+        dateTime: '2024-07-17T10:48:35.158384'
+        sere_skills:
+            -   Escape:
+                    - Post-Escape Survival
+            -   Resistance:
+                    - Psychological Preparation
+            -   Survival:
+                    - Shelter Building
+            -   Escape:
+                    - Planning and Execution
+                    - Lock Picking and Restraint Defeat
+                    - Improvised Tools
+                    - Post-Escape Survival
+-   isop_id: 4de43e25-bf96-4bc2-8454-ba32eb931260
+    first_name: Shaun
+    last_name: Williams
+    callsign: FQ269
+    military_data: []
+    gender: female
+    age(yrs): 57
+    weight(kg): 83
+    height(cm): 230
+    blood_type: AB-
+    allergies:
+        - ACE inhibitors
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+        - Local anesthetics
+        - Contrast dyes
+    preexisting:
+        conditions:
+            - Cancer
+            - Arthritis
+            - Diabetes
+        medications: []
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 6
+        body_mass_index: 15
+        vo2_max:
+            value: 41
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+        -   information: Moderate
+        -   geopolitcal: Critical
+    sere_training:
+        dateTime: '2024-07-17T11:19:00.174006'
+        sere_skills:
+            -   Survival:
+                    - Water Procurement
+                    - Fire Making
+                    - Shelter Building
+                    - First Aid
+-   isop_id: f626896b-547a-451c-a7c0-8ddb0173f101
+    first_name: Brittany
+    last_name: Wilson
+    callsign: QJ089
+    military_data:
+        -   branch: Air Force
+            rank: Major
+    gender: male
+    age(yrs): 29
+    weight(kg): 70
+    height(cm): 204
+    blood_type: O+
+    allergies:
+        - Radiocontrast media
+        - Local anesthetics
+        - Chemotherapy drugs
+    preexisting:
+        conditions:
+            - Heart disease
+        medications:
+            - NSAIDs (e.g., ibuprofen, naproxen)
+    profile_pictures: null
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 6
+        body_mass_index: 15
+        vo2_max:
+            value: 42
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: Moderate
+        -   other:
+                label: null
+                description: null
+    sere_training:
+        dateTime: '2024-07-17T11:21:27.189631'
+        sere_skills:
+            -   Resistance:
+                    - Physical Conditioning
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment
+-   isop_id: dda18da0-ca71-4b8e-a713-0c083a314d90
+    first_name: Emily
+    last_name: Fuller
+    callsign: FW535
+    military_data: []
+    gender: female
+    age(yrs): 22
+    weight(kg): 84
+    height(cm): 238
+    blood_type: O+
+    allergies:
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+        - Radiocontrast media
+        - Penicillin and related antibiotics
+        - Contrast dyes
+    preexisting:
+        conditions:
+            - Pregnancy
+        medications:
+            - Sertraline (Zoloft)
+            - Benzodiazepines (not recommended for PTSD but commonly prescribed)
+            - Sertraline (Zoloft)
+            - Anticoagulants (blood thinners)
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 34
+        body_mass_index: 18
+        vo2_max:
+            value: 62
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T05:53:07.220879'
+        sere_skills:
+            -   Resistance:
+                    - Psychological Preparation
+                    - Physical Conditioning
+            -   Evasion:
+                    - Camouflage and Concealment
+                    - Navigation
+            -   Survival:
+                    - Fire Making
+                    - Food Procurement
+                    - Water Procurement
+                    - First Aid
+                    - Shelter Building
+-   isop_id: f681a2d5-6daa-48aa-a9df-ebe7935c925c
+    first_name: Christopher
+    last_name: Hall
+    callsign: XW212
+    military_data:
+        -   branch: Army
+            rank: Captain
+    gender: male
+    age(yrs): 24
+    weight(kg): 77
+    height(cm): 189
+    blood_type: O+
+    allergies: []
+    preexisting:
+        conditions:
+            - Heart disease
+            - High blood pressure (hypertension)
+            - Pregnancy
+        medications:
+            - Lithium
+            - Anticoagulants (blood thinners)
+            - Anticoagulants (blood thinners)
+    profile_pictures: null
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 32
+        body_mass_index: 24
+        vo2_max:
+            value: 54
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                description: null
+        -   information: High
+    sere_training:
+        dateTime: '2024-07-17T06:46:32.240120'
+        sere_skills:
+            -   Survival:
+                    - Water Procurement
+                    - Shelter Building
+                    - First Aid
+                    - Food Procurement

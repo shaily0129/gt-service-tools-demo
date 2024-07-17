@@ -1,0 +1,452 @@
+-   mission_id: e7108e46-7a01-4d13-9497-7a1c49e4b1f6
+    isop_ids:
+        - d48c7c17-5212-405d-a261-6fad6f4a0374
+        - 742983d3-be9b-4b9e-b405-c736a96d204f
+        - 740d90b5-06f4-4b93-a936-3c6ba4d494fb
+        - 2d3c545f-facd-459f-83b3-e797ad856971
+        - 517c2d23-a137-4dd0-b144-11fd543cdcfa
+        - 0fa7350d-0d6e-4148-b83b-57b47e7dd253
+    mission_name: null
+    description: null
+    total:
+        medevac:
+            litters: null
+            ambulatory: null
+            passenger_weight(kg): null
+            passenger_count: null
+        resupply: null
+        care_center:
+            beds_required: null
+    locations: []
+    asset_type_options:
+        -   VTOL:
+                comments: null
+    mission_type_options:
+        medevac:
+            priority: null
+            comments: null
+        evac:
+            priority: null
+            comments: null
+        resupply:
+            priority: null
+            comments: null
+    isop_location: null
+    terrain:
+        -   type: Forest
+            attributes:
+                - Dense
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 0.0
+                VTOL: 0.8
+                CTOL: 0.0
+        -   type: Mountainous
+    weather:
+        current:
+            condition: clear
+            temperature(C): null
+            visibility(km): null
+            cloud_ceiling(m): null
+            wind:
+                speed(km/h): null
+                max_gust(km/h): null
+                direction: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+        forecast: null
+    threats:
+        -   threat_id: null
+            label: null
+            type: null
+            location: null
+            movement:
+                heading: null
+                speed: null
+            effect_area: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+-   mission_id: f441966c-75be-4584-9d3d-2a5bb3b8ae59
+    isop_ids:
+        - 952e376e-4d9a-44fc-8483-38f938876482
+    mission_name: null
+    description: null
+    total:
+        medevac:
+            litters: null
+            ambulatory: null
+            passenger_weight(kg): null
+            passenger_count: null
+        resupply: null
+        care_center:
+            beds_required: null
+    locations:
+        -   timestamp: '2024-07-17T11:58:15.585108'
+            latitude: 33.631908637333495
+            longitude: -109.90169651382612
+            elevation(m): 1040
+            since_last_location:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+                average_speed_delta(km/h): null
+            total_all_locations:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+    asset_type_options:
+        -   VTOL:
+                comments: null
+    mission_type_options:
+        medevac:
+            priority: null
+            comments: null
+        evac:
+            priority: null
+            comments: null
+        resupply:
+            priority: null
+            comments: null
+    isop_location: null
+    terrain:
+        -   type: Forest
+            attributes:
+                - Dense
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 0.0
+                VTOL: 0.8
+                CTOL: 0.0
+        -   type: Mountainous
+    weather:
+        current:
+            condition: clear
+            temperature(C): null
+            visibility(km): null
+            cloud_ceiling(m): null
+            wind:
+                speed(km/h): null
+                max_gust(km/h): null
+                direction: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+        forecast: null
+    threats:
+        -   threat_id: null
+            label: null
+            type: null
+            location: null
+            movement:
+                heading: null
+                speed: null
+            effect_area: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+-   mission_id: 1cebb1bf-a79e-428b-9b7d-a9b160af0e45
+    isop_ids:
+        - 767edd03-1f34-401a-bb71-0f1b8c47c4bd
+        - 5c6b3f6f-74cc-4a03-a1f6-f68fe1d08acc
+    mission_name: null
+    description: null
+    total:
+        medevac:
+            litters: null
+            ambulatory: null
+            passenger_weight(kg): null
+            passenger_count: null
+        resupply: null
+        care_center:
+            beds_required: null
+    locations:
+        -   timestamp: '2024-07-17T10:18:15.597070'
+            latitude: 33.578738473411796
+            longitude: -109.84082419462003
+            elevation(m): 1063
+            since_last_location:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+                average_speed_delta(km/h): null
+            total_all_locations:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+    asset_type_options:
+        -   VTOL:
+                comments: null
+    mission_type_options:
+        medevac:
+            priority: null
+            comments: null
+        evac:
+            priority: null
+            comments: null
+        resupply:
+            priority: null
+            comments: null
+    isop_location: null
+    terrain:
+        -   type: Forest
+            attributes:
+                - Dense
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 0.0
+                VTOL: 0.8
+                CTOL: 0.0
+        -   type: Mountainous
+    weather:
+        current:
+            condition: clear
+            temperature(C): null
+            visibility(km): null
+            cloud_ceiling(m): null
+            wind:
+                speed(km/h): null
+                max_gust(km/h): null
+                direction: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+        forecast: null
+    threats:
+        -   threat_id: null
+            label: null
+            type: null
+            location: null
+            movement:
+                heading: null
+                speed: null
+            effect_area: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+-   mission_id: 7cc4aa0c-34df-4871-a35c-3d54c3220851
+    isop_ids:
+        - dda18da0-ca71-4b8e-a713-0c083a314d90
+        - 59a1a6a6-49c9-4b2e-881b-6735b8e49d22
+        - 52f11e90-569e-435b-95a9-4a29e9a76228
+        - f626896b-547a-451c-a7c0-8ddb0173f101
+    mission_name: null
+    description: null
+    total:
+        medevac:
+            litters: null
+            ambulatory: null
+            passenger_weight(kg): null
+            passenger_count: null
+        resupply: null
+        care_center:
+            beds_required: null
+    locations: []
+    asset_type_options:
+        -   VTOL:
+                comments: null
+    mission_type_options:
+        medevac:
+            priority: null
+            comments: null
+        evac:
+            priority: null
+            comments: null
+        resupply:
+            priority: null
+            comments: null
+    isop_location: null
+    terrain:
+        -   type: Forest
+            attributes:
+                - Dense
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 0.0
+                VTOL: 0.8
+                CTOL: 0.0
+        -   type: Mountainous
+    weather:
+        current:
+            condition: clear
+            temperature(C): null
+            visibility(km): null
+            cloud_ceiling(m): null
+            wind:
+                speed(km/h): null
+                max_gust(km/h): null
+                direction: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+        forecast: null
+    threats:
+        -   threat_id: null
+            label: null
+            type: null
+            location: null
+            movement:
+                heading: null
+                speed: null
+            effect_area: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+-   mission_id: 9487b46e-cabe-41c4-8b08-b952276464f1
+    isop_ids:
+        - ecacab93-77c0-4d43-b300-dc63ad600453
+        - 0a96201b-622a-4dce-b43c-6a74da7c0942
+    mission_name: null
+    description: null
+    total:
+        medevac:
+            litters: null
+            ambulatory: null
+            passenger_weight(kg): null
+            passenger_count: null
+        resupply: null
+        care_center:
+            beds_required: null
+    locations:
+        -   timestamp: '2024-07-17T11:08:15.612316'
+            latitude: 33.55599279585967
+            longitude: -109.79696503565928
+            elevation(m): 1015
+            since_last_location:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+                average_speed_delta(km/h): null
+            total_all_locations:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+        -   timestamp: '2024-07-17T11:58:15.612316'
+            latitude: 33.59051193539598
+            longitude: -109.75383438325058
+            elevation(m): 968
+            since_last_location:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+                average_speed_delta(km/h): null
+            total_all_locations:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+    asset_type_options:
+        -   VTOL:
+                comments: null
+    mission_type_options:
+        medevac:
+            priority: null
+            comments: null
+        evac:
+            priority: null
+            comments: null
+        resupply:
+            priority: null
+            comments: null
+    isop_location: null
+    terrain:
+        -   type: Forest
+            attributes:
+                - Dense
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 0.0
+                VTOL: 0.8
+                CTOL: 0.0
+        -   type: Mountainous
+    weather:
+        current:
+            condition: clear
+            temperature(C): null
+            visibility(km): null
+            cloud_ceiling(m): null
+            wind:
+                speed(km/h): null
+                max_gust(km/h): null
+                direction: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0
+        forecast: null
+    threats:
+        -   threat_id: null
+            label: null
+            type: null
+            location: null
+            movement:
+                heading: null
+                speed: null
+            effect_area: null
+            comments: null
+            intel:
+                sources: null
+                imagery: null
+            impact:
+                ground: 1.0
+                VTOL: 1.0
+                CTOL: 1.0

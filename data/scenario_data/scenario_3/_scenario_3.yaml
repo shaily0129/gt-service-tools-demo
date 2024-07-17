@@ -1,0 +1,15 @@
+# Data generated at 2024-07-17 13:51:13
+scenario_id: 3
+name: Handle incomplete data for isop_states.
+description: null
+functionality_to_test:
+- Trigger questions to get info for Empty, null, or [] values
+- Handle required vs optional fields
+- Handle missing data for LIFE triage score
+coda_link: null
+input_schemas:
+-   path: ../dataSchemas/personnel/isop_detail.yaml
+    iterations: 10
+-   path: ../dataSchemas/personnel/isop_state.yaml
+    iterations: 10
+    data_gap: 50
