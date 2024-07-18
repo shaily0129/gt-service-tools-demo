@@ -1,6 +1,8 @@
 # A list of military branches and corresponding ranks.
-- branch: "Army" # required: false Q: "What is their military branch?"
-  rank: # required: false Q: "What is their rank?"
+# branch: OPTIONAL --  Q: "What is your military branch?"
+# rank: OPTIONAL -- Q: "What is your rank?"
+- branch: "Army"
+  rank: 
     selection_type: "single"
     options:
       - Private (Recruit)

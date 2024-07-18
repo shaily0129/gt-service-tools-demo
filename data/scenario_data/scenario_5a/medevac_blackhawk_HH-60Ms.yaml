@@ -1,4 +1,4 @@
--   asset_id: 378ba9be-e3f3-4c6e-8dbe-a8e483fb1c8a
+-   asset_id: 890f1a40-fd21-49a1-a158-0ee4070d2450
     asset_type_id: 4h5i6j7k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
     serial_number: (1000, 9999)
     name: MEDEVAC Black Hawk
@@ -7,10 +7,10 @@
     asset_type: VTOL
     mission_types: medevac
     locations:
-        -   timestamp: '2024-07-17T13:51:15.634870'
-            latitude: 33.553233829644505
-            longitude: -109.75560803268283
-            elevation(m): 986
+        -   timestamp: '2024-07-17T16:36:38.557828'
+            latitude: 40.73812514507913
+            longitude: -107.92855141105849
+            elevation(m): 1830
             since_last_location:
                 distance: null
                 duration: null
@@ -20,10 +20,96 @@
                 distance: null
                 duration: null
                 average_speed(km/h): null
-        -   timestamp: '2024-07-17T14:44:15.634870'
-            latitude: 33.56899571858463
-            longitude: -109.72317582181346
-            elevation(m): 1035
+    crew:
+        number: 4
+        roles:
+            - pilot
+            - co-pilot
+            - crew chief
+            - flight medic
+        status: Grounded
+        duty_hours_remaining: 6
+        return_to_duty_hours_remaining: null
+    patient_capacity:
+        litter:
+            max: 6
+            available: 6
+        ambulatory:
+            max: 6
+            available: 1
+    range (km):
+        average: 670
+        available: 494
+        max: 1111
+        max_available: 533
+        max_with_aux_fuel_tanks: 2555
+    speed(km/h):
+        cruise: 280
+        max: 357
+        max_with_aux_fuel_tanks: 300
+    ctol:
+        landing_distance_required: null
+        takeoff_distance_required: null
+    fuel:
+        types:
+            - JP-8
+            - Jet A-1
+        fueltank_capacity(L):
+            internal: 1360
+            total_with_selected_equipment_options: 3100
+        fuel_reserves(%):
+            ideal: 15
+            min: 5
+    weight_capacity(kg):
+        takeoff:
+            _max: 9979
+            _max_with_selected_options: 8500
+        landing:
+            _max: 9979
+            _max_with_selected_options: 8500
+    operational_altitude(m):
+        service: 5790
+        max: 5914
+    equipment_options:
+        -   auxillary_fuel_tanks:
+                selected: false
+                number_of_tanks: 2
+                fueltank_capacity(L):
+                    each: 870
+                    total: 1740
+    estimated_value(usd): $20M
+    operational_conditions:
+        day: true
+        night: true
+        temperature(C):
+            min: 0
+            max: 50
+        adverse_weather: true
+        min_visability_required(km): null
+    medevac_capabilities:
+        equipment:
+            - IV provisions
+            - Medical monitoring systems (vital signs, EKG, etc.)
+            - Advanced life support equipment (ventilators, defibrillators, etc.)
+            - oxygen generation system
+            - medical suction system
+            - medical electrical power (115VAC/60Hz)
+            - high intensity lighting
+        patient_handling:
+            - patient litter lift system
+-   asset_id: 680a03bb-67f4-4943-adaa-c32d79ed134a
+    asset_type_id: 4h5i6j7k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+    serial_number: (1000, 9999)
+    name: MEDEVAC Black Hawk
+    manufacturer: Sikorsky Aircraft
+    model: HH-60M
+    asset_type: VTOL
+    mission_types: medevac
+    locations:
+        -   timestamp: '2024-07-17T16:36:38.575203'
+            latitude: 40.79440281463986
+            longitude: -107.92806797274741
+            elevation(m): 1840
             since_last_location:
                 distance: null
                 duration: null
@@ -33,10 +119,10 @@
                 distance: null
                 duration: null
                 average_speed(km/h): null
-        -   timestamp: '2024-07-17T15:12:15.634870'
-            latitude: 33.617982374223814
-            longitude: -109.78187120244452
-            elevation(m): 1043
+        -   timestamp: '2024-07-17T16:50:38.575203'
+            latitude: 40.808457150077075
+            longitude: -107.95327514954478
+            elevation(m): 1825
             since_last_location:
                 distance: null
                 duration: null
@@ -59,15 +145,15 @@
     patient_capacity:
         litter:
             max: 6
-            available: 4
-        ambulatory:
-            max: 6
             available: 0
+        ambulatory:
+            max: 6
+            available: 6
     range (km):
         average: 670
-        available: 149
+        available: 244
         max: 1111
-        max_available: 302
+        max_available: 15
         max_with_aux_fuel_tanks: 2555
     speed(km/h):
         cruise: 280
@@ -123,7 +209,7 @@
             - high intensity lighting
         patient_handling:
             - patient litter lift system
--   asset_id: 589e6abe-5f9d-44d3-8b76-f91204743501
+-   asset_id: 606203b0-0d0b-45c7-af4f-eb44ec047bd0
     asset_type_id: 4h5i6j7k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
     serial_number: (1000, 9999)
     name: MEDEVAC Black Hawk
@@ -132,10 +218,36 @@
     asset_type: VTOL
     mission_types: medevac
     locations:
-        -   timestamp: '2024-07-17T13:51:15.652855'
-            latitude: 33.6727280819074
-            longitude: -109.77271569194816
-            elevation(m): 1068
+        -   timestamp: '2024-07-17T16:36:38.577204'
+            latitude: 40.85086017728796
+            longitude: -108.01530103432957
+            elevation(m): 1845
+            since_last_location:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+                average_speed_delta(km/h): null
+            total_all_locations:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+        -   timestamp: '2024-07-17T17:20:38.577204'
+            latitude: 40.91026608403402
+            longitude: -107.96235279269895
+            elevation(m): 1811
+            since_last_location:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+                average_speed_delta(km/h): null
+            total_all_locations:
+                distance: null
+                duration: null
+                average_speed(km/h): null
+        -   timestamp: '2024-07-17T18:13:38.577204'
+            latitude: 40.86894413717855
+            longitude: -107.9843923009101
+            elevation(m): 1811
             since_last_location:
                 distance: null
                 duration: null
@@ -152,133 +264,21 @@
             - co-pilot
             - crew chief
             - flight medic
-        status: Grounded
-        duty_hours_remaining: 4
+        status: Ready
+        duty_hours_remaining: 0
         return_to_duty_hours_remaining: null
     patient_capacity:
         litter:
             max: 6
-            available: 3
+            available: 1
         ambulatory:
             max: 6
             available: 3
     range (km):
         average: 670
-        available: 481
+        available: 99
         max: 1111
-        max_available: 210
-        max_with_aux_fuel_tanks: 2555
-    speed(km/h):
-        cruise: 280
-        max: 357
-        max_with_aux_fuel_tanks: 300
-    ctol:
-        landing_distance_required: null
-        takeoff_distance_required: null
-    fuel:
-        types:
-            - JP-8
-            - Jet A-1
-        fueltank_capacity(L):
-            internal: 1360
-            total_with_selected_equipment_options: 3100
-        fuel_reserves(%):
-            ideal: 15
-            min: 5
-    weight_capacity(kg):
-        takeoff:
-            _max: 9979
-            _max_with_selected_options: 8500
-        landing:
-            _max: 9979
-            _max_with_selected_options: 8500
-    operational_altitude(m):
-        service: 5790
-        max: 5914
-    equipment_options:
-        -   auxillary_fuel_tanks:
-                selected: false
-                number_of_tanks: 2
-                fueltank_capacity(L):
-                    each: 870
-                    total: 1740
-    estimated_value(usd): $20M
-    operational_conditions:
-        day: true
-        night: true
-        temperature(C):
-            min: 0
-            max: 50
-        adverse_weather: true
-        min_visability_required(km): null
-    medevac_capabilities:
-        equipment:
-            - IV provisions
-            - Medical monitoring systems (vital signs, EKG, etc.)
-            - Advanced life support equipment (ventilators, defibrillators, etc.)
-            - oxygen generation system
-            - medical suction system
-            - medical electrical power (115VAC/60Hz)
-            - high intensity lighting
-        patient_handling:
-            - patient litter lift system
--   asset_id: 845e383b-9cdd-4329-b978-aca46c1cd555
-    asset_type_id: 4h5i6j7k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
-    serial_number: (1000, 9999)
-    name: MEDEVAC Black Hawk
-    manufacturer: Sikorsky Aircraft
-    model: HH-60M
-    asset_type: VTOL
-    mission_types: medevac
-    locations:
-        -   timestamp: '2024-07-17T13:51:15.663537'
-            latitude: 33.61524352370284
-            longitude: -109.75853775917356
-            elevation(m): 1074
-            since_last_location:
-                distance: null
-                duration: null
-                average_speed(km/h): null
-                average_speed_delta(km/h): null
-            total_all_locations:
-                distance: null
-                duration: null
-                average_speed(km/h): null
-        -   timestamp: '2024-07-17T14:36:15.663537'
-            latitude: 33.66880036872827
-            longitude: -109.74827584432111
-            elevation(m): 1115
-            since_last_location:
-                distance: null
-                duration: null
-                average_speed(km/h): null
-                average_speed_delta(km/h): null
-            total_all_locations:
-                distance: null
-                duration: null
-                average_speed(km/h): null
-    crew:
-        number: 4
-        roles:
-            - pilot
-            - co-pilot
-            - crew chief
-            - flight medic
-        status: On Standby
-        duty_hours_remaining: 7
-        return_to_duty_hours_remaining: null
-    patient_capacity:
-        litter:
-            max: 6
-            available: 4
-        ambulatory:
-            max: 6
-            available: 5
-    range (km):
-        average: 670
-        available: 108
-        max: 1111
-        max_available: 750
+        max_available: 603
         max_with_aux_fuel_tanks: 2555
     speed(km/h):
         cruise: 280

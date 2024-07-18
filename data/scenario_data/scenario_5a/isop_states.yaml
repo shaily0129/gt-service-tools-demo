@@ -1,36 +1,329 @@
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
     mechanism_of_injury:
-        dateTime: '2024-07-17T08:54:06.936788'
+        dateTime: '2024-07-17T16:29:32.847522'
         dateTime_accuracy:
-            2: moderately accurate
+            4: Don't Know
         summary: null
         types:
-            -   moi_id: 94536eb4-ab33-4092-b5ce-847b4373d686
-                label: Fall
-                description: Injuries from falling from heights or during combat
-            -   moi_id: {}
-                label: Fall
-                description: Injuries from falling from heights or during combat
-            -   moi_id: a9a1dc2d-932f-451e-8c6e-822a884344e6
-                label: Traumatic Amputation
-                description: Loss of limb due to explosive or severe mechanical force
+            -   moi_id: 7cf41059-de33-445c-8e9e-5bbb8a1014a1
+                label: Blast
+                description: Injuries caused by explosions, including IEDs
+                abbreviation: BI
     evacuation_category:
         litter: L
     triage: null
     forecasts:
-        interventions: []
+        interventions:
+            -   timestamp: '2024-07-17T16:36:37.889444'
+                lsi_id: e3ad7211-5a33-4752-8769-f35899493633
+                lsi_name: Needle Decompression
+                description: Insertion of a needle into the chest to relieve tension
+                    pneumothorax
+                use_cases:
+                    - Tension pneumothorax from chest injuries
+                category: Airway Management
+                indicators:
+                    -   must_have:
+                            - difficulty breathing
+                            - chest pain
+                            - decreased breath sounds
+                equipment:
+                    -   required:
+                            -   item: Large-bore needle
+                skill_level:
+                    -   label: Advanced
+                        qualifiers: combat medics/corpsmen
+            -   timestamp: '2024-07-17T17:48:37.889444'
+                lsi_id: af88bbb3-9e23-4c32-99b0-c6f3ac41e549
+                lsi_name: Whole Blood Transfusion
+                description: Administration of fresh whole blood for severe blood
+                    loss
+                use_cases:
+                    - Significant hemorrhage not responding to other treatments
+                category: Advanced Resuscitation
+                phases_of_care:
+                    - Prolonged Casualty Care
+                    - Definitive Care
+                indicators:
+                    -   must_have:
+                            - Signs of severe shock
+                    -   likely:
+                            - Ongoing blood loss
+                equipment:
+                    -   required:
+                            -   item: Blood transfusion kit
+                            -   item: fresh whole blood
+                skill_level:
+                    -   label: Advanced
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
     patient_record:
         insults:
-            -   timestamp: '2024-07-17T13:51:14.983420'
-                insult_id: 6771883e-771c-44c0-9b5e-fece3fb128fc
+            -   timestamp: '2024-07-17T16:36:37.891083'
+                insult_id: 2010f412-be1f-453f-b8cf-1f8ae1bdd76f
+                label: External Hemorrhage - Trunk
+                category: Hemorrhage
+                location: Back
+                sublocation: Lower
+                lateral_position: Right
+            -   timestamp: '2024-07-17T16:46:37.891083'
+                insult_id: e8daa633-9a93-4e30-959e-21d4ad747b07
                 label: External Hemorrhage - Head
                 category: Hemorrhage
                 location: Head
-                sublocation: Back
-                lateral_position: Center
+                sublocation: ''
+                lateral_position: Right
                 coronal_position: NA
-            -   timestamp: '2024-07-17T14:02:14.983420'
-                insult_id: 4710bcb3-ec9f-42c8-9c2d-785fe1f835c0
+        vitals:
+            -   timestamp: '2024-07-17T16:36:37.891083'
+                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+                abbreviation: RR
+                value: 77
+                unit: rpm
+            -   timestamp: '2024-07-17T16:51:37.891083'
+                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+                abbreviation: HR
+                value: 71
+                unit: bpm
+            -   timestamp: '2024-07-17T16:59:37.891083'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 80
+                unit: C
+            -   timestamp: '2024-07-17T17:12:37.891083'
+                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+                abbreviation: MAP
+                value: 66
+                unit: mmHg
+            -   timestamp: '2024-07-17T17:24:37.891083'
+                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+                abbreviation: SBP
+                value: 120
+                unit: mmHg
+            -   timestamp: '2024-07-17T17:32:37.891083'
+                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+                abbreviation: DBP
+                value: 68
+                unit: mmHg
+        observations:
+            -   timestamp: '2024-07-17T16:36:37.903236'
+                observation_id: 9da07bea-9186-4612-9052-004013e9a75e
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 10
+                    is_estimated: &id001
+                        3: true
+            -   timestamp: '2024-07-17T17:11:37.903236'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 7
+                    is_estimated: *id001
+        interventions: null
+        medications: null
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    mechanism_of_injury:
+        dateTime: '2024-07-17T13:32:25.908728'
+        dateTime_accuracy:
+            1: Very Confident
+        summary: null
+        types:
+            -   moi_id: 008f24c9-39a0-4af4-abe5-270751f025fb
+                label: Penetrating Trauma
+                description: Injuries involving object penetration into the body
+                abbreviation: PT
+            -   moi_id: e6231a5e-3cde-4d81-b191-3a493a18d540
+                label: Traumatic Amputation
+                description: Loss of limb due to explosive or severe mechanical force
+            -   moi_id: c3037501-0cfb-46a2-ae55-eec2935e2192
+                label: Crush
+                description: Injuries from compression or collapse of structures
+    evacuation_category:
+        litter: L
+    triage: null
+    forecasts:
+        interventions:
+            -   timestamp: '2024-07-17T16:36:37.942705'
+                lsi_id: c155684a-d965-498b-9285-04a25f9a44a3
+                lsi_name: Chest Tube Insertion
+                description: Placement of a tube into the pleural space to drain air
+                    or fluid
+                use_cases:
+                    - Pneumothorax
+                    - Hemothorax
+                    - Pleural effusion
+                category: Airway Management
+                indicators:
+                    -   must_have:
+                            - Respiratory distress
+                            - decreased breath sounds
+                    -   optional:
+                            - chest imaging findings
+                equipment:
+                    -   required:
+                            - Chest tube kit
+                            - sterile drapes
+                            - local anesthetic
+                skill_level:
+                    -   label: Expert
+                        qualifiers: null
+            -   timestamp: '2024-07-17T18:07:37.942705'
+                lsi_id: 6e95631f-60cd-4072-8c1f-14ee7c4950c6
+                lsi_name: Naloxone Administration
+                description: Administration of naloxone to reverse opioid overdose
+                use_cases:
+                    - Opioid overdose
+                category: Emergency Medication
+                phases_of_care:
+                    - Point of Injury
+                indicators:
+                    -   must_have:
+                            - Respiratory depression
+                            - pinpoint pupils
+                    -   likely:
+                            - unresponsive
+                    -   must_not_have: null
+                equipment:
+                    -   either_or:
+                            -   item: Naloxone nasal spray
+                            -   item: Naloxone injection
+                skill_level:
+                    -   label: Basic
+                        qualifiers: For Naloxone nasal spray
+                    -   label: Intermediate
+                        qualifiers: For Naloxone injection
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
+    patient_record:
+        insults:
+            -   timestamp: '2024-07-17T16:36:37.955725'
+                insult_id: 3581ce01-5591-4acc-89ac-f4746d111bf7
+                label: External Hemorrhage - Head
+                category: Hemorrhage
+                location: Head
+                sublocation: ''
+                lateral_position: Left
+                coronal_position: NA
+            -   timestamp: '2024-07-17T16:50:37.955725'
+                insult_id: d0af13f6-04f9-4f2e-958b-6d8f9f597a51
+                label: External Hemorrhage - Trunk
+                category: Hemorrhage
+                location: Chest
+                sublocation: Lower
+                lateral_position: Left
+        vitals:
+            -   timestamp: '2024-07-17T16:36:37.957516'
+                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+                abbreviation: RR
+                value: 74
+                unit: rpm
+            -   timestamp: '2024-07-17T16:38:37.957516'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: UO/hr
+                value: 62
+                unit: ml/hr
+            -   timestamp: '2024-07-17T16:45:37.957516'
+                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+                abbreviation: HR
+                value: 83
+                unit: bpm
+            -   timestamp: '2024-07-17T16:58:37.957516'
+                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+                abbreviation: DBP
+                value: 66
+                unit: mmHg
+        observations:
+            -   timestamp: '2024-07-17T16:36:37.957516'
+                observation_id: be473562-d41b-4340-b797-e569cd22f984
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 11
+                    is_estimated: &id002
+                        1: false
+            -   timestamp: '2024-07-17T17:07:37.957516'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 10
+                    is_estimated: *id002
+            -   timestamp: '2024-07-17T18:00:37.957516'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 9
+                    is_estimated: *id002
+        interventions: null
+        medications: null
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    mechanism_of_injury:
+        dateTime: '2024-07-17T08:46:07.969391'
+        dateTime_accuracy:
+            1: Very Confident
+        summary: null
+        types:
+            -   moi_id: c4aad824-ddd5-4a55-9331-f481337cd282
+                label: Acoustic Trauma
+                description: Injuries to hearing from loud noises, often from explosions
+            -   moi_id: c3735534-3f29-49eb-bf99-4061eb373b79
+                label: Penetrating Trauma
+                description: Injuries involving object penetration into the body
+                abbreviation: PT
+            -   moi_id: {}
+                label: Acoustic Trauma
+                description: Injuries to hearing from loud noises, often from explosions
+    evacuation_category:
+        litter: L
+    triage: null
+    forecasts:
+        interventions:
+            -   timestamp: '2024-07-17T16:36:38.009941'
+                lsi_id: c086c368-5772-4b20-bf25-b1727706c213
+                lsi_name: Airway Management
+                description: Techniques to ensure an open airway for breathing
+                use_cases: Compromised airway due to injury or unconsciousness
+                category: Airway Management
+                indicators:
+                    -   must_have:
+                            - difficulty breathing
+                    -   likely:
+                            - unconsciousness
+                equipment:
+                    -   required:
+                            -   item: Breathing tubes
+                            -   item: Airway adjuncts
+                skill_level:
+                    -   label: Intermediate
+                    -   label: Advanced
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
+    patient_record:
+        insults:
+            -   timestamp: '2024-07-17T16:36:38.009941'
+                insult_id: 6d47b3cf-c40f-458d-89ae-a22a816f72ef
+                label: External Hemorrhage - Pelvis
+                category: Hemorrhage
+                location: Pelvis
+                sublocation: Buttocks
+                lateral_position: Left
+                coronal_position: NA
+            -   timestamp: '2024-07-17T16:46:38.009941'
+                insult_id: {}
                 label: External Hemorrhage - Pelvis
                 category: Hemorrhage
                 location: Pelvis
@@ -38,419 +331,745 @@
                 lateral_position: Right
                 coronal_position: NA
         vitals:
-            -   timestamp: '2024-07-17T13:51:14.995837'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 77
-                unit: rpm
-            -   timestamp: '2024-07-17T14:05:14.995837'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 73
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:05:14.995837'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 70
-                unit: '%'
-            -   timestamp: '2024-07-17T14:11:14.995837'
-                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
-                abbreviation: MAP
-                value: 77
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:13:14.995837'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 98
-                unit: bpm
-            -   timestamp: '2024-07-17T14:19:14.995837'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 71
-                unit: '%'
-            -   timestamp: '2024-07-17T14:34:14.995837'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 72
-                unit: bpm
-            -   timestamp: '2024-07-17T14:49:14.995837'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: UO/hr
-                value: 66
-                unit: ml/hr
-            -   timestamp: '2024-07-17T14:49:14.995837'
-                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
-                abbreviation: MAP
-                value: 71
-                unit: mmHg
-            -   timestamp: '2024-07-17T15:03:14.995837'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 68
-                unit: rpm
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 0
-        interventions: null
-        medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    mechanism_of_injury:
-        dateTime: '2024-07-17T06:12:09.996030'
-        dateTime_accuracy:
-            2: moderately accurate
-        summary: null
-        types:
-            -   moi_id: 24f99483-8628-46b9-8e20-3ef81bb76136
-                label: Acoustic Trauma
-                description: Injuries to hearing from loud noises, often from explosions
-    evacuation_category:
-        litter: L
-    triage: null
-    forecasts:
-        interventions:
-            -   timestamp: '2024-07-17T13:51:15.042921'
-                lsi_id: 241f6e1e-fcd8-4a04-a993-0b858a80f1a5
-                lsi_name: Intraosseous Access
-                description: Insertion of a needle into bone marrow to provide vascular
-                    access
-                use_cases:
-                    - Emergency vascular access when intravenous access is not possible
-                category: Vascular Access
-                phases_of_care:
-                    - Prolonged Casualty Care
-                    - Medevac
-                    - Definitive Care
-                indicators:
-                    -   must_have:
-                            - Critically ill or injured patient with difficult IV
-                                access
-                equipment:
-                    -   required:
-                            -   item:
-                                    - Intraosseous needle
-                                    - Intraosseous drill
-                            -   itme: antiseptic solution
-                skill_level:
-                    -   label: Advanced
-                        qualifiers: null
-    patient_record:
-        insults:
-            -   timestamp: '2024-07-17T13:51:15.042921'
-                insult_id: 7da7e685-4737-479c-9310-ea3038c9e3b5
-                label: External Hemorrhage - Pelvis
-                category: Hemorrhage
-                location: Pelvis
-                sublocation: Groin
-                lateral_position: Left
-                coronal_position: NA
-        vitals:
-            -   timestamp: '2024-07-17T13:51:15.042921'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 80
-                unit: rpm
-            -   timestamp: '2024-07-17T14:06:15.042921'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 80
-                unit: bpm
-            -   timestamp: '2024-07-17T14:12:15.042921'
-                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
-                abbreviation: SBP
-                value: 115
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:20:15.042921'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 90
-                unit: bpm
-            -   timestamp: '2024-07-17T14:31:15.042921'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 80
-                unit: bpm
-            -   timestamp: '2024-07-17T14:31:15.042921'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 88
-                unit: bpm
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 0
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 1
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 5
-                eye: null
-                verbal: null
-                motor: null
-        interventions: null
-        medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    mechanism_of_injury:
-        dateTime: '2024-07-17T11:59:25.058546'
-        dateTime_accuracy:
-            2: moderately accurate
-        summary: null
-        types:
-            -   moi_id: fbe01dbd-91fc-493b-8ab4-7a0119d3002a
-                label: Acoustic Trauma
-                description: Injuries to hearing from loud noises, often from explosions
-            -   moi_id: 83ea27fa-c227-4f47-86d0-31b6f19865f6
-                label: Multiple Injury
-                description: Combination of two or more injury mechanisms
-                abbreviation: MI
-            -   moi_id: 25171870-4b0e-41f7-984c-cbb5aac47bea
-                label: Crush
-                description: Injuries from compression or collapse of structures
-    evacuation_category:
-        ambulatory: A
-    triage: null
-    forecasts:
-        interventions: []
-    patient_record:
-        insults: []
-        vitals:
-            -   timestamp: '2024-07-17T13:51:15.110915'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 79
-                unit: rpm
-            -   timestamp: '2024-07-17T14:01:15.110915'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 79
-                unit: '%'
-            -   timestamp: '2024-07-17T14:01:15.110915'
-                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
-                abbreviation: Temp
-                value: 63
-                unit: C
-            -   timestamp: '2024-07-17T14:09:15.110915'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 60
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:11:15.110915'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 79
-                unit: mmHg
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 14
-                eye: null
-                verbal: null
-                motor: null
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 9
-        interventions: null
-        medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    mechanism_of_injury:
-        dateTime: '2024-07-17T10:44:21.110915'
-        dateTime_accuracy:
-            1: accurate
-        summary: null
-        types:
-            -   moi_id: ecb912fc-8f83-4015-8804-85d6e89b43ea
-                label: Landmine Injury
-                description: Specific injuries caused by landmine explosions
-            -   moi_id: 8f86be82-c59a-4143-a4bc-949a44164721
-                label: Multiple Injury
-                description: Combination of two or more injury mechanisms
-                abbreviation: MI
-            -   moi_id: cb51cf25-10fa-4a24-bbeb-9e49a83fd861
-                label: Chemical Exposure
-                description: Injuries from exposure to harmful chemicals or agents
-    evacuation_category:
-        ambulatory: A
-    triage: null
-    forecasts:
-        interventions:
-            -   timestamp: '2024-07-17T13:51:15.157789'
-                lsi_id: e0a32c47-d6f8-4bbb-a206-951e7dd2d593
-                lsi_name: Ocular Injury Management
-                description: Initial treatment for eye injuries in combat
-                use_cases:
-                    - Penetrating or other serious eye injuries
-                category: Specialized Trauma Care
-                phases_of_care:
-                    - Prolonged Casualty Care
-                    - Medevac
-                    - Definitive Care
-                indicators:
-                    -   likely:
-                            - Visible eye trauma
-                            - Reports of eye pain
-                            - Vision changes
-                equipment:
-                    -   required: Rigid eye shield
-                    -   optional: Ocoral antibiotics (moxifloxacin)
-                skill_level:
-                    -   label: Intermediate
-    patient_record:
-        insults:
-            -   timestamp: '2024-07-17T13:51:15.157789'
-                insult_id: 4d5f860c-aa67-4f58-a69f-28523ad92cdb
-                label: External Hemorrhage - Trunk
-                category: Hemorrhage
-                location: Abdomen
-                sublocation: Lower
-                lateral_position: Left
-            -   timestamp: '2024-07-17T14:03:15.157789'
-                insult_id: {}
-                label: External Hemorrhage - Trunk
-                category: Hemorrhage
-                location: Back
-                sublocation: Lower
-                lateral_position: Center
-        vitals:
-            -   timestamp: '2024-07-17T13:51:15.157789'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 61
-                unit: '%'
-            -   timestamp: '2024-07-17T14:04:15.157789'
-                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
-                abbreviation: SBP
-                value: 102
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:17:15.157789'
-                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
-                abbreviation: SBP
-                value: 108
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:27:15.157789'
+            -   timestamp: '2024-07-17T16:36:38.009941'
                 vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
                 abbreviation: ETCO2
-                value: 63
+                value: 61
                 unit: mmHg
-            -   timestamp: '2024-07-17T14:29:15.157789'
+            -   timestamp: '2024-07-17T16:40:38.009941'
+                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+                abbreviation: SBP
+                value: 112
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:50:38.009941'
+                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+                abbreviation: SBP
+                value: 106
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:55:38.009941'
                 vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
                 abbreviation: SBP
                 value: 108
                 unit: mmHg
-            -   timestamp: '2024-07-17T14:29:15.157789'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 81
-                unit: bpm
-            -   timestamp: '2024-07-17T14:39:15.157789'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 79
-                unit: rpm
-            -   timestamp: '2024-07-17T14:42:15.157789'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
+            -   timestamp: '2024-07-17T16:58:38.009941'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: UO/hr
                 value: 76
+                unit: ml/hr
+            -   timestamp: '2024-07-17T16:59:38.009941'
+                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+                abbreviation: SBP
+                value: 107
                 unit: mmHg
-            -   timestamp: '2024-07-17T14:44:15.157789'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 61
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:57:15.157789'
+            -   timestamp: '2024-07-17T17:01:38.009941'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: UO/hr
+                value: 62
+                unit: ml/hr
+            -   timestamp: '2024-07-17T17:07:38.009941'
                 vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
                 abbreviation: MAP
-                value: 67
+                value: 78
                 unit: mmHg
+            -   timestamp: '2024-07-17T17:07:38.009941'
+                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+                abbreviation: DBP
+                value: 72
+                unit: mmHg
+            -   timestamp: '2024-07-17T17:09:38.009941'
+                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+                abbreviation: RR
+                value: 74
+                unit: rpm
         observations:
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 5
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 15
-                eye: null
-                verbal: null
-                motor: null
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 14
-                eye: null
-                verbal: null
-                motor: null
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 0
+            -   timestamp: '2024-07-17T16:36:38.022480'
+                observation_id: a3f7bea6-e755-4b56-84c5-a6b576510b41
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 10
+                    is_estimated: &id003
+                        1: false
+            -   timestamp: '2024-07-17T17:07:38.022480'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 9
+                    is_estimated: *id003
+            -   timestamp: '2024-07-17T17:37:38.022480'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 13
+                    is_estimated: *id003
+            -   timestamp: '2024-07-17T17:58:38.022480'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 3
+                    is_estimated: *id003
         interventions: null
         medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
     mechanism_of_injury:
-        dateTime: '2024-07-17T13:23:49.173413'
+        dateTime: '2024-07-17T12:40:31.024289'
         dateTime_accuracy:
-            2: moderately accurate
+            1: Very Confident
         summary: null
         types:
-            -   moi_id: a4a9c285-674f-4079-acb7-9b13da5fade8
-                label: Barotrauma
-                description: Injuries caused by changes in air pressure, often from
-                    explosions
-            -   moi_id: d4884821-1368-4e62-bb3f-84f5f6991059
+            -   moi_id: 32c26387-87b9-4441-aca2-996d82ab2393
+                label: Shrapnel
+                description: Injuries from fragments of explosive devices or debris
+            -   moi_id: eaccbb16-d92e-4a1f-8866-31d23aec93e3
                 label: Blast
                 description: Injuries caused by explosions, including IEDs
                 abbreviation: BI
-            -   moi_id: 842320a3-251c-4b73-905f-10516f3cbe5b
-                label: Traumatic Amputation
-                description: Loss of limb due to explosive or severe mechanical force
+            -   moi_id: beff1620-feaf-4946-9888-3999ce529d0f
+                label: Penetrating Trauma
+                description: Injuries involving object penetration into the body
+                abbreviation: PT
     evacuation_category:
-        litter: L
+        ambulatory: A
     triage: null
     forecasts:
         interventions:
-            -   timestamp: '2024-07-17T13:51:15.220299'
-                lsi_id: 31d268c1-3a8f-4c1f-b3bf-ef1e39cec316
-                lsi_name: Hemostatic Dressing Application
-                description: Application of special dressings to rapidly clot severe
-                    bleeding
+            -   timestamp: '2024-07-17T16:36:38.069521'
+                lsi_id: b2c0f00c-38eb-4720-9a8a-2ec54eeb56c7
+                lsi_name: Airway Management
+                description: Techniques to ensure an open airway for breathing
+                use_cases: Compromised airway due to injury or unconsciousness
+                category: Airway Management
+                indicators:
+                    -   must_have:
+                            - difficulty breathing
+                    -   likely:
+                            - unconsciousness
+                equipment:
+                    -   required:
+                            -   item: Breathing tubes
+                            -   item: Airway adjuncts
+                skill_level:
+                    -   label: Intermediate
+                    -   label: Advanced
+            -   timestamp: '2024-07-17T16:38:38.069521'
+                lsi_id: b905c377-9d1c-4e71-87af-7ecafbadf220
+                lsi_name: Bag-Valve-Mask Ventilation
+                description: A hand-held device used to provide positive pressure
+                    ventilation
                 use_cases:
-                    - Severe bleeding from wounds not amenable to tourniquet use
-                category: Hemorrhage Control
+                    - Respiratory failure or arrest
+                category: Airway Management
+                indicators:
+                    -   either_or:
+                            - Inadequate breathing
+                            - Inability to breathe
+                            - Absent breathing
+                equipment:
+                    -   required:
+                            -   item: bag-valve-mask device
+                    -   optional:
+                            -   item: oxygen source (if available)
+                skill_level:
+                    - Intermediate
+            -   timestamp: '2024-07-17T17:34:38.069521'
+                lsi_id: d48adb8f-6b7f-41db-8fb9-fb9b51ab6ab4
+                lsi_name: Epinephrine Administration
+                description: Injection of epinephrine to treat severe allergic reactions
+                use_cases:
+                    - Anaphylaxis
+                category: Emergency Medication
                 phases_of_care:
                     - Point of Injury
                 indicators:
                     -   must_have:
-                            - Uncontrolled bleeding from areas where tourniquets can't
-                                be applied
+                            - difficulty breathing
+                            - swelling
+                            - hives
+                            - low blood pressure
+                    -   likely: null
+                    -   must_not_have: null
                 equipment:
                     -   either_or:
-                            -   - HemCon (chitosan-based)
-                                - QuikClot (zeolite-based)
+                            -   item: Epinephrine auto-injector
+                            -   item: Epinephrine vial with syringe
+                skill_level:
+                    -   label: Basic
+                        qualifiers:
+                            - If Epinephrine auto-injector
+                    -   label: Advanced
+                        qualifiers:
+                            - If Epinephrine vial with syringe
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
+    patient_record:
+        insults: []
+        vitals:
+            -   timestamp: '2024-07-17T16:36:38.074120'
+                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+                abbreviation: SBP
+                value: 111
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:36:38.074120'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 73
+                unit: C
+            -   timestamp: '2024-07-17T16:38:38.074120'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 65
+                unit: C
+            -   timestamp: '2024-07-17T16:50:38.074120'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 73
+                unit: C
+            -   timestamp: '2024-07-17T16:55:38.074120'
+                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+                abbreviation: RR
+                value: 61
+                unit: rpm
+        observations:
+            -   timestamp: '2024-07-17T16:36:38.074120'
+                observation_id: 4fb882a7-c5e7-4be4-87fb-8088e0bd3b4d
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 12
+                    is_estimated:
+                        3: true
+            -   timestamp: '2024-07-17T17:33:38.074120'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 10
+                    is_estimated:
+                        1: false
+        interventions: null
+        medications: null
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    mechanism_of_injury:
+        dateTime: '2024-07-17T13:59:39.087177'
+        dateTime_accuracy:
+            1: Very Confident
+        summary: null
+        types:
+            -   moi_id: d80250b2-b7fc-43e8-be74-f36acd468581
+                label: Chemical Exposure
+                description: Injuries from exposure to harmful chemicals or agents
+            -   moi_id: {}
+                label: Chemical Exposure
+                description: Injuries from exposure to harmful chemicals or agents
+    evacuation_category:
+        litter: L
+    triage: null
+    forecasts:
+        interventions: []
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
+    patient_record:
+        insults:
+            -   timestamp: '2024-07-17T16:36:38.126875'
+                insult_id: 862766b5-5f70-468e-b61d-61ce61f5e934
+                label: External Hemorrhage - Extremity
+                category: Hemorrhage
+                location: Leg
+                sublocation: Upper
+                lateral_position: Right
+                coronal_position: Posterior
+            -   timestamp: '2024-07-17T16:46:38.126875'
+                insult_id: 0c0cdd41-4937-4620-998c-99bf441c347d
+                label: External Hemorrhage - Head
+                category: Hemorrhage
+                location: Head
+                sublocation: ''
+                lateral_position: Left
+                coronal_position: NA
+            -   timestamp: '2024-07-17T16:58:38.126875'
+                insult_id: {}
+                label: External Hemorrhage - Extremity
+                category: Hemorrhage
+                location: Leg
+                sublocation: Upper
+                lateral_position: Left
+                coronal_position: Anterior
+        vitals:
+            -   timestamp: '2024-07-17T16:36:38.136245'
+                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
+                abbreviation: ETCO2
+                value: 61
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:39:38.136245'
+                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+                abbreviation: HR
+                value: 62
+                unit: bpm
+            -   timestamp: '2024-07-17T16:39:38.136245'
+                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+                abbreviation: SBP
+                value: 117
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:54:38.136245'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 73
+                unit: C
+            -   timestamp: '2024-07-17T17:08:38.136245'
+                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
+                abbreviation: ETCO2
+                value: 77
+                unit: mmHg
+            -   timestamp: '2024-07-17T17:20:38.136245'
+                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+                abbreviation: RR
+                value: 63
+                unit: rpm
+            -   timestamp: '2024-07-17T17:30:38.136245'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: Spo2
+                value: 74
+                unit: '%'
+        observations:
+            -   timestamp: '2024-07-17T16:36:38.140748'
+                observation_id: 71cf53f6-9087-4abf-91a3-cf246a7453f2
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 10
+                    is_estimated:
+                        1: false
+        interventions: null
+        medications: null
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    mechanism_of_injury:
+        dateTime: '2024-07-17T10:34:57.140748'
+        dateTime_accuracy:
+            1: Very Confident
+        summary: null
+        types:
+            -   moi_id: 26786272-1867-423a-8938-68fb78fa122e
+                label: Fall
+                description: Injuries from falling from heights or during combat
+            -   moi_id: 49b913d5-203b-4be5-9e6d-9bd28a008643
+                label: Barotrauma
+                description: Injuries caused by changes in air pressure, often from
+                    explosions
+    evacuation_category:
+        litter: L
+    triage: null
+    forecasts:
+        interventions:
+            -   timestamp: '2024-07-17T16:36:38.187292'
+                lsi_id: 05aaf44c-1716-4745-add0-cca2a8b08a2d
+                lsi_name: Needle Decompression
+                description: Insertion of a needle into the chest to relieve tension
+                    pneumothorax
+                use_cases:
+                    - Tension pneumothorax from chest injuries
+                category: Airway Management
+                indicators:
+                    -   must_have:
+                            - difficulty breathing
+                            - chest pain
+                            - decreased breath sounds
+                equipment:
+                    -   required:
+                            -   item: Large-bore needle
+                skill_level:
+                    -   label: Advanced
+                        qualifiers: combat medics/corpsmen
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
+    patient_record:
+        insults:
+            -   timestamp: '2024-07-17T16:36:38.190655'
+                insult_id: a7ae1edf-463e-4fd1-b92c-84c5d83b105c
+                label: External Hemorrhage - Extremity
+                category: Hemorrhage
+                location: Leg
+                sublocation: Upper
+                lateral_position: Right
+                coronal_position: Anterior
+        vitals:
+            -   timestamp: '2024-07-17T16:36:38.190655'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 72
+                unit: C
+            -   timestamp: '2024-07-17T16:36:38.190655'
+                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+                abbreviation: HR
+                value: 72
+                unit: bpm
+        observations:
+            -   timestamp: '2024-07-17T16:36:38.190655'
+                observation_id: ee3732a4-852e-49ef-87c0-0415ef2fb348
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 11
+                    is_estimated:
+                        1: false
+            -   timestamp: '2024-07-17T17:30:38.190655'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 5
+                    is_estimated: &id004
+                        3: true
+            -   timestamp: '2024-07-17T18:15:38.190655'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 3
+                    is_estimated: *id004
+            -   timestamp: '2024-07-17T18:33:38.190655'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 15
+                    is_estimated: *id004
+        interventions: null
+        medications: null
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    mechanism_of_injury:
+        dateTime: '2024-07-17T14:18:45.205148'
+        dateTime_accuracy:
+            3: Best Guess
+        summary: null
+        types:
+            -   moi_id: eac3c1be-1caa-4193-9dde-e4af6d4fbf66
+                label: Gunshot Wound
+                description: Injuries from bullets or other projectiles
+                abbreviation: GSW
+            -   moi_id: 6564bbdc-8e8f-4d2d-b945-6e8caf86a701
+                label: Acoustic Trauma
+                description: Injuries to hearing from loud noises, often from explosions
+    evacuation_category:
+        litter: L
+    triage: null
+    forecasts:
+        interventions: []
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
+    patient_record:
+        insults: []
+        vitals:
+            -   timestamp: '2024-07-17T16:36:38.254011'
+                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+                abbreviation: RR
+                value: 75
+                unit: rpm
+            -   timestamp: '2024-07-17T16:36:38.254011'
+                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+                abbreviation: HR
+                value: 97
+                unit: bpm
+            -   timestamp: '2024-07-17T16:43:38.254011'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: UO/hr
+                value: 70
+                unit: ml/hr
+            -   timestamp: '2024-07-17T16:46:38.254011'
+                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+                abbreviation: MAP
+                value: 70
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:55:38.254011'
+                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+                abbreviation: MAP
+                value: 65
+                unit: mmHg
+            -   timestamp: '2024-07-17T17:05:38.254011'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: Spo2
+                value: 72
+                unit: '%'
+            -   timestamp: '2024-07-17T17:15:38.254011'
+                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+                abbreviation: DBP
+                value: 73
+                unit: mmHg
+            -   timestamp: '2024-07-17T17:22:38.254011'
+                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+                abbreviation: HR
+                value: 62
+                unit: bpm
+            -   timestamp: '2024-07-17T17:31:38.254011'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: UO/hr
+                value: 73
+                unit: ml/hr
+        observations: []
+        interventions: null
+        medications: null
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    mechanism_of_injury:
+        dateTime: '2024-07-17T13:50:09.257588'
+        dateTime_accuracy:
+            3: Best Guess
+        summary: null
+        types:
+            -   moi_id: 54ccb6f1-75c6-437b-b89d-78b05e1edbbb
+                label: Blunt Trauma
+                description: Injuries from impacts without penetration
+                abbreviation: BT
+            -   moi_id: 98551382-a5a1-445f-8354-5bbc07cac3fb
+                label: Landmine Injury
+                description: Specific injuries caused by landmine explosions
+    evacuation_category:
+        litter: L
+    triage: null
+    forecasts:
+        interventions:
+            -   timestamp: '2024-07-17T16:36:38.305238'
+                lsi_id: 7a3b417c-af8d-41da-a214-47e5fd0d54ee
+                lsi_name: Needle Decompression
+                description: Insertion of a needle into the chest cavity to relieve
+                    tension pneumothorax
+                use_cases:
+                    - Tension Pneumothorax
+                category: Airway Management
+                indicators:
+                    -   must_have:
+                            - Respiratory distress
+                            - decreased breath sounds
+                            - tracheal deviation
+                    -   likely:
+                            - chest pain
+                    -   must_not_have: null
+                equipment:
+                    -   required:
+                            -   item: large-bore needle
+                    -   optional:
+                            -   item: sterile drapes
+                            -   item:
+                                    - sterile alcohol solution
+                                    - sterile alcohol swabs
+                skill_level:
+                    -   label: Advanced
+                        qualifiers: null
+            -   timestamp: '2024-07-17T16:57:38.305238'
+                lsi_id: a1b8215c-3985-4d9d-9e88-f0d811dc94c6
+                lsi_name: Fasciotomy
+                description: Surgical procedure to relieve pressure within a muscle
+                    compartment
+                use_cases:
+                    - Compartment syndrome, often following severe limb trauma or
+                        prolonged tourniquet use
+                category: Emergency Surgery
+                phases_of_care:
+                    - prolonged casualty care
+                    - definitive care
+                indicators:
+                    -   must_have:
+                            - severe pain
+                            - tense swelling
+                            - paresthesia
+                            - pallor
+                            - pulselessness in affected limb
+                equipment:
+                    -   required:
+                            -   item: Surgical kit
+                            -   item: scalpel
+                            -   item: retractors
+                            -   item: sterile dressings
+                skill_level:
+                    -   label: Expert
+                        qualifiers:
+                            - typically performed by surgeons at higher echelons of
+                                care
+            -   timestamp: '2024-07-17T18:33:38.305238'
+                lsi_id: 0cde8b1d-fa8f-445d-88c1-7788eeb788de
+                lsi_name: Fracture Splinting
+                description: Immobilization of broken bones to prevent further injury
+                use_cases:
+                    - Suspected fractures
+                category: Trauma Care
+                phases_of_care:
+                    - Point of Injury
+                    - Prolonged Casualty Care
+                    - Medevac
+                indicators:
+                    -   likely:
+                            - Pain
+                            - deformity
+                            - loss of function in affected area
+                equipment:
+                    -   required:
+                            -   item: Splinting materials
                 skill_level:
                     -   label: Basic
                     -   label: Intermediate
-            -   timestamp: '2024-07-17T14:22:15.220299'
-                lsi_id: 9c825a00-da65-4dc9-841e-a910701304ab
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
+    patient_record:
+        insults:
+            -   timestamp: '2024-07-17T16:36:38.310238'
+                insult_id: d0710239-0f71-4555-84b0-597528d4c148
+                label: External Hemorrhage - Pelvis
+                category: Hemorrhage
+                location: Pelvis
+                sublocation: Buttocks
+                lateral_position: Right
+                coronal_position: NA
+            -   timestamp: '2024-07-17T16:51:38.310238'
+                insult_id: 24d41f43-8cf4-499c-a385-c6522e35310b
+                label: External Hemorrhage - Extremity
+                category: Hemorrhage
+                location: Leg
+                sublocation: Lower
+                lateral_position: Right
+                coronal_position: Posterior
+            -   timestamp: '2024-07-17T17:05:38.310238'
+                insult_id: 286fceab-0237-4a50-b1df-63e8f9fa5e38
+                label: External Hemorrhage - Trunk
+                category: Hemorrhage
+                location: Back
+                sublocation: Lower
+                lateral_position: Right
+        vitals:
+            -   timestamp: '2024-07-17T16:36:38.313239'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: Spo2
+                value: 70
+                unit: '%'
+            -   timestamp: '2024-07-17T16:38:38.313239'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 72
+                unit: C
+            -   timestamp: '2024-07-17T16:40:38.313239'
+                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+                abbreviation: MAP
+                value: 78
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:42:38.313239'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: Spo2
+                value: 77
+                unit: '%'
+            -   timestamp: '2024-07-17T16:49:38.313239'
+                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
+                abbreviation: ETCO2
+                value: 61
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:51:38.313239'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: Spo2
+                value: 65
+                unit: '%'
+            -   timestamp: '2024-07-17T17:03:38.313239'
+                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+                abbreviation: DBP
+                value: 74
+                unit: mmHg
+            -   timestamp: '2024-07-17T17:11:38.313239'
+                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+                abbreviation: HR
+                value: 86
+                unit: bpm
+            -   timestamp: '2024-07-17T17:22:38.313239'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: Spo2
+                value: 72
+                unit: '%'
+            -   timestamp: '2024-07-17T17:31:38.313239'
+                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+                abbreviation: MAP
+                value: 62
+                unit: mmHg
+        observations:
+            -   timestamp: '2024-07-17T16:36:38.318237'
+                observation_id: 036fe957-165a-4ff7-9067-abf1777e51de
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 5
+                    is_estimated:
+                        3: true
+        interventions: null
+        medications: null
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    mechanism_of_injury:
+        dateTime: '2024-07-17T10:27:10.323280'
+        dateTime_accuracy:
+            2: Somewhat Confident
+        summary: null
+        types:
+            -   moi_id: 067b8b08-5a75-4a0c-8720-55c0dd80b026
+                label: Gunshot Wound
+                description: Injuries from bullets or other projectiles
+                abbreviation: GSW
+            -   moi_id: eb9109da-2ce2-4c05-819e-c918ef541177
+                label: Blast
+                description: Injuries caused by explosions, including IEDs
+                abbreviation: BI
+    evacuation_category:
+        ambulatory: A
+    triage: null
+    forecasts:
+        interventions:
+            -   timestamp: '2024-07-17T16:36:38.359544'
+                lsi_id: 130ec9e2-dbb5-42c4-878d-78f07ce4c1ae
+                lsi_name: Fluid Resuscitation
+                description: Administration of intravenous fluids to restore blood
+                    volume and maintain organ perfusion
+                use_cases:
+                    - Hypovolemic shock
+                    - severe dehydration
+                    - significant blood loss
+                category: Shock Management
+                phases_of_care:
+                    - Medevac
+                    - Prolonged Casualty Care
+                    - Definitive Care
+                indicators:
+                    -   must_have:
+                            - Hypotension
+                            - tachycardia
+                    -   likely:
+                            - altered mental status
+                            - poor skin turgor
+                equipment:
+                    -   required:
+                            -   item: IV catheters
+                            -   item: fluids (crystalloids, colloids)
+                            -   item: fluid warmers
+                skill_level:
+                    - Intermediate
+                    - Advanced
+            -   timestamp: '2024-07-17T18:09:38.359544'
+                lsi_id: c74ccdcb-a249-431d-953b-d1e6b3836ada
                 lsi_name: Intravenous Fluid Administration
                 description: Providing fluids intravenously to treat shock and blood
                     loss
@@ -473,679 +1092,167 @@
                 skill_level:
                     -   label: Intermediate
                         qualifiers: combat medics/corpsmen
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
     patient_record:
         insults:
-            -   timestamp: '2024-07-17T13:51:15.220299'
-                insult_id: 3a96887b-1551-4ce2-9995-10b727188b99
-                label: External Hemorrhage - Extremity
+            -   timestamp: '2024-07-17T16:36:38.359544'
+                insult_id: 2ef05944-8776-4f14-93b9-34ed21adceb2
+                label: External Hemorrhage - Trunk
                 category: Hemorrhage
-                location: Arm
+                location: Back
                 sublocation: Lower
                 lateral_position: Left
-                coronal_position: Posterior
-            -   timestamp: '2024-07-17T14:06:15.220299'
-                insult_id: 342a4c55-ddd0-4ebe-adfa-97cf6dac4ee7
-                label: External Hemorrhage - Pelvis
-                category: Hemorrhage
-                location: Pelvis
-                sublocation: Buttocks
-                lateral_position: Left
-                coronal_position: NA
         vitals:
-            -   timestamp: '2024-07-17T13:51:15.220299'
+            -   timestamp: '2024-07-17T16:36:38.371784'
                 vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
                 abbreviation: Temp
-                value: 78
+                value: 77
                 unit: C
-            -   timestamp: '2024-07-17T14:03:15.220299'
+            -   timestamp: '2024-07-17T16:46:38.371784'
+                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+                abbreviation: Temp
+                value: 75
+                unit: C
+            -   timestamp: '2024-07-17T17:01:38.371784'
                 vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
                 abbreviation: MAP
-                value: 69
+                value: 66
                 unit: mmHg
-            -   timestamp: '2024-07-17T14:05:15.220299'
-                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
-                abbreviation: SBP
-                value: 113
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:19:15.220299'
-                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
-                abbreviation: SBP
-                value: 117
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:33:15.220299'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 73
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:44:15.220299'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 72
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:50:15.220299'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: UO/hr
-                value: 63
-                unit: ml/hr
-            -   timestamp: '2024-07-17T14:54:15.220299'
+            -   timestamp: '2024-07-17T17:16:38.371784'
                 vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
                 abbreviation: HR
-                value: 92
+                value: 99
                 unit: bpm
+            -   timestamp: '2024-07-17T17:17:38.371784'
+                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
+                abbreviation: ETCO2
+                value: 79
+                unit: mmHg
         observations:
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 1
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 1
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 1
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 6
-                eye: null
-                verbal: null
-                motor: null
+            -   timestamp: '2024-07-17T16:36:38.374463'
+                observation_id: 8ee2b521-1d16-4a35-a8ac-3d64481e8873
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 14
+                    is_estimated: &id005
+                        3: true
+            -   timestamp: '2024-07-17T17:18:38.374463'
+                observation_id: {}
+                category: Neurological Assessment
+                label: Glasgow Coma Scale
+                abbreviation: GCS
+                results:
+                    total_score: 11
+                    is_estimated: *id005
         interventions: null
         medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
     mechanism_of_injury:
-        dateTime: '2024-07-17T08:54:26.235918'
+        dateTime: '2024-07-17T09:48:02.374463'
         dateTime_accuracy:
-            2: moderately accurate
+            3: Best Guess
         summary: null
         types:
-            -   moi_id: 89dcc20d-8047-4b85-8ae2-d5f19a6f6018
-                label: Crush
-                description: Injuries from compression or collapse of structures
+            -   moi_id: 82b12aa8-e3cd-4115-8c62-da1451baf984
+                label: Fall
+                description: Injuries from falling from heights or during combat
+            -   moi_id: 93bde8e7-6122-441b-8a64-975842d6835e
+                label: Shrapnel
+                description: Injuries from fragments of explosive devices or debris
+            -   moi_id: 237e720e-1217-40df-af00-cda5f7334832
+                label: Landmine Injury
+                description: Specific injuries caused by landmine explosions
     evacuation_category:
-        ambulatory: A
+        litter: L
     triage: null
     forecasts:
         interventions:
-            -   timestamp: '2024-07-17T13:51:15.267162'
-                lsi_id: 905cf44b-dda2-4938-9345-1be3e011a812
-                lsi_name: Chemical Burn Treatment
-                description: Immediate care for burn injuries
+            -   timestamp: '2024-07-17T16:36:38.425089'
+                lsi_id: 175da14a-8c21-4799-92ca-0d4d376c04cb
+                lsi_name: Fasciotomy
+                description: Surgical procedure to relieve pressure within a muscle
+                    compartment
                 use_cases:
-                    - Chemical burns
-                category: Trauma Care
-                indicators:
-                    - visible burn injuries
-                    - pain
-                equipment:
-                    -   required:
-                            -   item: Burn dressings
-                            -   item: sterile water
-                skill_level:
-                    -   label: Basic
-                    -   label: Intermediate
-            -   timestamp: '2024-07-17T14:53:15.267162'
-                lsi_id: 0418410a-0b9e-4392-a70f-ba18f7084414
-                lsi_name: Junctional Hemorrhage Control
-                description: Use of specialized devices to control bleeding in junctional
-                    areas
-                use_cases:
-                    - Severe bleeding in areas where tourniquets can't be applied
-                category: Hemorrhage Control
+                    - Compartment syndrome, often following severe limb trauma or
+                        prolonged tourniquet use
+                category: Emergency Surgery
                 phases_of_care:
-                    - Point of Injury
+                    - prolonged casualty care
+                    - definitive care
                 indicators:
                     -   must_have:
-                            - Uncontrolled bleeding from junctional areas (groin,
-                                axilla)
+                            - severe pain
+                            - tense swelling
+                            - paresthesia
+                            - pallor
+                            - pulselessness in affected limb
                 equipment:
-                    -   either_or:
-                            - Combat Ready Clamp (CRoC)
-                            - Junctional Emergency Treatment Tool (JETT)
-                            - or SAM Junctional Tourniquet
+                    -   required:
+                            -   item: Surgical kit
+                            -   item: scalpel
+                            -   item: retractors
+                            -   item: sterile dressings
                 skill_level:
-                    -   label: Intermediate
-                    -   label: Advanced
+                    -   label: Expert
+                        qualifiers:
+                            - typically performed by surgeons at higher echelons of
+                                care
+        resources_needed: null
+    resources:
+        current_inventory: null
+        used: null
     patient_record:
         insults:
-            -   timestamp: '2024-07-17T13:51:15.282787'
-                insult_id: 7bb59a98-cfb7-435c-8073-e325b4002c43
+            -   timestamp: '2024-07-17T16:36:38.425089'
+                insult_id: 443d5cc2-50e1-4f71-8207-1eb1298e90ff
                 label: External Hemorrhage - Head
                 category: Hemorrhage
                 location: Head
                 sublocation: ''
-                lateral_position: Left
+                lateral_position: Center
                 coronal_position: NA
-            -   timestamp: '2024-07-17T14:04:15.282787'
-                insult_id: ebefb262-63d5-47ec-9666-1606485b0933
-                label: External Hemorrhage - Pelvis
-                category: Hemorrhage
-                location: Pelvis
-                sublocation: Groin
-                lateral_position: Left
-                coronal_position: NA
-        vitals:
-            -   timestamp: '2024-07-17T13:51:15.282787'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 94
-                unit: bpm
-            -   timestamp: '2024-07-17T13:57:15.282787'
-                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
-                abbreviation: ETCO2
-                value: 69
-                unit: mmHg
-            -   timestamp: '2024-07-17T13:57:15.282787'
-                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
-                abbreviation: ETCO2
-                value: 69
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:06:15.282787'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 70
-                unit: '%'
-            -   timestamp: '2024-07-17T14:15:15.282787'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 87
-                unit: bpm
-            -   timestamp: '2024-07-17T14:20:15.282787'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 80
-                unit: bpm
-            -   timestamp: '2024-07-17T14:32:15.282787'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 67
-                unit: '%'
-            -   timestamp: '2024-07-17T14:42:15.282787'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 71
-                unit: rpm
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 1
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 2
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 0
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 7
-        interventions: null
-        medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    mechanism_of_injury:
-        dateTime: '2024-07-17T11:33:43.282787'
-        dateTime_accuracy:
-            1: accurate
-        summary: null
-        types:
-            -   moi_id: 704ce6c9-6bf0-4ac9-8f4b-09ad49994d93
-                label: Blast
-                description: Injuries caused by explosions, including IEDs
-                abbreviation: BI
-            -   moi_id: b0bfb9a2-1908-459a-a6e7-8b3566dd306a
-                label: Blunt Trauma
-                description: Injuries from impacts without penetration
-                abbreviation: BT
-    evacuation_category:
-        litter: L
-    triage: null
-    forecasts:
-        interventions:
-            -   timestamp: '2024-07-17T13:51:15.329665'
-                lsi_id: d5c0bbeb-0c74-424c-8ef2-33fe3567eedb
-                lsi_name: Antibiotic Administration
-                description: Providing antibiotics to prevent infection in combat
-                    wounds
-                use_cases:
-                    - Any penetrating injury
-                category: Infection Prevention
-                phases_of_care:
-                    - Prolonged Casualty Care
-                    - Medevac
-                    - Definitive Care
-                indicators:
-                    -   likely:
-                            - Open wounds
-                            - Penetrating injuries
-                equipment:
-                    -   either_or:
-                            - Ertapenem
-                            - Cefotetan
-                            - Moxifloxacin
-                skill_level:
-                    -   label: Intermediate
-                    -   label: Advanced
-            -   timestamp: '2024-07-17T14:45:15.329665'
-                lsi_id: 774040e3-2ece-48cf-b005-5505d9e6174f
-                lsi_name: Pericardiocentesis
-                description: Aspiration of fluid from the pericardial space
-                use_cases:
-                    - Cardiac tamponade
-                category: Emergency Procedure
-                phases_of_care:
-                    - Definitive Care
-                indicators:
-                    -   must_have:
-                            - Hypotension
-                            - muffled heart sounds
-                    -   likely:
-                            - distended neck veins
-                equipment:
-                    -   required:
-                            -   item: Large-bore needle
-                            -   item: syringe
-                    -   optional:
-                            - ultrasound (if available)
-                skill_level:
-                    -   label: Expert
-                        qualifiers: null
-    patient_record:
-        insults:
-            -   timestamp: '2024-07-17T13:51:15.329665'
-                insult_id: 9855f195-6001-4ffb-ae3a-6c0f4fdba2d1
+            -   timestamp: '2024-07-17T16:47:38.425089'
+                insult_id: a56a49f4-5d95-4221-bf7a-00d50d9b4489
                 label: External Hemorrhage - Pelvis
                 category: Hemorrhage
                 location: Pelvis
                 sublocation: Buttocks
                 lateral_position: Right
                 coronal_position: NA
-        vitals:
-            -   timestamp: '2024-07-17T13:51:15.329665'
-                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
-                abbreviation: MAP
-                value: 79
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:00:15.329665'
-                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
-                abbreviation: ETCO2
-                value: 63
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:02:15.329665'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: UO/hr
-                value: 73
-                unit: ml/hr
-            -   timestamp: '2024-07-17T14:10:15.329665'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 67
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:12:15.329665'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 79
-                unit: rpm
-            -   timestamp: '2024-07-17T14:18:15.329665'
-                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
-                abbreviation: Temp
-                value: 69
-                unit: C
-            -   timestamp: '2024-07-17T14:28:15.329665'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 61
-                unit: mmHg
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 8
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 8
-                eye: null
-                verbal: null
-                motor: null
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 3
-                eye: null
-                verbal: null
-                motor: null
-        interventions: null
-        medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    mechanism_of_injury:
-        dateTime: '2024-07-17T11:22:07.345287'
-        dateTime_accuracy:
-            2: moderately accurate
-        summary: null
-        types:
-            -   moi_id: e282e15d-1111-47f7-a934-d42f7c74dc51
-                label: Penetrating Trauma
-                description: Injuries involving object penetration into the body
-                abbreviation: PT
-            -   moi_id: 6aba84cb-4e33-463e-ba52-a3b7ed48f1c1
-                label: Blast
-                description: Injuries caused by explosions, including IEDs
-                abbreviation: BI
-            -   moi_id: {}
-                label: Penetrating Trauma
-                description: Injuries involving object penetration into the body
-                abbreviation: PT
-    evacuation_category:
-        ambulatory: A
-    triage: null
-    forecasts:
-        interventions: []
-    patient_record:
-        insults:
-            -   timestamp: '2024-07-17T13:51:15.397790'
-                insult_id: 7171be2c-c466-4761-9e19-450d34154d56
-                label: External Hemorrhage - Trunk
-                category: Hemorrhage
-                location: Chest
-                sublocation: Lower
-                lateral_position: Right
-        vitals:
-            -   timestamp: '2024-07-17T13:51:15.400897'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 84
-                unit: bpm
-            -   timestamp: '2024-07-17T13:52:15.400897'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 66
-                unit: bpm
-            -   timestamp: '2024-07-17T13:56:15.400897'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 66
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:00:15.400897'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 76
-                unit: '%'
-            -   timestamp: '2024-07-17T14:08:15.400897'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 76
-                unit: rpm
-            -   timestamp: '2024-07-17T14:20:15.400897'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 91
-                unit: bpm
-            -   timestamp: '2024-07-17T14:32:15.400897'
-                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
-                abbreviation: ETCO2
-                value: 71
-                unit: mmHg
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 5
-                eye: null
-                verbal: null
-                motor: null
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 1
-            -   timestamp: null
-                type: Observation
-                label: GCS Evaluation
-                GCS_score: 9
-                eye: null
-                verbal: null
-                motor: null
-        interventions: null
-        medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    mechanism_of_injury:
-        dateTime: '2024-07-17T09:02:50.408722'
-        dateTime_accuracy:
-            3: estimated
-        summary: null
-        types:
-            -   moi_id: a3a687a9-da7b-4239-b8a1-1f6a0c9ef5d5
-                label: Blast
-                description: Injuries caused by explosions, including IEDs
-                abbreviation: BI
-    evacuation_category:
-        litter: L
-    triage: null
-    forecasts:
-        interventions:
-            -   timestamp: '2024-07-17T13:51:15.451341'
-                lsi_name: Needle Decompression
-                description: Insertion of a needle into the chest to relieve tension
-                    pneumothorax
-                use_cases:
-                    - Tension pneumothorax from chest injuries
-                category: Airway Management
-                indicators:
-                    -   must_have:
-                            - difficulty breathing
-                            - chest pain
-                            - decreased breath sounds
-                equipment:
-                    -   required:
-                            -   item: Large-bore needle
-                skill_level:
-                    -   label: Advanced
-                        qualifiers: combat medics/corpsmen
-            -   timestamp: '2024-07-17T14:15:15.451341'
-                lsi_id: 87ffaf10-0e23-4150-a965-c9528a3792d1
-                lsi_name: Intraosseous Access
-                description: Insertion of a needle into bone marrow to provide vascular
-                    access
-                use_cases:
-                    - Emergency vascular access when intravenous access is not possible
-                category: Vascular Access
-                phases_of_care:
-                    - Prolonged Casualty Care
-                    - Medevac
-                    - Definitive Care
-                indicators:
-                    -   must_have:
-                            - Critically ill or injured patient with difficult IV
-                                access
-                equipment:
-                    -   required:
-                            -   item:
-                                    - Intraosseous needle
-                                    - Intraosseous drill
-                            -   itme: antiseptic solution
-                skill_level:
-                    -   label: Advanced
-                        qualifiers: null
-    patient_record:
-        insults: []
-        vitals:
-            -   timestamp: '2024-07-17T13:51:15.456662'
-                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
-                abbreviation: ETCO2
-                value: 64
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:01:15.456662'
-                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
-                abbreviation: MAP
-                value: 70
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:03:15.456662'
-                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
-                abbreviation: ETCO2
-                value: 63
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:10:15.456662'
-                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
-                abbreviation: MAP
-                value: 69
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:12:15.456662'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 63
-                unit: '%'
-            -   timestamp: '2024-07-17T14:24:15.456662'
-                vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
-                abbreviation: HR
-                value: 91
-                unit: bpm
-            -   timestamp: '2024-07-17T14:35:15.456662'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 80
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:39:15.456662'
-                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
-                abbreviation: SBP
-                value: 117
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:47:15.456662'
-                vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
-                abbreviation: SBP
-                value: 118
-                unit: mmHg
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 7
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 0
-        interventions: null
-        medications: null
-    resources:
-        current: null
-        used: null
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    mechanism_of_injury:
-        dateTime: '2024-07-17T10:04:51.456662'
-        dateTime_accuracy:
-            3: estimated
-        summary: null
-        types:
-            -   moi_id: 996f00a5-884a-4a1d-845f-5cb41004b849
-                label: Fall
-                description: Injuries from falling from heights or during combat
-            -   moi_id: 132fac9c-939d-4490-b689-f03b4f058a37
-                label: Gunshot Wound
-                description: Injuries from bullets or other projectiles
-                abbreviation: GSW
-    evacuation_category:
-        litter: L
-    triage: null
-    forecasts:
-        interventions:
-            -   timestamp: '2024-07-17T13:51:15.501372'
-                lsi_id: e38904ee-a4fd-4d0b-a6ad-caa4cb7e8273
-    patient_record:
-        insults:
-            -   timestamp: '2024-07-17T13:51:15.501372'
-                insult_id: 354242b9-2842-49f7-80fe-c5fb3a1cd083
-                label: External Hemorrhage - Trunk
-                category: Hemorrhage
-                location: Chest
-                sublocation: Lower
-                lateral_position: Left
-            -   timestamp: '2024-07-17T14:02:15.501372'
-                insult_id: 68104cf5-0e55-492a-9032-1e80027d6452
+            -   timestamp: '2024-07-17T17:00:38.425089'
+                insult_id: 45085c6f-3609-4216-9a7f-2890d8cc8d57
                 label: External Hemorrhage - Extremity
                 category: Hemorrhage
-                location: Arm
-                sublocation: Upper
+                location: Leg
+                sublocation: Lower
                 lateral_position: Right
                 coronal_position: Posterior
-            -   timestamp: '2024-07-17T14:12:15.501372'
-                insult_id: 96a8e32f-6904-40ab-beaa-1e243b8fb477
-                label: External Hemorrhage - Pelvis
-                category: Hemorrhage
-                location: Pelvis
-                sublocation: Buttocks
-                lateral_position: Left
-                coronal_position: NA
         vitals:
-            -   timestamp: '2024-07-17T13:51:15.501372'
+            -   timestamp: '2024-07-17T16:36:38.425089'
+                vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6
+                abbreviation: ETCO2
+                value: 69
+                unit: mmHg
+            -   timestamp: '2024-07-17T16:40:38.425089'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: UO/hr
+                value: 63
+                unit: ml/hr
+            -   timestamp: '2024-07-17T16:48:38.425089'
+                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+                abbreviation: UO/hr
+                value: 78
+                unit: ml/hr
+            -   timestamp: '2024-07-17T17:00:38.425089'
                 vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
                 abbreviation: UO/hr
                 value: 76
                 unit: ml/hr
-            -   timestamp: '2024-07-17T14:04:15.501372'
-                vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
-                abbreviation: DBP
-                value: 74
-                unit: mmHg
-            -   timestamp: '2024-07-17T14:16:15.501372'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 76
-                unit: '%'
-            -   timestamp: '2024-07-17T14:31:15.501372'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 76
-                unit: '%'
-            -   timestamp: '2024-07-17T14:43:15.501372'
-                vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
-                abbreviation: Spo2
-                value: 77
-                unit: '%'
-            -   timestamp: '2024-07-17T14:50:15.501372'
-                vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
-                abbreviation: MAP
-                value: 77
-                unit: mmHg
-            -   timestamp: '2024-07-17T15:01:15.501372'
-                vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
-                abbreviation: RR
-                value: 60
-                unit: rpm
-            -   timestamp: '2024-07-17T15:06:15.501372'
-                vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
-                abbreviation: Temp
-                value: 66
-                unit: C
-        observations:
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 10
-            -   timestamp: null
-                type: Observation
-                label: Shock Index
-                shock_index: 1
-            -   timestamp: null
-                type: Observation
-                label: Pain Index
-                pain_index: 5
+        observations: []
         interventions: null
         medications: null
-    resources:
-        current: null
-        used: null

@@ -4,26 +4,63 @@
     _generate_uuid: "mission_id"
   
   ## ISOP Details
-  isop_ids: # <list> required: true Q: "Which ISOP(s) is this incident report for?""
+  isop_ids: # REQUIRED -- Q: "Which ISOP(s) are included in this incident?""
     _get_ids:
       id_name: "isop_id"
       count: (1,6)
   
   ## Mission Summary
-  mission_name: # required: true, default: "Case 'n'"  Q: "What is the name for this mission?"
-  description: # required: false Q: "Briefly describe the mission..."
-  total:
-    medevac: 
-      litters: # sum of litters patients for medevac mission
-      ambulatory: # sum of ambulatory casualties for medevac mission
-      passenger_weight(kg): # sum of all patient and casualty weights for medevac mission
-      passenger_count: # sum of all patients and casualties for medevac mission
-    resupply:
-      # _generate_timestamps:
+  mission:
+    name: # OPTIONAL -- Q: "What is the name for this mission?"  default: "Case 'n'", where n is some incrementing value  
+    summary: # OPTIONAL -- Q: "Briefly describe the mission..."
+  
+  mission_type: # REQUIRED -- Initially set by triage category.  If confirm with Q: "Select the Mission Types approved for this Mission."
+      options:
+        selection_type: "multiple!"
+        options:
+          - MEDEVAC
+          - EVAC
+          - Resupply
+          - Not Determined
+      approval_status:
+        selection_type: "single!"
+        options:
+          - Approved
+          - Review
+          - Not Approved
+      approved_by:
+      approved_at:
+  
+  mission_timeframe:  # REQUIRED -- Initially set by triage category, confirm with Q: "Select the timeframe for this mission."
+      options:
+        selection_type: "multiple!"
+        options:
+          - Immediate (0-1hr)
+          - Urgent (2-3hrs)
+          - Delayed (3-6hrs)
+          - Not Determined
+      approval_status:
+        selection_type: "single!"
+        options:
+          - Approved
+          - Review
+          - Not Approved
+      approved_by:
+      approved_at:
+
+  mission_totals:
+    litters: # sum of litters patients for medevac mission
+    ambulatory: # sum of ambulatory casualties for medevac/evac missions
+    passenger_weight(kg): # sum of all patient and casualty weights for medevac/evac missions
+    passenger_count: # sum of all patients and casualties for medevac/evac missions
+    supplies_needed: # If the ISOP can be resupplied, generate a list of supplies and time needed by based on forecasted LSIs
+      # _get_list:
       #   schema: "../schemas/supplies/supplies.yaml"  # package_dimensions(cm):  # package_weight(g):
-      #   count: (1,2)
-      #   timedelta(min): (30,360) into future
-      #   time_forecast: true
+      #   count: (0,3)
+      #   timestamp:
+      #     timedelta(min): (30,360) into future
+      #     start_in: future
+      #     start_window: (30, 120)
     
     care_center:
       beds_required: # sum of all patients and casualties, less any uninjured, minor, deceased
@@ -37,7 +74,7 @@
       count: (0,2) # value or range of instances to generate
       timestamp:
         timedelta(min): (1,60) # range of minutes to randomly increment timestamps
-        time_direction: past
+        start_in: past
         start_window: (60, 240) # range of minutes to randomly start the timestamps from
   asset_type_options:
       - VTOL:

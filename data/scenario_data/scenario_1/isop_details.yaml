@@ -1,434 +1,433 @@
--   isop_id: 23205f71-1508-4bfe-b39b-7e0624280d38
-    first_name: Shane
-    last_name: West
-    callsign: GJ202
+-   isop_id: 2f9e3bac-db9c-4fbe-bf86-9afefb9f9862
+    first_name: Jorge
+    last_name: Morrow
+    callsign: NN006
     military_data:
-        -   branch: Army
-            rank: Corporal
-    gender: male
-    age(yrs): 40
-    weight(kg): 84
-    height(cm): 225
+        -   branch: Marine Corps
+            rank: Captain
+    gender: female
+    age(yrs): 50
+    weight(kg): 138
+    height(cm): 216
     blood_type: O+
     allergies:
-        - Penicillin and related antibiotics
-        - Chemotherapy drugs
-        - Insulin
-    preexisting:
-        conditions: []
-        medications:
-            - Lamotrigine (Lamictal)
-            - Promethazine (Zoloft)
-            - NSAIDs (e.g., ibuprofen, naproxen)
-            - Quetiapine
-    profile_pictures: null
-    ethnicity: Black or African American
-    fitness:
-        body_fat_percentage: 34
-        body_mass_index: 34
-        vo2_max:
-            value: 53
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   information: Low
-        -   information: Moderate
-        -   geopolitcal: Low
-    sere_training:
-        dateTime: '2024-07-17T09:39:07.401068'
-        sere_skills: []
--   isop_id: 2d3c545f-facd-459f-83b3-e797ad856971
-    first_name: Michelle
-    last_name: Hall
-    callsign: HK067
-    military_data:
-        -   branch: Navy
-            rank: Chief Warrant Officer 2
-    gender: female
-    age(yrs): 27
-    weight(kg): 120
-    height(cm): 221
-    blood_type: O-
-    allergies:
-        - Contrast dyes
-    preexisting:
-        conditions:
-            - Arthritis
-            - Cancer
-        medications:
-            - Risperidone
-    profile_pictures: null
-    ethnicity: White
-    fitness:
-        body_fat_percentage: 8
-        body_mass_index: 23
-        vo2_max:
-            value: 38
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   other:
-                label: null
-                description: null
-        -   geopolitcal: Moderate
-        -   information: Moderate
-    sere_training:
-        dateTime: '2024-07-17T12:51:25.425666'
-        sere_skills:
-            -   Evasion:
-                    - Camouflage and Concealment
-                    - Navigation
--   isop_id: ca528c06-3625-4af4-97e7-4df075c65741
-    first_name: Katherine
-    last_name: Gray
-    callsign: QB118
-    military_data: []
-    gender: male
-    age(yrs): 58
-    weight(kg): 121
-    height(cm): 177
-    blood_type: AB+
-    allergies:
         - Insulin
         - ACE inhibitors
-    preexisting:
-        conditions: []
-        medications:
-            - Anticoagulants (blood thinners)
-            - Beta-blockers
-            - Sertraline (Zoloft)
-            - Corticosteroids
-    profile_pictures: null
-    ethnicity: Hispanic or Latino
-    fitness:
-        body_fat_percentage: 23
-        body_mass_index: 37
-        vo2_max:
-            value: 64
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   information: Moderate
-    sere_training:
-        dateTime: '2024-07-17T07:21:29.443796'
-        sere_skills:
-            -   Escape:
-                    - Lock Picking and Restraint Defeat
-            -   Survival:
-                    - First Aid
-                    - Fire Making
-                    - Shelter Building
-                    - Water Procurement
-                    - Food Procurement
--   isop_id: 7d19197d-515a-4f67-958a-d2534b3ac1ba
-    first_name: Christopher
-    last_name: Kim
-    callsign: KA727
-    military_data:
-        -   branch: Army
-            rank: Master Sergeant
-    gender: male
-    age(yrs): 52
-    weight(kg): 135
-    height(cm): 179
-    blood_type: B-
-    allergies:
-        - ACE inhibitors
-        - ACE inhibitors
-        - Local anesthetics
-    preexisting:
-        conditions:
-            - Severe mental disorders
-        medications:
-            - Trazodone
-            - Fluoxetine (Prozac)
-            - Anticonvulsants (for seizure disorders)
-    profile_pictures: null
-    ethnicity: Native Hawaiian or Other Pacific Islander
-    fitness:
-        body_fat_percentage: 6
-        body_mass_index: 38
-        vo2_max:
-            value: 30
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   other:
-                label: null
-                description: null
-        -   geopolitcal: Moderate
-        -   information: High
-    sere_training:
-        dateTime: '2024-07-17T12:05:22.459471'
-        sere_skills:
-            -   Evasion:
-                    - Camouflage and Concealment
-            -   Resistance:
-                    - Physical Conditioning
-                    - Code of Conduct
-                    - Psychological Preparation
--   isop_id: 0a96201b-622a-4dce-b43c-6a74da7c0942
-    first_name: William
-    last_name: Madden
-    callsign: GD848
-    military_data: []
-    gender: female
-    age(yrs): 24
-    weight(kg): 50
-    height(cm): 246
-    blood_type: O-
-    allergies:
-        - Chemotherapy drugs
-        - Penicillin and related antibiotics
-        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
-        - Anticonvulsants
+        - Insulin
     preexisting:
         conditions:
             - High cholesterol
-            - Back injuries
+            - Congestive heart failure
         medications:
-            - Paroxetine (Paxil)
-            - Quetiapine
-            - NSAIDs (e.g., ibuprofen, naproxen)
-            - Lithium (Lithium)
-    profile_pictures: null
-    ethnicity: Black or African American
+            - Olanzapine
+            - Promethazine (Zoloft)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Native Hawaiian or Other Pacific Islander
     fitness:
-        body_fat_percentage: 10
-        body_mass_index: 37
+        body_fat_percentage: 7
+        body_mass_index: 25
         vo2_max:
-            value: 69
+            value: 46
             units: mL/kg/min
             measurement_method: cardiopulmonary exercise test
         category: null
     operational_value: []
     sere_training:
-        dateTime: '2024-07-17T06:58:03.475099'
-        sere_skills: []
--   isop_id: 742983d3-be9b-4b9e-b405-c736a96d204f
-    first_name: Nichole
-    last_name: Orozco
-    callsign: QT628
-    military_data:
-        -   branch: Marine Corps
-            rank: Corporal
-    gender: male
-    age(yrs): 54
-    weight(kg): 53
-    height(cm): 184
-    blood_type: B-
+        dateTime: '2024-07-17T15:22:16.187978'
+        sere_skills:
+            -   Evasion:
+                    - Navigation
+            -   Survival:
+                    - Shelter Building
+                    - Food Procurement
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment
+-   isop_id: 8095b149-30f7-4036-8198-b5cb0b9da354
+    first_name: Faith
+    last_name: Turner
+    callsign: HK592
+    military_data: []
+    gender: female
+    age(yrs): 59
+    weight(kg): 59
+    height(cm): 158
+    blood_type: AB-
     allergies:
-        - ACE inhibitors
-        - Sulfa drugs
-        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
         - Anticonvulsants
+        - Radiocontrast media
     preexisting:
         conditions:
-            - Diabetes
-            - High blood pressure (hypertension)
-            - Back injuries
-            - Congestive heart failure
+            - High cholesterol
         medications:
-            - Lithium
-            - Lithium
-            - Trazodone
-            - Citalopram (Celexa)
-    profile_pictures: null
+            - Quetiapine
+            - Olanzapine
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
     ethnicity: White
     fitness:
-        body_fat_percentage: 7
-        body_mass_index: 39
+        body_fat_percentage: 34
+        body_mass_index: 30
         vo2_max:
             value: 44
             units: mL/kg/min
             measurement_method: cardiopulmonary exercise test
         category: null
     operational_value:
-        -   other:
-                label: null
-                description: null
+        -   geopolitcal: High
     sere_training:
-        dateTime: '2024-07-17T11:54:04.490720'
+        dateTime: '2024-07-17T08:56:24.207930'
         sere_skills:
-            -   Escape:
-                    - Improvised Tools
-                    - Planning and Execution
-            -   Escape:
-                    - Improvised Tools
-            -   Evasion:
-                    - Navigation
-                    - Camouflage and Concealment
-            -   Escape:
-                    - Planning and Execution
-                    - Lock Picking and Restraint Defeat
--   isop_id: 4d7e46fa-9d87-4061-b297-dce7b4c98472
-    first_name: Christina
-    last_name: Olsen
-    callsign: KZ352
+            -   Resistance:
+                    - Code of Conduct
+                    - Psychological Preparation
+                    - Physical Conditioning
+-   isop_id: 5ab2aab1-57b8-41a8-9b69-311b3b4044d6
+    first_name: Greg
+    last_name: Smith
+    callsign: ZX870
     military_data: []
     gender: male
-    age(yrs): 51
-    weight(kg): 54
-    height(cm): 236
-    blood_type: A-
-    allergies:
-        - Sulfa drugs
-        - Radiocontrast media
-        - Sulfa drugs
+    age(yrs): 36
+    weight(kg): 57
+    height(cm): 160
+    blood_type: B-
+    allergies: []
     preexisting:
         conditions:
             - Cancer
-            - Back injuries
-        medications:
-            - Paroxetine (Paxil)
-            - Fluoxetine (Prozac)
-            - Citalopram (Celexa)
-            - Anticonvulsants (for seizure disorders)
-    profile_pictures: null
-    ethnicity: Hispanic or Latino
-    fitness:
-        body_fat_percentage: 4
-        body_mass_index: 18
-        vo2_max:
-            value: 40
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   geopolitcal: Critical
-    sere_training:
-        dateTime: '2024-07-17T11:53:21.521970'
-        sere_skills:
-            -   Survival:
-                    - Shelter Building
-                    - Water Procurement
-                    - First Aid
-                    - Fire Making
--   isop_id: 68256ba2-5053-4fd7-9c61-6dd55941e746
-    first_name: Julie
-    last_name: King
-    callsign: WS959
-    military_data:
-        -   branch: Navy
-            rank: Ensign
-    gender: male
-    age(yrs): 47
-    weight(kg): 122
-    height(cm): 230
-    blood_type: A+
-    allergies:
-        - Penicillin and related antibiotics
-        - Sulfa drugs
-    preexisting:
-        conditions:
-            - Congestive heart failure
-        medications: []
-    profile_pictures: null
-    ethnicity: Native Hawaiian or Other Pacific Islander
-    fitness:
-        body_fat_percentage: 25
-        body_mass_index: 18
-        vo2_max:
-            value: 33
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   other:
-                label: null
-                description: null
-        -   geopolitcal: High
-        -   information: Moderate
-    sere_training:
-        dateTime: '2024-07-17T11:09:48.537593'
-        sere_skills:
-            -   Resistance:
-                    - Code of Conduct
-            -   Evasion:
-                    - Camouflage and Concealment
-                    - Navigation
-            -   Resistance:
-                    - Code of Conduct
-                    - Physical Conditioning
-                    - Psychological Preparation
--   isop_id: 8fd4a3fe-a8d9-4683-b9e6-637138078a92
-    first_name: Eileen
-    last_name: Walker
-    callsign: MY825
-    military_data: []
-    gender: male
-    age(yrs): 62
-    weight(kg): 46
-    height(cm): 235
-    blood_type: A+
-    allergies:
-        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
-        - Local anesthetics
-        - Sulfa drugs
-        - Insulin
-    preexisting:
-        conditions:
-            - Arthritis
-            - Severe mental disorders
-        medications:
-            - NSAIDs (e.g., ibuprofen, naproxen)
-            - Benzodiazepines (not recommended for PTSD but commonly prescribed)
-    profile_pictures: null
-    ethnicity: White
-    fitness:
-        body_fat_percentage: 20
-        body_mass_index: 38
-        vo2_max:
-            value: 41
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   information: Critical
-        -   information: Low
-    sere_training:
-        dateTime: '2024-07-17T13:06:03.553223'
-        sere_skills:
-            -   Resistance:
-                    - Physical Conditioning
-                    - Code of Conduct
-                    - Psychological Preparation
-            -   Evasion:
-                    - Camouflage and Concealment
--   isop_id: c8435115-6bbd-4b71-b1f8-118a29b8fbd1
-    first_name: Krystal
-    last_name: Johnson
-    callsign: VL566
-    military_data: []
-    gender: female
-    age(yrs): 25
-    weight(kg): 80
-    height(cm): 231
-    blood_type: O+
-    allergies:
-        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
-        - Insulin
-        - Sulfa drugs
-    preexisting:
-        conditions:
             - Epilepsy
-        medications: []
-    profile_pictures: null
-    ethnicity: Native Hawaiian or Other Pacific Islander
+            - Obesity
+            - Arthritis
+        medications:
+            - Trazodone (Zolpidem)
+            - Lithium (Lithium)
+            - Benzodiazepines (not recommended for PTSD but commonly prescribed)
+            - Venlafaxine (Effexor)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Asian
     fitness:
-        body_fat_percentage: 2
-        body_mass_index: 34
+        body_fat_percentage: 29
+        body_mass_index: 26
         vo2_max:
             value: 39
             units: mL/kg/min
             measurement_method: cardiopulmonary exercise test
         category: null
     operational_value:
+        -   geopolitcal: Critical
+        -   information: Critical
         -   geopolitcal: High
     sere_training:
-        dateTime: '2024-07-17T13:13:05.575804'
+        dateTime: '2024-07-17T16:10:55.221564'
+        sere_skills:
+            -   Survival:
+                    - Shelter Building
+                    - Food Procurement
+                    - Fire Making
+                    - First Aid
+            -   Evasion:
+                    - Camouflage and Concealment
+            -   Resistance:
+                    - Code of Conduct
+                    - Psychological Preparation
+                    - Physical Conditioning
+-   isop_id: 201bc6ae-debb-42fe-baa0-71ec4a0132c4
+    first_name: Vanessa
+    last_name: York
+    callsign: FP915
+    military_data:
+        -   branch: Navy
+            rank: Seaman Recruit
+    gender: female
+    age(yrs): 40
+    weight(kg): 67
+    height(cm): 221
+    blood_type: AB-
+    allergies: []
+    preexisting:
+        conditions: []
+        medications:
+            - Benzodiazepines (not recommended for PTSD but commonly prescribed)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 49
+        body_mass_index: 33
+        vo2_max:
+            value: 32
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T09:55:50.251403'
+        sere_skills:
+            -   Evasion:
+                    - Camouflage and Concealment
+            -   Resistance:
+                    - Code of Conduct
+                    - Psychological Preparation
+            -   Escape:
+                    - Post-Escape Survival
+                    - Improvised Tools
+-   isop_id: ad2eb4da-57a3-4010-b275-6bdfd2f1045f
+    first_name: Daniel
+    last_name: Cole
+    callsign: JP376
+    military_data: []
+    gender: male
+    age(yrs): 37
+    weight(kg): 129
+    height(cm): 248
+    blood_type: AB+
+    allergies: []
+    preexisting:
+        conditions:
+            - Cancer
+            - Depression
+        medications: []
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: White
+    fitness:
+        body_fat_percentage: 30
+        body_mass_index: 16
+        vo2_max:
+            value: 48
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                summary: null
+                description: null
+        -   geopolitcal: High
+    sere_training:
+        dateTime: '2024-07-17T11:55:03.270673'
+        sere_skills:
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+                    - Improvised Tools
+                    - Post-Escape Survival
+            -   Resistance:
+                    - Psychological Preparation
+-   isop_id: 71c450d2-a84d-4e3f-b1ce-76763fd93ec0
+    first_name: Timothy
+    last_name: Kelly
+    callsign: DG921
+    military_data: []
+    gender: female
+    age(yrs): 36
+    weight(kg): 125
+    height(cm): 229
+    blood_type: B-
+    allergies: []
+    preexisting:
+        conditions:
+            - Arthritis
+            - Diabetes
+        medications:
+            - Corticosteroids
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Asian
+    fitness:
+        body_fat_percentage: 20
+        body_mass_index: 28
+        vo2_max:
+            value: 70
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                summary: null
+                description: null
+    sere_training:
+        dateTime: '2024-07-17T08:37:03.289218'
+        sere_skills:
+            -   Survival:
+                    - Food Procurement
+                    - Shelter Building
+            -   Evasion:
+                    - Camouflage and Concealment
+-   isop_id: 45ff8a2e-4ec8-4668-ba56-2c15428ff6fb
+    first_name: Nicole
+    last_name: Owens
+    callsign: SZ932
+    military_data: []
+    gender: female
+    age(yrs): 31
+    weight(kg): 55
+    height(cm): 196
+    blood_type: B-
+    allergies:
+        - Sulfa drugs
+        - Radiocontrast media
+    preexisting:
+        conditions:
+            - Asthma
+        medications: []
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Asian
+    fitness:
+        body_fat_percentage: 33
+        body_mass_index: 37
+        vo2_max:
+            value: 43
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Moderate
+        -   other:
+                label: null
+                summary: null
+                description: null
+        -   geopolitcal: Moderate
+    sere_training:
+        dateTime: '2024-07-17T14:01:41.300197'
+        sere_skills:
+            -   Evasion:
+                    - Camouflage and Concealment
+-   isop_id: c0c732ca-9896-4d94-9d14-f741af6f927a
+    first_name: Lori
+    last_name: Woods
+    callsign: TE555
+    military_data: []
+    gender: male
+    age(yrs): 41
+    weight(kg): 102
+    height(cm): 180
+    blood_type: AB+
+    allergies: []
+    preexisting:
+        conditions:
+            - Back injuries
+            - Obesity
+            - Heart disease
+        medications: []
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 47
+        body_mass_index: 32
+        vo2_max:
+            value: 60
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value: []
+    sere_training:
+        dateTime: '2024-07-17T12:35:26.315841'
         sere_skills: []
+-   isop_id: 27b685b0-9912-4385-b778-f247c20b7f1f
+    first_name: Melissa
+    last_name: Turner
+    callsign: VH806
+    military_data: []
+    gender: female
+    age(yrs): 38
+    weight(kg): 127
+    height(cm): 180
+    blood_type: AB-
+    allergies:
+        - ACE inhibitors
+        - Local anesthetics
+        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
+    preexisting:
+        conditions:
+            - High blood pressure (hypertension)
+            - Severe mental disorders
+            - Pregnancy
+        medications: []
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Hispanic or Latino
+    fitness:
+        body_fat_percentage: 23
+        body_mass_index: 26
+        vo2_max:
+            value: 51
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: High
+        -   geopolitcal: Low
+    sere_training:
+        dateTime: '2024-07-17T10:17:36.331466'
+        sere_skills:
+            -   Evasion:
+                    - Camouflage and Concealment
+                    - Navigation
+            -   Resistance:
+                    - Code of Conduct
+                    - Psychological Preparation
+                    - Physical Conditioning
+            -   Survival:
+                    - Water Procurement
+                    - First Aid
+                    - Fire Making
+                    - Shelter Building
+                    - Food Procurement
+            -   Escape:
+                    - Lock Picking and Restraint Defeat
+-   isop_id: 2e6442c9-1df3-4e4b-8822-8c684c94c2ac
+    first_name: John
+    last_name: Adams
+    callsign: QR758
+    military_data: []
+    gender: female
+    age(yrs): 42
+    weight(kg): 115
+    height(cm): 250
+    blood_type: A+
+    allergies:
+        - Insulin
+    preexisting:
+        conditions: []
+        medications:
+            - Venlafaxine (Effexor)
+            - Promethazine (Zoloft)
+            - Beta-blockers
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 14
+        body_mass_index: 17
+        vo2_max:
+            value: 40
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: Moderate
+        -   geopolitcal: High
+    sere_training:
+        dateTime: '2024-07-17T09:18:10.362906'
+        sere_skills:
+            -   Evasion:
+                    - Navigation
+                    - Camouflage and Concealment

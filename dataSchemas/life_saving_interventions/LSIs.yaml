@@ -220,7 +220,7 @@
 
 - lsi_id:
     _generate_uuid: "lsi_id"
-- lsi_name: Airway Management
+  lsi_name: Airway Management
   description: Techniques to ensure an open airway for breathing
   use_cases: Compromised airway due to injury or unconsciousness
   category: Airway Management
@@ -238,7 +238,9 @@
     - label: Advanced
 
 
-- lsi_name: Needle Decompression
+- lsi_id:
+    _generate_uuid: "lsi_id"
+  lsi_name: Needle Decompression
   description: Insertion of a needle into the chest to relieve tension pneumothorax
   use_cases: 
     - Tension pneumothorax from chest injuries

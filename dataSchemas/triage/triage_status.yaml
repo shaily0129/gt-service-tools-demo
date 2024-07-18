@@ -1,0 +1,26 @@
+## A new triage status timestamp should be automatically updated with each new entry into the patient record if the entry is an input for a triage score.
+- timestamp:
+  category: # Should be assigned based on Triage Score: [immediate, urgent, expectant, delayed, minor, uninjured] 
+  _LIFE: (0,100) 
+  _RTS: (0,12) 
+  _NISS: (1,75)    
+  _START: (0,3)
+  _SALT: 
+  _ESI: 
+  _WEST: 
+  _ASMcc:
+
+
+# LIFE Score ================================================================================================
+# Requires NISS and RTS scores
+
+
+# RTS =======================================================================================================
+# Requires GCS, SBP, RR  NOTE if not available directly then there are a few options...
+# - GCS can be inferred via communication with ISOP...Q: "Do they appear coherent?", then GCS = 13-15, "Is their speech slurred?", then GCS = 8-12
+# - SBP and RR can be estimated via casualty simulation data based on known injuries, specific ISOP physiology, and known interventions
+# - RR can be validated via communication with ISOP...Q: "Count your breaths for 30 sec and let me know what you get..." or Q: "What does their breathing sound like?" [normal, rapid and shallow, difficult and raspy, etc]
+
+# NISS ======================================================================================================
+# Requires Insult Type, Location, AIS
+#     - "Describe your injuries. Include the type of injury, the location, and severity."  

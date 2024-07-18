@@ -1,414 +1,240 @@
--   isop_id: 1e571f0b-db0a-4f12-a97d-c7cc08f96c9a
+-   isop_id: 81805a5a-5572-4bf3-b148-50ffbfb1ae58
     first_name: ''
     last_name: ''
     callsign: ''
     military_data:
-        -   branch: Navy
-            rank: Petty Officer Second Class
-    gender: null
+        -   branch: Army
+            rank: First Sergeant
+    gender: female
     age(yrs): null
-    weight(kg): 102
-    height(cm): 234
-    blood_type: A+
-    allergies:
-        - Radiocontrast media
-        - Chemotherapy drugs
-        - Insulin
-    preexisting:
-        conditions:
-            - High blood pressure (hypertension)
-            - Congestive heart failure
-            - Asthma
-            - Depression
-        medications:
-            - Anticoagulants (blood thinners)
-            - Paroxetine (Paxil)
-            - Sertraline (Zoloft)
-            - Risperidone
-    profile_pictures: null
-    ethnicity: Hispanic or Latino
-    fitness:
-        body_fat_percentage: 18
-        body_mass_index: null
-        vo2_max:
-            value: null
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   other:
-                label: null
-                description: null
-        -   geopolitcal: Moderate
-        -   information: High
-    sere_training:
-        dateTime: '2024-07-17T10:22:17.239413'
-        sere_skills:
-            -   Escape: []
-            -   Survival:
-                    - Water Procurement
-                    - Shelter Building
-                    - First Aid
-                    - Fire Making
-            -   Survival:
-                    - Shelter Building
--   isop_id: 0fa7350d-0d6e-4148-b83b-57b47e7dd253
-    first_name: Kayla
-    last_name: Lee
-    callsign: VF970
-    military_data: []
-    gender: null
-    age(yrs): null
-    weight(kg): 118
-    height(cm): 216
-    blood_type: null
-    allergies:
-        - Sulfa drugs
-    preexisting:
-        conditions:
-            - Severe mental disorders
-            - High cholesterol
-            - Back injuries
-            - High cholesterol
-        medications:
-            - Insulin (for diabetics)
-    profile_pictures: null
-    ethnicity: null
-    fitness:
-        body_fat_percentage: null
-        body_mass_index: null
-        vo2_max:
-            value: null
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   information: Low
-        -   other:
-                label: null
-                description: null
-        -   information: null
-    sere_training:
-        dateTime: '2024-07-17T11:00:13.254730'
-        sere_skills:
-            -   Escape: []
-            -   Evasion:
-                    - Camouflage and Concealment
-                    - Navigation
-            -   Survival: []
--   isop_id: 27dec86b-dfd6-41ba-8caa-c211a044fe87
-    first_name: ''
-    last_name: Tanner
-    callsign: ''
-    military_data:
-        -   branch: Air Force
-            rank: 1st Lieutenant
-    gender: null
-    age(yrs): 40
-    weight(kg): 68
-    height(cm): null
-    blood_type: null
-    allergies:
-        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
-        - Chemotherapy drugs
-        - Radiocontrast media
-    preexisting:
-        conditions:
-            - Back injuries
-            - Heart disease
-        medications:
-            - Lithium (Lithium)
-    profile_pictures: null
-    ethnicity: Native Hawaiian or Other Pacific Islander
-    fitness:
-        body_fat_percentage: 12
-        body_mass_index: null
-        vo2_max:
-            value: 37
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   other:
-                label: null
-                description: null
-        -   geopolitcal: null
-        -   information: null
-    sere_training:
-        dateTime: '2024-07-17T06:47:24.277823'
-        sere_skills:
-            -   Resistance: []
-            -   Evasion:
-                    - Camouflage and Concealment
-                    - Navigation
-            -   Escape: []
-            -   Survival:
-                    - First Aid
-                    - Shelter Building
-                    - Fire Making
-                    - Food Procurement
-                    - Water Procurement
--   isop_id: e7ea869e-8212-488b-9df0-e7a935ffa91c
-    first_name: Adam
-    last_name: ''
-    callsign: RF270
-    military_data:
-        -   branch: Coast Guard
-            rank: Petty Officer First Class
-    gender: null
-    age(yrs): 54
     weight(kg): null
     height(cm): null
-    blood_type: AB+
+    blood_type: A-
     allergies:
-        - Penicillin and related antibiotics
-        - Insulin
-        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
-        - Penicillin and related antibiotics
+        - Anticonvulsants
+        - ACE inhibitors
+        - Radiocontrast media
     preexisting:
-        conditions:
-            - Congestive heart failure
-        medications: []
-    profile_pictures: null
-    ethnicity: null
-    fitness:
-        body_fat_percentage: null
-        body_mass_index: 15
-        vo2_max:
-            value: null
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value:
-        -   other:
-                label: null
-                description: null
-        -   geopolitcal: null
-        -   geopolitcal: High
-    sere_training:
-        dateTime: '2024-07-17T12:32:37.293477'
-        sere_skills: []
--   isop_id: 6dd630c5-a2f6-4af9-b12f-509fe260de74
-    first_name: ''
-    last_name: Craig
-    callsign: AT628
-    military_data: []
-    gender: female
-    age(yrs): 40
-    weight(kg): 102
-    height(cm): 227
-    blood_type: B+
-    allergies:
-        - Chemotherapy drugs
-        - Local anesthetics
-        - Sulfa drugs
-        - Sulfa drugs
-    preexisting:
-        conditions:
-            - Epilepsy
-            - Severe mental disorders
-            - Arthritis
-            - Pregnancy
+        conditions: []
         medications:
-            - Benzodiazepines (not recommended for PTSD but commonly prescribed)
-            - Citalopram (Celexa)
-    profile_pictures: null
-    ethnicity: Asian
+            - Quetiapine
+            - Anticonvulsants (for seizure disorders)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: null
     fitness:
         body_fat_percentage: null
         body_mass_index: null
         vo2_max:
-            value: 69
+            value: 31
             units: mL/kg/min
             measurement_method: cardiopulmonary exercise test
         category: null
-    operational_value:
-        -   information: null
+    operational_value: []
     sere_training:
         dateTime: ''
         sere_skills:
-            -   Survival:
-                    - Water Procurement
-                    - Food Procurement
-                    - First Aid
-            -   Escape: []
-            -   Resistance:
-                    - Physical Conditioning
--   isop_id: ecacab93-77c0-4d43-b300-dc63ad600453
-    first_name: William
-    last_name: ''
-    callsign: ''
+            -   Survival: []
+-   isop_id: 78511a78-f4ad-4f66-981a-c2584ecbce73
+    first_name: ''
+    last_name: Warren
+    callsign: GN645
     military_data:
-        -   branch: Coast Guard
-            rank: Lieutenant
-    gender: male
+        -   branch: Marine Corps
+            rank: Master Gunnery Sergeant
+    gender: null
     age(yrs): null
-    weight(kg): 57
-    height(cm): 233
+    weight(kg): null
+    height(cm): 191
     blood_type: null
     allergies:
         - Radiocontrast media
+        - Sulfa drugs
+        - Sulfa drugs
+        - Local anesthetics
     preexisting:
         conditions:
-            - Back injuries
-            - Diabetes
-            - Congestive heart failure
-            - Diabetes
+            - Asthma
         medications:
-            - Risperidone
-            - Lithium (Lithium)
-            - Lithium (Lithium)
-            - Anticonvulsants (for seizure disorders)
-    profile_pictures: null
-    ethnicity: Asian
+            - Promethazine (Zoloft)
+            - Promethazine (Zoloft)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Black or African American
     fitness:
-        body_fat_percentage: 8
+        body_fat_percentage: null
         body_mass_index: 29
         vo2_max:
             value: null
             units: mL/kg/min
             measurement_method: cardiopulmonary exercise test
         category: null
-    operational_value:
-        -   geopolitcal: Moderate
+    operational_value: []
     sere_training:
-        dateTime: '2024-07-17T09:15:29.324726'
+        dateTime: '2024-07-17T12:18:58.088759'
         sere_skills:
             -   Evasion:
                     - Navigation
                     - Camouflage and Concealment
-            -   Evasion:
-                    - Navigation
-            -   Survival:
-                    - Water Procurement
-                    - First Aid
-                    - Food Procurement
-                    - Shelter Building
-            -   Resistance:
-                    - Physical Conditioning
-                    - Code of Conduct
-                    - Psychological Preparation
--   isop_id: 517c2d23-a137-4dd0-b144-11fd543cdcfa
-    first_name: Michael
+-   isop_id: c201965c-778b-4597-9d0d-55bc2538d09d
+    first_name: Diane
     last_name: ''
-    callsign: QV819
-    military_data:
-        -   branch: Army
-            rank: Private (Recruit)
-    gender: female
-    age(yrs): 53
-    weight(kg): null
-    height(cm): 183
-    blood_type: null
-    allergies:
-        - Nonsteroidal anti-inflammatory drugs (NSAIDs)
-    preexisting:
-        conditions:
-            - Heart disease
-        medications:
-            - Insulin (for diabetics)
-            - Lamotrigine (Lamictal)
-            - Venlafaxine (Effexor)
-    profile_pictures: null
-    ethnicity: Native Hawaiian or Other Pacific Islander
-    fitness:
-        body_fat_percentage: null
-        body_mass_index: 30
-        vo2_max:
-            value: 48
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value: []
-    sere_training:
-        dateTime: '2024-07-17T07:04:20.340353'
-        sere_skills:
-            -   Evasion: []
-            -   Survival:
-                    - Water Procurement
-                    - First Aid
-                    - Shelter Building
-                    - Food Procurement
-            -   Survival:
-                    - Shelter Building
-                    - Food Procurement
-                    - First Aid
-            -   Escape:
-                    - Improvised Tools
-                    - Planning and Execution
-                    - Lock Picking and Restraint Defeat
--   isop_id: 5c6b3f6f-74cc-4a03-a1f6-f68fe1d08acc
-    first_name: Maria
-    last_name: Sandoval
     callsign: ''
     military_data:
         -   branch: Coast Guard
-            rank: Commander
-    gender: female
-    age(yrs): 58
-    weight(kg): 125
+            rank: Petty Officer Third Class
+    gender: null
+    age(yrs): 18
+    weight(kg): 116
+    height(cm): null
+    blood_type: A-
+    allergies:
+        - Local anesthetics
+    preexisting:
+        conditions:
+            - Cancer
+        medications:
+            - Opioids (in cases of severe pain)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: null
+    fitness:
+        body_fat_percentage: 36
+        body_mass_index: null
+        vo2_max:
+            value: null
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                summary: null
+                description: null
+    sere_training:
+        dateTime: ''
+        sere_skills:
+            -   Evasion:
+                    - Navigation
+-   isop_id: d0644040-e83b-4229-8b5f-3f3d17326ffd
+    first_name: Jennifer
+    last_name: Benjamin
+    callsign: ''
+    military_data: []
+    gender: null
+    age(yrs): null
+    weight(kg): 70
+    height(cm): null
+    blood_type: O+
+    allergies:
+        - Insulin
+        - Radiocontrast media
+    preexisting:
+        conditions:
+            - Pregnancy
+            - HIV/AIDS
+            - Back injuries
+        medications:
+            - NSAIDs (e.g., ibuprofen, naproxen)
+            - Venlafaxine (Effexor)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: 31
+        body_mass_index: 31
+        vo2_max:
+            value: null
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: Critical
+        -   other:
+                label: null
+                summary: null
+                description: null
+        -   geopolitcal: High
+    sere_training:
+        dateTime: '2024-07-17T14:24:08.119045'
+        sere_skills:
+            -   Evasion: []
+            -   Evasion:
+                    - Camouflage and Concealment
+-   isop_id: df5bb626-8ba9-40e8-a70f-3151c9ef28ab
+    first_name: Laura
+    last_name: Yates
+    callsign: CH700
+    military_data:
+        -   branch: Air Force
+            rank: Airman Basic
+    gender: male
+    age(yrs): null
+    weight(kg): 44
+    height(cm): null
+    blood_type: B-
+    allergies:
+        - Radiocontrast media
+    preexisting:
+        conditions:
+            - Epilepsy
+            - High cholesterol
+        medications:
+            - Fluoxetine (Prozac)
+            - Corticosteroids
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: null
+    fitness:
+        body_fat_percentage: 36
+        body_mass_index: 32
+        vo2_max:
+            value: 54
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   other:
+                label: null
+                summary: null
+                description: null
+        -   information: Moderate
+        -   information: Low
+    sere_training:
+        dateTime: '2024-07-17T13:35:01.135501'
+        sere_skills: []
+-   isop_id: cc47b24d-1800-4e46-a981-4095b59f7b19
+    first_name: ''
+    last_name: Rogers
+    callsign: AC088
+    military_data:
+        -   branch: Marine Corps
+            rank: Major
+    gender: male
+    age(yrs): 23
+    weight(kg): 64
     height(cm): null
     blood_type: null
     allergies:
         - Chemotherapy drugs
-        - Chemotherapy drugs
         - Anticonvulsants
-        - Local anesthetics
     preexisting:
         conditions:
-            - Severe mental disorders
+            - Congestive heart failure
+            - Obesity
+            - HIV/AIDS
         medications:
-            - Fluoxetine (Prozac)
-            - Venlafaxine (Effexor)
-            - Promethazine (Zoloft)
-    profile_pictures: null
-    ethnicity: White
-    fitness:
-        body_fat_percentage: null
-        body_mass_index: 23
-        vo2_max:
-            value: 47
-            units: mL/kg/min
-            measurement_method: cardiopulmonary exercise test
-        category: null
-    operational_value: []
-    sere_training:
-        dateTime: ''
-        sere_skills:
-            -   Survival:
-                    - Water Procurement
-                    - First Aid
-                    - Food Procurement
-                    - Fire Making
-            -   Survival:
-                    - Food Procurement
-                    - Fire Making
-                    - Shelter Building
-            -   Escape: []
-            -   Survival: []
--   isop_id: 31e588ca-315c-498f-a3db-107be0ea0bac
-    first_name: Brenda
-    last_name: Smith
-    callsign: XD978
-    military_data:
-        -   branch: Marine Corps
-            rank: Sergeant
-    gender: male
-    age(yrs): null
-    weight(kg): null
-    height(cm): null
-    blood_type: null
-    allergies: []
-    preexisting:
-        conditions:
-            - High blood pressure (hypertension)
-            - Diabetes
-        medications:
-            - Citalopram (Celexa)
-            - Olanzapine
-            - Venlafaxine (Effexor)
-    profile_pictures: null
-    ethnicity: Hispanic or Latino
+            - Trazodone
+            - NSAIDs (e.g., ibuprofen, naproxen)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Native Hawaiian or Other Pacific Islander
     fitness:
         body_fat_percentage: null
         body_mass_index: null
@@ -420,48 +246,170 @@
     operational_value: []
     sere_training:
         dateTime: ''
-        sere_skills:
-            -   Escape: []
-            -   Resistance:
-                    - Psychological Preparation
-            -   Evasion:
-                    - Camouflage and Concealment
-            -   Evasion: []
--   isop_id: 52f11e90-569e-435b-95a9-4a29e9a76228
-    first_name: Robert
-    last_name: Carlson
-    callsign: KD122
+        sere_skills: []
+-   isop_id: 87d01937-f875-4427-8a7c-8334fd7adccf
+    first_name: Michelle
+    last_name: Moran
+    callsign: ''
     military_data:
-        -   branch: Navy
-            rank: Petty Officer First Class
-    gender: male
-    age(yrs): 46
-    weight(kg): null
-    height(cm): 191
+        -   branch: Marine Corps
+            rank: Chief Warrant Officer 3
+    gender: null
+    age(yrs): null
+    weight(kg): 139
+    height(cm): 234
     blood_type: null
     allergies:
-        - Anticonvulsants
+        - Sulfa drugs
         - ACE inhibitors
         - Insulin
     preexisting:
         conditions:
-            - HIV/AIDS
-        medications:
-            - Lamotrigine (Lamictal)
-            - Lithium (Lithium)
-            - Risperidone
-    profile_pictures: null
+            - High cholesterol
+            - High cholesterol
+        medications: []
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
     ethnicity: null
     fitness:
-        body_fat_percentage: null
-        body_mass_index: 24
+        body_fat_percentage: 32
+        body_mass_index: null
         vo2_max:
-            value: 55
+            value: null
             units: mL/kg/min
             measurement_method: cardiopulmonary exercise test
         category: null
     operational_value:
-        -   geopolitcal: Low
+        -   geopolitcal: Critical
+        -   geopolitcal: null
+    sere_training:
+        dateTime: '2024-07-17T09:06:26.184346'
+        sere_skills: []
+-   isop_id: 6290c9d5-c384-49ff-8f3b-0f3b45beb6e1
+    first_name: Sarah
+    last_name: Rangel
+    callsign: CE440
+    military_data:
+        -   branch: Army
+            rank: Captain
+    gender: null
+    age(yrs): 60
+    weight(kg): null
+    height(cm): 237
+    blood_type: null
+    allergies:
+        - Insulin
+    preexisting:
+        conditions: []
+        medications:
+            - Inhalers
+            - Risperidone
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Native Hawaiian or Other Pacific Islander
+    fitness:
+        body_fat_percentage: 47
+        body_mass_index: null
+        vo2_max:
+            value: null
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: null
+        -   other:
+                label: null
+                summary: null
+                description: null
+        -   information: null
+    sere_training:
+        dateTime: '2024-07-17T14:33:37.202480'
+        sere_skills:
+            -   Resistance: []
+-   isop_id: 3792922d-7de1-490e-bc90-9c177be7d566
+    first_name: Linda
+    last_name: ''
+    callsign: ''
+    military_data: []
+    gender: null
+    age(yrs): null
+    weight(kg): null
+    height(cm): null
+    blood_type: null
+    allergies:
+        - Anticonvulsants
+        - Anticonvulsants
+    preexisting:
+        conditions:
+            - Pregnancy
+            - Obesity
+        medications:
+            - Corticosteroids
+            - Prazosin (for nightmares and insomnia)
+            - Venlafaxine (Effexor)
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: Black or African American
+    fitness:
+        body_fat_percentage: null
+        body_mass_index: 23
+        vo2_max:
+            value: null
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   information: null
     sere_training:
         dateTime: ''
         sere_skills: []
+-   isop_id: 9be99607-550f-4518-96a6-8419bd5386f0
+    first_name: ''
+    last_name: Griffin
+    callsign: ''
+    military_data:
+        -   branch: Air Force
+            rank: 1st Lieutenant
+    gender: null
+    age(yrs): 24
+    weight(kg): 125
+    height(cm): null
+    blood_type: null
+    allergies:
+        - Radiocontrast media
+    preexisting:
+        conditions:
+            - Heart disease
+            - Pregnancy
+            - Diabetes
+            - Asthma
+        medications:
+            - Paroxetine (Paxil)
+            - Beta-blockers
+            - Anticoagulants (blood thinners)
+            - Trazodone
+    profile_pictures:
+        -   image_link: ../some_link_to_image.png
+            is_primary: true
+    ethnicity: null
+    fitness:
+        body_fat_percentage: 6
+        body_mass_index: 39
+        vo2_max:
+            value: null
+            units: mL/kg/min
+            measurement_method: cardiopulmonary exercise test
+        category: null
+    operational_value:
+        -   geopolitcal: High
+        -   geopolitcal: null
+    sere_training:
+        dateTime: '2024-07-17T15:51:35.231632'
+        sere_skills:
+            -   Survival: []
+            -   Evasion: []
+            -   Escape: []
+            -   Resistance: []

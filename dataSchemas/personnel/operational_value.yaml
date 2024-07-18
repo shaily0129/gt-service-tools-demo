@@ -5,6 +5,8 @@
       - "High"
       - "Moderate"
       - "Low"
+    summary:
+    description:
 - geopolitcal:
     selection_type: "single!"
     options:
@@ -12,6 +14,9 @@
       - "High"
       - "Moderate"
       - "Low"
+    summary:
+    description:
 - other:
     label:
+    summary:
     description:
