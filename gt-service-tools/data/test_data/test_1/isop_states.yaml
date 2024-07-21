@@ -1,0 +1,284 @@
+- isop_id: 1
+  mechanism_of_injury:
+    description: # Unknown, must be assigned
+    dateTime: # Unknown, must be assigned
+      dateTime_accuracy: # Unknown, must be assigned OPTIONS: [1 High Confidence, 2: Moderate Confidence, 3: Low Confidence]
+  evac_method: # Unknown, should be auto-assigned based on triage category and/or average_speed OPTIONS: [ litter: L, ambulatory: A, unknown: U].  Must ask user to confirm
+  locations:
+    - timestamp: "2024-06-30T03:15:37Z"
+      location_name: "Bravo Whiskey"
+      latitude: 39.5501
+      longitude: -105.7821
+      elevation(m): 2743
+      average_speed(km/hr): # Calculated from distance and time deltas
+    - timestamp: "2024-06-30T05:42:19Z"
+      location_name: "Delta Tango"
+      latitude: 39.5509
+      longitude: -105.7831
+      elevation(m): 1524
+      average_speed(km/hr): 
+  triage: # Update with new timestamp as new data available
+    - timestamp:
+      category: # Some category that normalizes triage algo vs. triage algo
+      _LIFE_score:
+      _LIFE_category:
+      _NISS_score:
+      _NISS_category:
+      _RTS_score:
+      _RTS_category:
+  insults: # These are the most recent Insult timestamps as AIS scores can vary over time, eg Hemorrhage before tourniquet AIS: 4, after tourniquet: 2
+  vitals: # The most recent Vitals timestamps
+  observations: # The most recent Observation timestamps
+  interventions: # All Intervention timestamps
+  record:
+    - timestamp: "2024-06-30T03:22:19Z"
+      insult_id: 11
+      label: "hemorrhage"
+      location: "arm"
+      sublocation: "upper"
+      lateral_position: "left"
+      AIS_score: 4
+    - timestamp: "2024-06-30T03:22:19Z"
+      insult_id: 22
+      label: "burn"
+      location: "chest"
+      sublocation: "upper"
+      lateral_position: ""
+      AIS_score: 3
+    - timestamp: "2024-06-30T03:22:19Z"
+      insult_id: 33
+      label: "hemorrhage"
+      location: "leg"
+      sublocation: "lower"
+      lateral_position: "left"
+      AIS_score: 3
+    - timestamp: "2024-06-30T03:28:19Z"
+      observation_id: 1111
+      label: "GCS Evaluation"
+      GCS_score: 14
+      subscore:
+        eye:
+        verbal:
+        motor:
+    - timestamp: "2024-06-30T03:35:19Z"
+      vital_id: 222
+      label: "Respiratory Rate"
+      abbreviation: "RR"
+      value: 21
+      unit: "rpm"
+    - timestamp: "2024-06-30T03:38:19Z"
+      vital_id: 333
+      label: "Systolic Blood Pressure"
+      abbreviation: "SBP    "
+      value: 110
+      unit: "mmHG"
+    - triage
+    - timestamp: "2024-06-30T03:42:19Z"
+      insult_id: 11
+      label: "hemorrhage"
+      location: "arm"
+      sublocation: "upper"
+      lateral_position: "left"
+      AIS_score: 2
+    - triage
+    - timestamp: "2024-06-30T03:42:19Z"
+      insult_id: 22
+      label: "burn"
+      location: "chest"
+      sublocation: "upper"
+      lateral_position: ""
+      AIS_score: 3
+    - triage
+    - timestamp: "2024-06-30T03:42:19Z"
+      insult_id: 33
+      label: "hemorrhage"
+      location: "leg"
+      sublocation: "lower"
+      lateral_position: "left"
+      AIS_score: 2
+    - triage
+    
+
+- isop_id: 2
+  mechanism_of_injury:
+    description: # Unknown, must be assigned
+    dateTime: # Unknown, must be assigned
+      dateTime_accuracy: # Unknown, must be assigned OPTIONS: [1 High Confidence, 2: Moderate Confidence, 3: Low Confidence]
+  evac_method: # Unknown, must be assigned OPTIONS: [ litter: L, ambulatory: A]
+  locations:
+    - timestamp: "2024-06-30T12:30:45Z"
+      location_name: "Golf Lima"
+      latitude: 37.9876
+      longitude: -106.5432
+      elevation(m): 3658
+      average_speed(km/hr): 
+    - timestamp: "2024-06-29T18:05:11Z"
+      location_name: "Hotel Zulu"
+      latitude: 37.9880
+      longitude: -106.5433
+      elevation(m): 1829
+      average_speed(km/hr): 
+    - timestamp: "2024-06-30T01:23:59Z"
+      location_name: "India Oscar"
+      latitude: 37.9882
+      longitude: -106.5433
+      elevation(m): 2134
+      average_speed(km/hr): 
+  triage: # Update with new timestamp as new data available
+    - timestamp:
+      category: # Some category that normalizes triage algo vs. triage algo
+      _LIFE_score:
+      _LIFE_category:
+      _NISS_score:
+      _NISS_category:
+      _RTS_score:
+      _RTS_category:
+  insults: # These are the most recent Insult timestamps as AIS scores can vary over time, eg Hemorrhage before tourniquet AIS: 4, after tourniquet: 2
+  vitals: # The most recent Vitals timestamps
+  observations: # The most recent Observation timestamps
+  interventions: # All Intervention timestamps
+  record: # Missing GCS, RR, SBP...Should kickoff addtl fidelity questions...can GCS be estimated? can RR and SBP be measured?  Answer "No" to all, result in NISS score/category
+    - timestamp: "2024-06-30T03:22:19Z"
+      insult_id: 11
+      label: "hemorrhage"
+      location: "arm"
+      sublocation: "lower"
+      lateral_position: "right"
+      AIS_score: 4
+    - timestamp: "2024-06-30T03:32:19Z"
+      insult_id: 11
+      label: "hemorrhage"
+      location: "arm"
+      sublocation: "lower"
+      lateral_position: "right"
+      AIS_score: 2
+
+- isop_id: 3
+  mechanism_of_injury:
+    description: # Unknown, must be assigned
+    dateTime: # Unknown, must be assigned
+      dateTime_accuracy: # Unknown, must be assigned OPTIONS: [1 High Confidence, 2: Moderate Confidence, 3: Low Confidence]
+  evac_method: # Unknown, must be assigned OPTIONS: [ litter: L, ambulatory: A]
+  locations:
+    - timestamp: "2024-06-30T04:49:27Z"
+      location_name: "Juliet Sierra"
+      latitude: 38.2468
+      longitude: -104.8765
+      elevation(m): 914
+      average_speed(km/hr): 
+  triage: # Update with new timestamp as new data available
+    - timestamp:
+      category: # Some category that normalizes triage algo vs. triage algo
+      _LIFE_score:
+      _LIFE_category:
+      _NISS_score:
+      _NISS_category:
+      _RTS_score:
+      _RTS_category:
+  insults: # These are the most recent Insult timestamps as AIS scores can vary over time, eg Hemorrhage before tourniquet AIS: 4, after tourniquet: 2
+  vitals: # The most recent Vitals timestamps
+  observations: # The most recent Observation timestamps
+  interventions: # All Intervention timestamps
+  record: # Missing AIS_score for burn, missing GCS
+    - timestamp: "2024-06-30T03:22:19Z"
+      insult_id: 11
+      label: "burn"
+      location: "leg"
+      sublocation: "lower"
+      lateral_position: "left"
+      AIS_score: # Must be calculated from location and degree
+      burn_degree: "3rd"
+    - timestamp: "2024-06-30T03:35:19Z"
+      vital_id: 222
+      label: "Respiratory Rate"
+      abbreviation: "RR"
+      value: 21
+      unit: "rpm"
+    - timestamp: "2024-06-30T03:38:19Z"
+      vital_id: 333
+      label: "Systolic Blood Pressure"
+      abbreviation: "SBP    "
+      value: 110
+      unit: "mmHG"
+
+- isop_id: 4
+  mechanism_of_injury:
+    description: # Unknown, must be assigned
+    dateTime: # Unknown, must be assigned
+      dateTime_accuracy: # Unknown, must be assigned OPTIONS: [1 High Confidence, 2: Moderate Confidence, 3: Low Confidence]
+  evac_method: # Unknown, must be assigned OPTIONS: [ litter: L, ambulatory: A]
+  locations:
+    - timestamp: "2024-06-30T02:49:27Z"
+      location_name: "Juliet Sierra"
+      latitude: 38.2468
+      longitude: -104.8765
+      elevation(m): 914
+      average_speed(km/hr): 0.0
+    - timestamp: "2024-06-30T05:11:11Z"
+      location_name: "Kilo Quebec"
+      latitude: 38.2468
+      longitude: -104.8765
+      elevation(m): 914
+      average_speed(km/hr): 
+  triage: # Update with new timestamp as new data available
+    - timestamp:
+      category: # Some category that normalizes triage algo vs. triage algo
+      _LIFE_score:
+      _LIFE_category:
+      _NISS_score:
+      _NISS_category:
+      _RTS_score:
+      _RTS_category:
+  insults: # These are the most recent Insult timestamps as AIS scores can vary over time, eg Hemorrhage before tourniquet AIS: 4, after tourniquet: 2
+  vitals: # The most recent Vitals timestamps
+  observations: # The most recent Observation timestamps
+  interventions: # All Intervention timestamps
+  record: # Missing location info for burn, ask to estimate GCS
+    - timestamp: "2024-06-30T03:22:19Z"
+      insult_id: 11
+      label: "burn"
+      location: ""
+      sublocation: ""
+      lateral_position: ""
+      AIS_score: # Must be calculated from location and degree
+      burn_degree: ""
+    - timestamp: "2024-06-30T03:35:19Z"
+      vital_id: 222
+      label: "Respiratory Rate"
+      abbreviation: "RR"
+      value: 21
+      unit: "rpm"
+    - timestamp: "2024-06-30T03:38:19Z"
+      vital_id: 333
+      label: "Systolic Blood Pressure"
+      abbreviation: "SBP    "
+      value: 110
+      unit: "mmHG"
+
+- isop_id: 5
+  mechanism_of_injury:
+    description: # Unknown, must be assigned
+    dateTime: # Unknown, must be assigned
+      dateTime_accuracy: # Unknown, must be assigned OPTIONS: [1 High Confidence, 2: Moderate Confidence, 3: Low Confidence]
+  evac_method: # Unknown, must be assigned OPTIONS: [ litter: L, ambulatory: A]
+  locations:
+    - timestamp: "2024-06-29T20:37:52Z"
+      location_name: "Mike Uniform"
+      latitude: 37.5678
+      longitude: -108.9012
+      elevation: 2438
+      average_speed: 1.4 
+  triage: # Update with new timestamp as new data available
+    - timestamp:
+      category: # Some category that normalizes triage algo vs. triage algo
+      _LIFE_score:
+      _LIFE_category:
+      _NISS_score:
+      _NISS_category:
+      _RTS_score:
+      _RTS_category:
+  insults: # These are the most recent Insult timestamps as AIS scores can vary over time, eg Hemorrhage before tourniquet AIS: 4, after tourniquet: 2
+  vitals: # The most recent Vitals timestamps
+  observations: # The most recent Observation timestamps
+  interventions: # All Intervention timestamps
+  record: # Missing info, must establish injury type, location, severity

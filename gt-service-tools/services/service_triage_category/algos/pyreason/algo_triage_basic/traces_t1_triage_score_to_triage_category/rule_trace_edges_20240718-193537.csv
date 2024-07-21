@@ -1,0 +1,3 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3,Clause-4,Clause-5
+1,1,"('Lilly', '50')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,2,"('Lilly', 'immediate')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Lilly', '50')]",['Lilly'],['50'],"[('Lilly', 'immediate')]",['immediate']

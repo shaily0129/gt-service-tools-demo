@@ -1,0 +1,65 @@
+isop_id:
+last_updated:
+mechanism_of_injury: #
+  date: #date of injury
+  time: # time of injury
+    estimated: # actual time of injury may not be known, may want to track if it was estimated for simulation forecasting confidence.
+  abbreviation: # GSW
+  summary: # Gun shot wound to chest max-40char
+  description: # Gun shot wound to the chest with small caliber pistol, no exit wound...
+
+litter: # boolean - Set by PRDO on ISOP intake.  Not sure if this should remain here or move to mission_requirements
+ambulatory: # boolean - Set by PRDO on ISOP intake
+
+location: # timeseries List - ISOP could be on the move to evade enemys or get to a suitable EVAC point. we should track their movement.
+  - [dateTime]:  
+      location_label: "Start"  # eg "Start", "Waypoint 4", "EVAC" etc
+      latitude:
+      longitude:
+      elevation:
+      average_ground_speed:
+
+# %%% PHASE 1 %%%
+triage:
+  score: # timeseries list as Triage score may improve or worsen over time and will be dyncamically evaluated
+    - [dateTime]:
+        LIFE:
+        RTS:
+        NISS:
+  category: # timeseries list. Triage category may improve or worsen over time. 
+    - [dateTime]: "string" # eg Immediate
+
+
+# %%% PHASE 1 %%%
+# The insult severity may improve or worsen over time
+# PHASE 1 options for dummy data, any one or all of: "hemorrhage", "burn", "tension pneumothorax"
+insults: # List
+  - insult_id: # See Insult Instance
+    insult_record: # See Insult Record
+injuries: # List
+  - injury_id: # See Injury Instance
+    injury_record: #see Injury Record 
+
+
+# %%% PHASE 1 %%%  
+vitals: # see Vitals Record
+
+# Next Phase - Patient Care Timeseries
+observations: 
+  - timestamp:
+      label: "GCS Evaluation"
+      score:
+        eye:
+        verbal:
+        motor:
+        total: # range 3-15
+      
+treatments: # see Treatment Record
+medications: # see Medication Record
+
+# Next Phase - Resource Management
+current_resources: #list
+  
+
+  
+      
