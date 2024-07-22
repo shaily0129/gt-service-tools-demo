@@ -1,0 +1,26 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3,Clause-4
+0,0,"('Ad', 'immediate')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '0')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '0')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '0')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '1')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '1')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '1')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '2')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '2')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '2')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '3')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '3')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '3')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '4')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '4')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '4')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '5')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '5')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '5')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '6')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '6')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Ad', '6')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,1,"('Ad', '1')",medevac_priority,"[0.0,0.0]","[1.0,1.0]",rule_18,"[('Ad', 'immediate')]",['immediate'],"[('Ad', '1')]",['1']
+0,1,"('Ad', '0')",evac_priority,"[0.0,0.0]","[1.0,1.0]",rule_27,"[('Ad', 'immediate')]",['immediate'],"[('Ad', '0')]",['0']
+0,1,"('Ad', '0')",resupply_priority,"[0.0,0.0]","[1.0,1.0]",rule_33,"[('Ad', 'immediate')]",['immediate'],"[('Ad', '0')]",['0']

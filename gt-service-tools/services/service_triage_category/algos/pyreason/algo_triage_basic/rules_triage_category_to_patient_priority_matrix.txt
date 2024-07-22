@@ -1,0 +1,35 @@
+# Rule: If a patient is in the 'expectant' category
+medevac_priority(PATIENT, 6) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+evac_priority(PATIENT, 5) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+resupply_priority(PATIENT, 4) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+litter(PATIENT) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+
+# Rule: If a patient is in the 'immediate' category
+medevac_priority(PATIENT, 1) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+evac_priority(PATIENT, 2) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+resupply_priority(PATIENT, 3) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+litter(PATIENT) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+
+# Rule: If a patient is in the 'urgent' category
+medevac_priority(PATIENT, 2) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+evac_priority(PATIENT, 3) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+resupply_priority(PATIENT, 4) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+litter(PATIENT) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+
+# Rule: If a patient is in the 'delayed' category
+medevac_priority(PATIENT, 3) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
+evac_priority(PATIENT, 4) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
+resupply_priority(PATIENT, 5) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
+
+# Rule: If a patient is in the 'minor' category
+medevac_priority(PATIENT, 4) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+evac_priority(PATIENT, 5) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+resupply_priority(PATIENT, 6) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+
+# Rule: If a patient is in the 'uninjured' category
+medevac_priority(PATIENT, 0) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)
+evac_priority(PATIENT, 0) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)
+resupply_priority(PATIENT, 0) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)

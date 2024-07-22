@@ -5,6 +5,7 @@ from pydantic import BaseModel, ValidationError, field_validator
 
 from services.models.ModelTriageCategory import TriageCategory
 from services.models.ModelTriageScore import TriageScore
+from services.models.ModelPatientMatrix import PatientMatrix
 
 
 class InteractionOption(BaseModel):
@@ -41,6 +42,11 @@ class TriageInteractionRequest(InteractionRequest):
 class TriageInteractionRequest1(InteractionRequest):
     patient_id: Optional[str] = None
     triage_category: Optional[TriageCategory] = None
+
+
+class PatientMatrixInteractionRequest(InteractionRequest):
+    patient_id: Optional[str] = None
+    patient_matrix: Optional[PatientMatrix] = None
 
 
 class EvacStrandedPersonnelInteractionRequest(InteractionRequest):

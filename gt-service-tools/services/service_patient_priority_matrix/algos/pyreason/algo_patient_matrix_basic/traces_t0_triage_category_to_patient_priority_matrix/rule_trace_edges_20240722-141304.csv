@@ -1,0 +1,26 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3,Clause-4
+0,0,"('hh', 'delayed')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,
+0,0,"('hh', '0')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '0')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '0')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '1')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '1')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '1')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '2')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '2')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '2')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '3')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '3')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '3')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '4')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '4')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '4')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '5')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '5')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '5')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '6')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '6')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('hh', '6')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,1,"('hh', '4')",medevac_priority,"[0.0,0.0]","[1.0,1.0]",rule_21,"[('hh', 'delayed')]",['delayed'],"[('hh', '4')]",['4']
+0,1,"('hh', '1')",evac_priority,"[0.0,0.0]","[1.0,1.0]",rule_24,"[('hh', 'delayed')]",['delayed'],"[('hh', '1')]",['1']
+0,1,"('hh', '1')",resupply_priority,"[0.0,0.0]","[1.0,1.0]",rule_30,"[('hh', 'delayed')]",['delayed'],"[('hh', '1')]",['1']

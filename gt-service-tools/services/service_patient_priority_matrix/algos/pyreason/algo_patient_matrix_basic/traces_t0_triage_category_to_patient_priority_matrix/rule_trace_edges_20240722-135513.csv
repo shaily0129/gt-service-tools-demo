@@ -1,0 +1,26 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3,Clause-4
+0,0,"('Adria', 'delayed')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '0')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '0')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '0')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '1')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '1')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '1')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '2')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '2')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '2')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '3')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '3')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '3')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '4')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '4')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '4')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '5')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '5')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '5')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '6')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '6')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('Adria', '6')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,1,"('Adria', '4')",medevac_priority,"[0.0,0.0]","[1.0,1.0]",rule_21,"[('Adria', 'delayed')]",['delayed'],"[('Adria', '4')]",['4']
+0,1,"('Adria', '1')",evac_priority,"[0.0,0.0]","[1.0,1.0]",rule_24,"[('Adria', 'delayed')]",['delayed'],"[('Adria', '1')]",['1']
+0,1,"('Adria', '1')",resupply_priority,"[0.0,0.0]","[1.0,1.0]",rule_30,"[('Adria', 'delayed')]",['delayed'],"[('Adria', '1')]",['1']

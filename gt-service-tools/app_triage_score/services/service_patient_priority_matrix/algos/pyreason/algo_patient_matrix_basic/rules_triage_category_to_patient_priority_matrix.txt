@@ -1,53 +1,40 @@
-# Infer litter or not
-litter(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_expectant(CATEGORY)
-litter(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_immediate(CATEGORY)
-litter(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_urgent(CATEGORY)
+# Rule: If a patient is in the 'expectant' category
+medevac_priority(PATIENT, 3) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+evac_priority(PATIENT, 0) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+resupply_priority(PATIENT, 0) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+litter(PATIENT) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, expectant), type_casualty(PATIENT)
 
-# Infer ambulatory or not
-ambulatory(PATIENT): [0,0] <-0 triage_category(PATIENT, CATEGORY), type_triage_category_expectant(CATEGORY)
-ambulatory(PATIENT): [0,0] <-0 triage_category(PATIENT, CATEGORY), type_triage_category_immediate(CATEGORY)
-ambulatory(PATIENT): [0,0] <-0 triage_category(PATIENT, CATEGORY), type_triage_category_urgent(CATEGORY)
+# Rule: If a patient is in the 'immediate' category
+medevac_priority(PATIENT, 1) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+evac_priority(PATIENT, 0) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+resupply_priority(PATIENT, 0) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+litter(PATIENT) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, immediate), type_casualty(PATIENT)
 
-# Infer medevac needed or not
-medevac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_expectant(CATEGORY)
-medevac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_immediate(CATEGORY)
-medevac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_urgent(CATEGORY)
-medevac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_delayed(CATEGORY)
-medevac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_minor(CATEGORY)
-medevac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_uninjured(CATEGORY)
+# Rule: If a patient is in the 'urgent' category
+medevac_priority(PATIENT, 2) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+evac_priority(PATIENT, 0) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+resupply_priority(PATIENT, 0) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+litter(PATIENT) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, urgent), type_casualty(PATIENT)
 
-# Infer evac needed
-evac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_delayed(CATEGORY)
-evac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_minor(CATEGORY)
-evac_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_uninjured(CATEGORY)
+# Rule: If a patient is in the 'delayed' category
+medevac_priority(PATIENT, 4) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
+evac_priority(PATIENT, 1) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
+resupply_priority(PATIENT, 1) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, delayed), type_casualty(PATIENT)
 
-#Infer resupply needed
-resupply_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_delayed(CATEGORY)
-resupply_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_minor(CATEGORY)
-resupply_needed(PATIENT) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_uninjured(CATEGORY)
+# Rule: If a patient is in the 'minor' category
+medevac_priority(PATIENT, 5) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+evac_priority(PATIENT, 2) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+resupply_priority(PATIENT, 2) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
+litter(PATIENT, false) <- triage_category(PATIENT, minor), type_casualty(PATIENT)
 
-# Medevac priority
-medevac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_immediate(CATEGORY), medevac_priority(PATIENT, PRIORITY):[0,1], priority_one(PRIORITY)
-medevac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_urgent(CATEGORY), medevac_priority(PATIENT, PRIORITY):[0,1], priority_two(PRIORITY)
-medevac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_expectant(CATEGORY), medevac_priority(PATIENT, PRIORITY):[0,1], priority_three(PRIORITY)
-medevac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_delayed(CATEGORY), medevac_priority(PATIENT, PRIORITY):[0,1], priority_four(PRIORITY)
-medevac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_minor(CATEGORY), medevac_priority(PATIENT, PRIORITY):[0,1], priority_five(PRIORITY)
-medevac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_uninjured(CATEGORY), medevac_priority(PATIENT, PRIORITY):[0,1], priority_six(PRIORITY)
 
-# EVAC priority
-evac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_delayed(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_one(PRIORITY)
-evac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_minor(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_two(PRIORITY)
-evac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_uninjured(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_three(PRIORITY)
-
-evac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_immediate(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_zero(PRIORITY)
-evac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_urgent(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_zero(PRIORITY)
-evac_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_expectant(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_zero(PRIORITY)
-
-# resupply priority
-resupply_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_delayed(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_one(PRIORITY)
-resupply_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_minor(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_two(PRIORITY)
-resupply_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_uninjured(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_three(PRIORITY)
-
-resupply_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_immediate(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_zero(PRIORITY)
-resupply_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_urgent(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_zero(PRIORITY)
-resupply_priority(PATIENT, PRIORITY) <-0 triage_category(PATIENT, CATEGORY), type_triage_category_expectant(CATEGORY), evac_priority(PATIENT, PRIORITY):[0,1], priority_zero(PRIORITY)
+# Rule: If a patient is in the 'uninjured' category
+medevac_priority(PATIENT, 0) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)
+evac_priority(PATIENT, 0) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)
+resupply_priority(PATIENT, 0) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)
+ambulatory(PATIENT) <- triage_category(PATIENT, uninjured), type_casualty(PATIENT)

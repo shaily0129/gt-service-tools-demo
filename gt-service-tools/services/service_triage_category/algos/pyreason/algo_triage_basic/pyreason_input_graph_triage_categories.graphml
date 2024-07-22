@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="resupply_priority" for="edge" attr.name="resupply_priority" attr.type="string"/>
+<key id="evac_priority" for="edge" attr.name="evac_priority" attr.type="string"/>
+<key id="medevac_priority" for="edge" attr.name="medevac_priority" attr.type="string"/>
+<key id="triage_category" for="edge" attr.name="triage_category" attr.type="string"/>
+<key id="resupply_needed" for="node" attr.name="resupply_needed" attr.type="string"/>
+<key id="evac_needed" for="node" attr.name="evac_needed" attr.type="string"/>
+<key id="medevac_needed" for="node" attr.name="medevac_needed" attr.type="string"/>
+<key id="ambulatory" for="node" attr.name="ambulatory" attr.type="string"/>
+<key id="litter" for="node" attr.name="litter" attr.type="string"/>
+<key id="type_casualty" for="node" attr.name="type_casualty" attr.type="string"/>
+<key id="casualty_id" for="node" attr.name="casualty_id" attr.type="long"/>
+<key id="priority" for="node" attr.name="priority" attr.type="string"/>
+<key id="type_triage_category" for="node" attr.name="type_triage_category" attr.type="string"/>
+<key id="triage_category_id" for="node" attr.name="triage_category_id" attr.type="long"/>
+<graph edgedefault="directed"><node id="expectant">
+  <data key="triage_category_id">2</data>
+  <data key="type_triage_category">1,1</data>
+</node>
+<node id="immediate">
+  <data key="triage_category_id">3</data>
+  <data key="type_triage_category">1,1</data>
+</node>
+<node id="urgent">
+  <data key="triage_category_id">4</data>
+  <data key="type_triage_category">1,1</data>
+</node>
+<node id="delayed">
+  <data key="triage_category_id">5</data>
+  <data key="type_triage_category">1,1</data>
+</node>
+<node id="minor">
+  <data key="triage_category_id">6</data>
+  <data key="type_triage_category">1,1</data>
+</node>
+<node id="uninjured">
+  <data key="triage_category_id">7</data>
+  <data key="type_triage_category">1,1</data>
+</node>
+<node id="0">
+  <data key="priority">1,1</data>
+</node>
+<node id="1">
+  <data key="priority">1,1</data>
+</node>
+<node id="2">
+  <data key="priority">1,1</data>
+</node>
+<node id="3">
+  <data key="priority">1,1</data>
+</node>
+<node id="4">
+  <data key="priority">1,1</data>
+</node>
+<node id="5">
+  <data key="priority">1,1</data>
+</node>
+<node id="6">
+  <data key="priority">1,1</data>
+</node>
+<node id="Unknown">
+  <data key="casualty_id">2</data>
+  <data key="type_casualty">1,1</data>
+  <data key="litter">0,0</data>
+  <data key="ambulatory">1,1</data>
+  <data key="medevac_needed">0,0</data>
+  <data key="evac_needed">0,0</data>
+  <data key="resupply_needed">0,0</data>
+</node>
+<edge source="Unknown" target="delayed">
+  <data key="triage_category">1,1</data>
+</edge>
+<edge source="Unknown" target="0">
+  <data key="medevac_priority">0,0</data>
+  <data key="evac_priority">0,0</data>
+  <data key="resupply_priority">0,0</data>
+</edge>
+<edge source="Unknown" target="1">
+  <data key="medevac_priority">0,0</data>
+  <data key="evac_priority">0,0</data>
+  <data key="resupply_priority">0,0</data>
+</edge>
+<edge source="Unknown" target="2">
+  <data key="medevac_priority">0,0</data>
+  <data key="evac_priority">0,0</data>
+  <data key="resupply_priority">0,0</data>
+</edge>
+<edge source="Unknown" target="3">
+  <data key="medevac_priority">0,0</data>
+  <data key="evac_priority">0,0</data>
+  <data key="resupply_priority">0,0</data>
+</edge>
+<edge source="Unknown" target="4">
+  <data key="medevac_priority">0,0</data>
+  <data key="evac_priority">0,0</data>
+  <data key="resupply_priority">0,0</data>
+</edge>
+<edge source="Unknown" target="5">
+  <data key="medevac_priority">0,0</data>
+  <data key="evac_priority">0,0</data>
+  <data key="resupply_priority">0,0</data>
+</edge>
+<edge source="Unknown" target="6">
+  <data key="medevac_priority">0,0</data>
+  <data key="evac_priority">0,0</data>
+  <data key="resupply_priority">0,0</data>
+</edge>
+</graph></graphml>
