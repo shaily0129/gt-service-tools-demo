@@ -1,0 +1,7 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('Charles Kroger', '95.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact

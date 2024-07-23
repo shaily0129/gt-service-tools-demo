@@ -1,0 +1,26 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,Jake Peralta,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Randy Disher,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Trudy Monk,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Sharona Fleming,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Charles Kroger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Julie Trieger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Benjy Fleming,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Adrian Monk,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Natalie Tieger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Leland Stottlemeyer,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH47,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Truck M1165,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH99,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Ambulance M997A3,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Black hawk HH60M,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,Jake Peralta,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Jake Peralta', 'Chinook CH99'), ('Jake Peralta', 'Truck M1165'), ('Jake Peralta', 'Ambulance M997A3')]"
+0,1,Randy Disher,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Randy Disher', 'Black hawk HH60M'), ('Randy Disher', 'Chinook CH47')]"
+0,1,Trudy Monk,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Trudy Monk', 'Chinook CH47'), ('Trudy Monk', 'Chinook CH99')]"
+0,1,Sharona Fleming,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Sharona Fleming', 'Chinook CH99'), ('Sharona Fleming', 'Truck M1165')]"
+0,1,Charles Kroger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Charles Kroger', 'Black hawk HH60M'), ('Charles Kroger', 'Chinook CH47'), ('Charles Kroger', 'Chinook CH99'), ('Charles Kroger', 'Truck M1165'), ('Charles Kroger', 'Ambulance M997A3')]"
+0,1,Julie Trieger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Julie Trieger', 'Black hawk HH60M'), ('Julie Trieger', 'Chinook CH47'), ('Julie Trieger', 'Chinook CH99'), ('Julie Trieger', 'Truck M1165'), ('Julie Trieger', 'Ambulance M997A3')]"
+0,1,Benjy Fleming,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Benjy Fleming', 'Black hawk HH60M'), ('Benjy Fleming', 'Chinook CH47'), ('Benjy Fleming', 'Chinook CH99'), ('Benjy Fleming', 'Truck M1165'), ('Benjy Fleming', 'Ambulance M997A3')]"
+0,1,Adrian Monk,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Adrian Monk', 'Black hawk HH60M'), ('Adrian Monk', 'Chinook CH47'), ('Adrian Monk', 'Chinook CH99'), ('Adrian Monk', 'Truck M1165'), ('Adrian Monk', 'Ambulance M997A3')]"
+0,1,Natalie Tieger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Natalie Tieger', 'Black hawk HH60M'), ('Natalie Tieger', 'Chinook CH47'), ('Natalie Tieger', 'Chinook CH99'), ('Natalie Tieger', 'Truck M1165')]"
+0,1,Leland Stottlemeyer,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Leland Stottlemeyer', 'Black hawk HH60M'), ('Leland Stottlemeyer', 'Chinook CH47'), ('Leland Stottlemeyer', 'Chinook CH99'), ('Leland Stottlemeyer', 'Truck M1165')]"

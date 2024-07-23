@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="final_asset" for="edge" attr.name="final_asset" attr.type="string"/>
+<key id="possible_asset" for="edge" attr.name="possible_asset" attr.type="string"/>
+<key id="triage_score" for="edge" attr.name="triage_score" attr.type="string"/>
+<key id="type_asset" for="node" attr.name="type_asset" attr.type="string"/>
+<key id="type_patient" for="node" attr.name="type_patient" attr.type="string"/>
+<graph edgedefault="directed"><node id="Adria">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="20.0"/>
+<node id="Natali">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="10.0"/>
+<node id="Lelan">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="Jake Peralta">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="30.0"/>
+<node id="Sharona Fleming">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="40.0"/>
+<node id="Randy Disher">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="43.0"/>
+<node id="Trudy Monk">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="13.0"/>
+<node id="Charles Kroger">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="95.0"/>
+<node id="Julie Trieger">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="84.0"/>
+<node id="Benjy Fleming">
+  <data key="type_patient">1,1</data>
+</node>
+<node id="82.0"/>
+<node id="Chinook CH99">
+  <data key="type_asset">1,1</data>
+</node>
+<node id="Chinook CH47">
+  <data key="type_asset">1,1</data>
+</node>
+<node id="Ambulance M997A3">
+  <data key="type_asset">1,1</data>
+</node>
+<node id="Black hawk HH60M">
+  <data key="type_asset">1,1</data>
+</node>
+<node id="Truck M1165">
+  <data key="type_asset">1,1</data>
+</node>
+<edge source="Adria" target="20.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Adria" target="Black hawk HH60M">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Adria" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Adria" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Adria" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Adria" target="Ambulance M997A3">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Natali" target="10.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Natali" target="Black hawk HH60M">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Natali" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Natali" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Natali" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Lelan" target="20.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Lelan" target="Black hawk HH60M">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Lelan" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Lelan" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Lelan" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Jake Peralta" target="30.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Jake Peralta" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Jake Peralta" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Jake Peralta" target="Ambulance M997A3">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Sharona Fleming" target="40.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Sharona Fleming" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Sharona Fleming" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Randy Disher" target="43.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Randy Disher" target="Black hawk HH60M">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Randy Disher" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Trudy Monk" target="13.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Trudy Monk" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Trudy Monk" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Charles Kroger" target="95.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Charles Kroger" target="Black hawk HH60M">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Charles Kroger" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Charles Kroger" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Charles Kroger" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Charles Kroger" target="Ambulance M997A3">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Julie Trieger" target="84.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Julie Trieger" target="Black hawk HH60M">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Julie Trieger" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Julie Trieger" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Julie Trieger" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Julie Trieger" target="Ambulance M997A3">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Benjy Fleming" target="82.0">
+  <data key="triage_score">1,1</data>
+</edge>
+<edge source="Benjy Fleming" target="Black hawk HH60M">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Benjy Fleming" target="Chinook CH47">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Benjy Fleming" target="Chinook CH99">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Benjy Fleming" target="Truck M1165">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+<edge source="Benjy Fleming" target="Ambulance M997A3">
+  <data key="possible_asset">1,1</data>
+  <data key="final_asset">0,1</data>
+</edge>
+</graph></graphml>

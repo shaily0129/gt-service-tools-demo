@@ -1,0 +1,48 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('Jake Peralta', '30.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', '43.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', '13.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', '40.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', '95.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', '84.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', '82.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', '10.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact

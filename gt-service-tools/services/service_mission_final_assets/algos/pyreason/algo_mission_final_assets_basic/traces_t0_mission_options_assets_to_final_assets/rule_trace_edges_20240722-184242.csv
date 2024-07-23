@@ -1,0 +1,7 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('John', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
