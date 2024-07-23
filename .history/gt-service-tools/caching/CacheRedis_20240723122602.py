@@ -50,10 +50,19 @@ class RedisManager:
         # keys = redis_client.keys('*')
 
         # Get all keys
-        keys = self.redis_client.keys('*')
+        keys = self.redis_client.keys("*")
+
+        # Get values associated with keys
+        # values = redis_client.mget(keys)
         values = self.redis_client.mget(keys)
 
-        all_values = {key: value for key, value in zip(keys, values)}
+        # Create a dictionary to store key-value pairs
+        all_values = {}
+
+        # Zip keys and values together and add them to the dictionary
+        for key, value in zip(keys, values):
+            all_values[key] = value
+
         return all_values
 
     def delete_all(self):
@@ -61,14 +70,14 @@ class RedisManager:
         self.redis_client.flushdb()
 
     def message_handler(self, message):
-        print(f"TODO - Received message: {message['data']}")
+        print(f"TODO - Received message: {message['data'].decode('utf-8')}")
 
     def subscribe_to_redis_channel(self, channel_name):
         self.redis_client.subscribe(channel_name)
 
         # Continuously listen for messages
         for message in self.redis_client.listen():
-            if message['type'] == 'message':
+            if message["type"] == "message":
                 self.message_handler(message)
 
     def publish_to_redis_channel(self, channel_name, message):

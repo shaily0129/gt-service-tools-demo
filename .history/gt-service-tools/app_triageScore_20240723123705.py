@@ -1,7 +1,7 @@
+from typing import Dict, List, Union, Optional
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request, Body
 from pydantic import BaseModel
-from typing import List, Optional, Dict
 from caching.CacheRedis import RedisManager
 from services.service_triage_category.algos.pyreason.algo_triage_basic.AlgoTriageScoreInteraction import (
     TriageScoreInteraction,
@@ -9,17 +9,16 @@ from services.service_triage_category.algos.pyreason.algo_triage_basic.AlgoTriag
 from services.models.Models import TriageInteractionRequest
 from services.service_triage.factory.FactoryAlgoTriage import (
     Threshold,
+    TriageAlgoName,
+    TriageFactory,
 )
 from utils.Utils import load_env_file
 
+ 
 class PatientParams(BaseModel):
     patient_id: str  # Mandatory field
     patient_name: str  # Field for patient name
     params: dict
-
-class TriageRequestBody(BaseModel):
-    request_id: str
-    patients: List[PatientParams]
 
 class PatientRecord(BaseModel):
     request_id: str
@@ -27,6 +26,10 @@ class PatientRecord(BaseModel):
     patient_name: str
     params: dict
     triage_score: Optional[Dict] = None
+
+class TriageRequestBody(BaseModel):
+    request_id: str
+    patients: List[PatientParams]
 
 # Define thresholds_data_algo3
 thresholds_data_algo3 = {
@@ -61,9 +64,10 @@ thresholds_data_algo3 = {
 
 app = FastAPI(
     title="ASU Tools",
-    description="Demo of using interactive tools",
+    description="Demo of using an interactive tools",
     version="0.0.1",
 )
+
 
 @app.post("/tools/triage", tags=["Triage"])
 async def rate_response(
@@ -73,18 +77,16 @@ async def rate_response(
         # Step 1. Setup Caching Manager
         load_env_file("dev.env")
         caching_manager = RedisManager()
-        
+
         results = []
         for patient in body.patients:
-            # Generate a unique key for each patient interaction
             key = f"tools-triage-{body.request_id}-{patient.patient_id}"
-
             # Create TriageInteractionRequest for each patient
             triage_interaction_request = TriageInteractionRequest(
                 request_id=body.request_id, patient_id=patient.patient_id, params=patient.params
             )
 
-            # Check for new or complete interaction request
+        # Step 2. Check for new or complete interaction request
             cached_bir_json = caching_manager.get_json(key)
             if cached_bir_json is None:
                 caching_manager.save_json(key, triage_interaction_request.json())
@@ -94,19 +96,19 @@ async def rate_response(
                     results.append(cached_bir)
                     continue
 
-            # Interaction request is still WIP, so run the triage algorithm and cache result
+            # Step 3. Interaction request is still WIP, so run the triage algorithm and cache result
             bir = TriageScoreInteraction(thresholds=thresholds_data_algo3).run_triage_algo(
                 triage_interaction_request=triage_interaction_request
             )
 
-            # Save the result and add to results
+        # Step 4. Save the result and return it
             caching_manager.save_json(key, bir.json())
             results.append(bir)
-
+        
         # Sort results by score
         sorted_results = sorted(results, key=lambda x: x.triage_score.score, reverse=True)
 
-        return {"results": sorted_results}
+        return {"results": sorted_results}       
 
     except Exception as e:
         print(e)
@@ -120,20 +122,18 @@ async def get_all_patients() -> dict:
         keys = caching_manager.get_keys("tools-triage-*")
         
         patients = []
-        unique_patient_ids = set()
+        
         for key in keys:
             cached_patient_json = caching_manager.get_json(key)
             if cached_patient_json:
                 cached_patient = TriageInteractionRequest(**cached_patient_json)
-                if cached_patient.patient_id not in unique_patient_ids:
-                    unique_patient_ids.add(cached_patient.patient_id)
-                    patient_record = {
-                        "request_id": cached_patient.request_id,
-                        "patient_id": cached_patient.patient_id,
-                        "patient_name": cached_patient.params.get("patient_name", "Unknown"),
-                        "triage_score": cached_patient.triage_score
-                    }
-                    patients.append(patient_record)
+                patient_record = {
+                    "request_id": cached_patient.request_id,
+                    "patient_id": cached_patient.patient_id,
+                    "patient_name": cached_patient.params.get("patient_name", "Unknown"),
+                    "triage_score": cached_patient.triage_score
+                }
+                patients.append(patient_record)
                 
         return {"patients": patients}
 
@@ -167,6 +167,6 @@ async def get_patient_by_id(patient_id: str) -> dict:
     except Exception as e:
         print(e)
         raise HTTPException(status_code=500, detail=str(e))
-
+    
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8002)

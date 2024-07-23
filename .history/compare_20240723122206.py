@@ -120,20 +120,17 @@ async def get_all_patients() -> dict:
         keys = caching_manager.get_keys("tools-triage-*")
         
         patients = []
-        unique_patient_ids = set()
         for key in keys:
             cached_patient_json = caching_manager.get_json(key)
             if cached_patient_json:
                 cached_patient = TriageInteractionRequest(**cached_patient_json)
-                if cached_patient.patient_id not in unique_patient_ids:
-                    unique_patient_ids.add(cached_patient.patient_id)
-                    patient_record = {
-                        "request_id": cached_patient.request_id,
-                        "patient_id": cached_patient.patient_id,
-                        "patient_name": cached_patient.params.get("patient_name", "Unknown"),
-                        "triage_score": cached_patient.triage_score
-                    }
-                    patients.append(patient_record)
+                patient_record = {
+                    "request_id": cached_patient.request_id,
+                    "patient_id": cached_patient.patient_id,
+                    "patient_name": cached_patient.params.get("patient_name", "Unknown"),
+                    "triage_score": cached_patient.triage_score
+                }
+                patients.append(patient_record)
                 
         return {"patients": patients}
 

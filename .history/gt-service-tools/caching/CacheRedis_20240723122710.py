@@ -68,7 +68,7 @@ class RedisManager:
 
         # Continuously listen for messages
         for message in self.redis_client.listen():
-            if message['type'] == 'message':
+            if message["type"] == "message":
                 self.message_handler(message)
 
     def publish_to_redis_channel(self, channel_name, message):
