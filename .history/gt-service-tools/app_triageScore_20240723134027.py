@@ -17,7 +17,7 @@ from utils.Utils import load_env_file
 
 class PatientParams(BaseModel):
     patient_id: str  # Mandatory field
-    params: dict
+    params: Optional[dict]
 
 
 class PatientRecord(BaseModel):
