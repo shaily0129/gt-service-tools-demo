@@ -1,5 +1,4 @@
-import json
-from typing import Dict, List, Union, Optional
+from typing import Dict, List, Optional
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request, Body
 from pydantic import BaseModel
@@ -14,19 +13,12 @@ from services.service_triage.factory.FactoryAlgoTriage import (
     TriageFactory,
 )
 from utils.Utils import load_env_file
+import json
 
 
 class PatientParams(BaseModel):
     patient_id: str  # Mandatory field
-    params: dict
-
-
-class PatientRecord(BaseModel):
-    request_id: str
-    patient_id: str
-    patient_name: str
-    params: dict
-    triage_score: Optional[Dict] = None
+    params: Optional[Dict] = None  # Optional params field
 
 
 class TriageRequestBody(BaseModel):
@@ -67,7 +59,7 @@ thresholds_data_algo3 = {
 
 app = FastAPI(
     title="ASU Tools",
-    description="Demo of using an interactive tools",
+    description="Demo of using interactive tools",
     version="0.0.1",
 )
 
@@ -94,7 +86,7 @@ async def rate_response(request: Request, body: TriageRequestBody = Body(...)) -
             if cached_bir_json is None:
                 caching_manager.save_json(key, triage_interaction_request.json())
             else:
-                cached_bir = TriageInteractionRequest(**cached_bir_json)
+                cached_bir = TriageInteractionRequest(**json.loads(cached_bir_json))
                 if cached_bir.complete:
                     results.append(cached_bir)
                     continue
@@ -113,41 +105,38 @@ async def rate_response(request: Request, body: TriageRequestBody = Body(...)) -
             results, key=lambda x: x.triage_score.score, reverse=True
         )
 
-        return {"results": sorted_results}
+        return {"results": [r.dict() for r in sorted_results]}
 
     except Exception as e:
         print(e)
         raise HTTPException(status_code=500, detail=str(e))
 
 
-@app.post("/tools/triage/scores", tags=["Triage"])
-async def get_patient_scores(
-    request: Request, patient_ids: List[str] = Body(...)
-) -> dict:
+@app.post("/tools/triage/patient_ids", tags=["Triage"])
+async def get_patients_by_ids(body: TriageRequestBody = Body(...)) -> dict:
     try:
         load_env_file("dev.env")
         caching_manager = RedisManager()
-
         results = []
-        for patient_id in patient_ids:
-            keys = caching_manager.get_keys(f"tools-triage-*-{patient_id}")
+
+        for patient in body.patients:
+            keys = caching_manager.get_keys(f"tools-triage-*-{patient.patient_id}")
             if not keys:
                 continue
 
             # Assume the latest entry is the one we want if there are multiple
             key = keys[-1]
             cached_patient_json = caching_manager.get_json(key)
-
-            cached_patient_dict = json.loads(cached_patient_json)
-            cached_patient = TriageInteractionRequest(**cached_patient_dict)
+            cached_patient = TriageInteractionRequest(**json.loads(cached_patient_json))
             patient_record = {
+                "request_id": cached_patient.request_id,
                 "patient_id": cached_patient.patient_id,
+                "patient_name": cached_patient.params.get("patient_name", "Unknown"),
                 "triage_score": cached_patient.triage_score,
-                "algo_name": cached_patient.triage_score.algo_name,
             }
             results.append(patient_record)
 
-        # Sort results by score in decreasing order
+        # Sort results by score in descending order
         sorted_results = sorted(
             results, key=lambda x: x["triage_score"].score, reverse=True
         )

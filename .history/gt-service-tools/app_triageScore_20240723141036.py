@@ -1,4 +1,3 @@
-import json
 from typing import Dict, List, Union, Optional
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request, Body
@@ -120,6 +119,34 @@ async def rate_response(request: Request, body: TriageRequestBody = Body(...)) -
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/tools/triage/{patient_id}", tags=["Triage"])
+async def get_patient_by_id(patient_id: str) -> dict:
+    try:
+        load_env_file("dev.env")
+        caching_manager = RedisManager()
+        keys = caching_manager.get_keys(f"tools-triage-*-{patient_id}")
+
+        if not keys:
+            raise HTTPException(status_code=404, detail="Patient not found")
+
+        # Assume the latest entry is the one we want if there are multiple
+        key = keys[-1]
+        cached_patient_json = caching_manager.get_json(key)
+        cached_patient = TriageInteractionRequest(**cached_patient_json)
+        patient_record = {
+            "request_id": cached_patient.request_id,
+            "patient_id": cached_patient.patient_id,
+            "patient_name": cached_patient.params.get("patient_name", "Unknown"),
+            "triage_score": cached_patient.triage_score,
+        }
+
+        return {"patient": patient_record}
+
+    except Exception as e:
+        print(e)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.post("/tools/triage/scores", tags=["Triage"])
 async def get_patient_scores(
     request: Request, patient_ids: List[str] = Body(...)
@@ -137,9 +164,7 @@ async def get_patient_scores(
             # Assume the latest entry is the one we want if there are multiple
             key = keys[-1]
             cached_patient_json = caching_manager.get_json(key)
-
-            cached_patient_dict = json.loads(cached_patient_json)
-            cached_patient = TriageInteractionRequest(**cached_patient_dict)
+            cached_patient = TriageInteractionRequest(**cached_patient_json)
             patient_record = {
                 "patient_id": cached_patient.patient_id,
                 "triage_score": cached_patient.triage_score,

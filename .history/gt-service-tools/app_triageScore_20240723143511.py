@@ -120,6 +120,7 @@ async def rate_response(request: Request, body: TriageRequestBody = Body(...)) -
         raise HTTPException(status_code=500, detail=str(e))
 
 
+
 @app.post("/tools/triage/scores", tags=["Triage"])
 async def get_patient_scores(
     request: Request, patient_ids: List[str] = Body(...)

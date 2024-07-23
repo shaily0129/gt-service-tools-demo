@@ -1,4 +1,3 @@
-import json
 from typing import Dict, List, Union, Optional
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request, Body
@@ -38,30 +37,8 @@ class TriageRequestBody(BaseModel):
 thresholds_data_algo3 = {
     "external_hemorrhage": Threshold(min_value=1, max_value=6),
     "tension_pneumothorax": Threshold(min_value=1, max_value=6),
-    "traumatic_brain_injury": Threshold(min_value=1, max_value=6),
-    "concussion": Threshold(min_value=1, max_value=6),
-    "cerebral_contusion": Threshold(min_value=1, max_value=6),
-    "subarachnoid_hemorrhage": Threshold(min_value=1, max_value=6),
-    "epidural_hematoma": Threshold(min_value=1, max_value=6),
-    "nasal_fracture": Threshold(min_value=1, max_value=6),
-    "orbital_fracture": Threshold(min_value=1, max_value=6),
-    "le_fort_II_fracture": Threshold(min_value=1, max_value=6),
-    "rib_fracture": Threshold(min_value=1, max_value=6),
-    "lung_contusion": Threshold(min_value=1, max_value=6),
-    "flail_chest": Threshold(min_value=1, max_value=6),
-    "aortic_laceration": Threshold(min_value=1, max_value=6),
-    "minor_liver_laceration": Threshold(min_value=1, max_value=6),
-    "splenic_laceration": Threshold(min_value=1, max_value=6),
-    "liver_hematoma": Threshold(min_value=1, max_value=6),
-    "pancreatic_transection": Threshold(min_value=1, max_value=6),
-    "radius_ulna_fracture": Threshold(min_value=1, max_value=6),
-    "femur_fracture": Threshold(min_value=1, max_value=6),
-    "knee_dislocation": Threshold(min_value=1, max_value=6),
-    "traumatic_amputation_below_knee": Threshold(min_value=1, max_value=6),
-    "traumatic_amputation_above_knee": Threshold(min_value=1, max_value=6),
-    "burn": Threshold(min_value=1, max_value=6),
-    "gcs": Threshold(min_value=3, max_value=15),
-    "sbp": Threshold(min_value=0, max_value=219),
+    # Add other thresholds as needed
+    # ...
     "rr": Threshold(min_value=0, max_value=100),
 }
 
@@ -120,10 +97,36 @@ async def rate_response(request: Request, body: TriageRequestBody = Body(...)) -
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/tools/triage/{patient_id}", tags=["Triage"])
+async def get_patient_by_id(patient_id: str) -> dict:
+    try:
+        load_env_file("dev.env")
+        caching_manager = RedisManager()
+        keys = caching_manager.get_keys(f"tools-triage-*-{patient_id}")
+
+        if not keys:
+            raise HTTPException(status_code=404, detail="Patient not found")
+
+        # Assume the latest entry is the one we want if there are multiple
+        key = keys[-1]
+        cached_patient_json = caching_manager.get_json(key)
+        cached_patient = TriageInteractionRequest(**cached_patient_json)
+        patient_record = {
+            "request_id": cached_patient.request_id,
+            "patient_id": cached_patient.patient_id,
+            "patient_name": cached_patient.params.get("patient_name", "Unknown"),
+            "triage_score": cached_patient.triage_score,
+        }
+
+        return {"patient": patient_record}
+
+    except Exception as e:
+        print(e)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.post("/tools/triage/scores", tags=["Triage"])
-async def get_patient_scores(
-    request: Request, patient_ids: List[str] = Body(...)
-) -> dict:
+async def get_patient_scores(request: Request, patient_ids: List[str] = Body(...)) -> dict:
     try:
         load_env_file("dev.env")
         caching_manager = RedisManager()
@@ -137,9 +140,7 @@ async def get_patient_scores(
             # Assume the latest entry is the one we want if there are multiple
             key = keys[-1]
             cached_patient_json = caching_manager.get_json(key)
-
-            cached_patient_dict = json.loads(cached_patient_json)
-            cached_patient = TriageInteractionRequest(**cached_patient_dict)
+            cached_patient = TriageInteractionRequest(**cached_patient_json)
             patient_record = {
                 "patient_id": cached_patient.patient_id,
                 "triage_score": cached_patient.triage_score,
@@ -148,9 +149,7 @@ async def get_patient_scores(
             results.append(patient_record)
 
         # Sort results by score in decreasing order
-        sorted_results = sorted(
-            results, key=lambda x: x["triage_score"].score, reverse=True
-        )
+        sorted_results = sorted(results, key=lambda x: x["triage_score"].score, reverse=True)
 
         return {"patients": sorted_results}
 
