@@ -1,0 +1,16 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,Benjy Fleming,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Adrian Monk,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Natalie Teeger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Leland Stottlemeyer,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Jake Peralta,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH47,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Truck M1165,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Ambulance M997A3,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Black hawk HH60M,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH99,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,Benjy Fleming,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Benjy Fleming', 'Black hawk HH60M'), ('Benjy Fleming', 'Chinook CH47'), ('Benjy Fleming', 'Chinook CH99'), ('Benjy Fleming', 'Truck M1165'), ('Benjy Fleming', 'Ambulance M997A3')]"
+0,1,Adrian Monk,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Adrian Monk', 'Black hawk HH60M'), ('Adrian Monk', 'Chinook CH47'), ('Adrian Monk', 'Chinook CH99')]"
+0,1,Natalie Teeger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Natalie Teeger', 'Black hawk HH60M'), ('Natalie Teeger', 'Chinook CH47'), ('Natalie Teeger', 'Truck M1165')]"
+0,1,Leland Stottlemeyer,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Leland Stottlemeyer', 'Black hawk HH60M'), ('Leland Stottlemeyer', 'Truck M1165')]"
+0,1,Jake Peralta,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Jake Peralta', 'Chinook CH99'), ('Jake Peralta', 'Truck M1165'), ('Jake Peralta', 'Ambulance M997A3')]"

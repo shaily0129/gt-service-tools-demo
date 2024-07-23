@@ -1,0 +1,27 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,"('John Doe', '50.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('John Doe', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('John Doe', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Jane Smith', '40.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Jane Smith', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Jane Smith', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Alice Johnson', '70.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Alice Johnson', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Alice Johnson', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Alice Johnson', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Bob Brown', '60.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Bob Brown', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Bob Brown', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Charlie Davis', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Charlie Davis', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Charlie Davis', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('John Doe', 'Ambulance M997A3')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Jane Smith', 'Chinook CH47')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Alice Johnson', 'Truck M1165')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Bob Brown', 'Chinook CH99')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Charlie Davis', 'Black hawk HH60M')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,3,"('John Doe', 'Ambulance M997A3')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('John Doe', 'Ambulance M997A3')]"
+1,3,"('Jane Smith', 'Chinook CH47')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Jane Smith', 'Chinook CH47')]"
+1,3,"('Alice Johnson', 'Truck M1165')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Alice Johnson', 'Truck M1165')]"
+1,3,"('Bob Brown', 'Chinook CH99')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Bob Brown', 'Chinook CH99')]"
+1,3,"('Charlie Davis', 'Black hawk HH60M')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Charlie Davis', 'Black hawk HH60M')]"

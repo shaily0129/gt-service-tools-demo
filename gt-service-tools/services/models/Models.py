@@ -5,6 +5,7 @@ from pydantic import BaseModel, ValidationError, field_validator
 
 from services.models.ModelTriageCategory import TriageCategory
 from services.models.ModelTriageScore import TriageScore
+from services.models.ModelMissionFinalAssets import MissionFinalAssets
 
 
 class InteractionOption(BaseModel):
@@ -41,6 +42,19 @@ class TriageInteractionRequest(InteractionRequest):
 class TriageInteractionRequest1(InteractionRequest):
     patient_id: Optional[str] = None
     triage_category: Optional[TriageCategory] = None
+
+
+# class FinalAssetInteractionRequest(InteractionRequest):
+#     patient_id: Optional[str] = None
+#     final_asset: Optional[MissionFinalAssets] = None
+
+class FinalAssetInteractionRequest(BaseModel):
+    request_id: str
+    params: List[dict]  # Adjusted to expect a list of dictionaries
+    patient_id: Optional[str] = None
+    final_asset: Optional[MissionFinalAssets] = None
+    complete: bool = False
+    interactions: Optional[List[Interaction]] = None
 
 
 class EvacStrandedPersonnelInteractionRequest(InteractionRequest):

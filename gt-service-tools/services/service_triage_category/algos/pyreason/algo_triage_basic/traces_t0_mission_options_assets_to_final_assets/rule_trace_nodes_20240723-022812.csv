@@ -1,0 +1,16 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,John Doe,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Jane Smith,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Alice Johnson,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Bob Brown,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Charlie Davis,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Truck M1165,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH47,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Black hawk HH60M,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Ambulance M997A3,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH99,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,John Doe,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('John Doe', 'Ambulance M997A3'), ('John Doe', 'Truck M1165')]"
+0,1,Jane Smith,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Jane Smith', 'Black hawk HH60M'), ('Jane Smith', 'Chinook CH47')]"
+0,1,Alice Johnson,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Alice Johnson', 'Chinook CH99'), ('Alice Johnson', 'Truck M1165'), ('Alice Johnson', 'Ambulance M997A3')]"
+0,1,Bob Brown,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Bob Brown', 'Chinook CH47'), ('Bob Brown', 'Chinook CH99')]"
+0,1,Charlie Davis,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Charlie Davis', 'Black hawk HH60M'), ('Charlie Davis', 'Truck M1165')]"
