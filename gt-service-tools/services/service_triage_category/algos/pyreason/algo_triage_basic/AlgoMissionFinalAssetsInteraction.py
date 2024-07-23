@@ -22,56 +22,65 @@ class AlgoMissionFinalAssetsInteraction(FinalAssets):
         w_p = {}
         resources_persons = []
         unique_assets = set()
-        
+
         for person, score in dict_triage_score.items():
             w_p[person] = 1 - score / 100  # Normalize the score
-        
+
         for person, possible_assets in dict_possible_assets.items():
             unique_assets.update(possible_assets)
             for asset in possible_assets:
                 resources_persons.append((asset, person))
-        
+
         resources = list(unique_assets)
-        
+
         # Convert names to indices
         person_index = {person: i for i, person in enumerate(persons)}
         resource_index = {resource: i for i, resource in enumerate(resources)}
-        
+
         # Create a new model
         m = Model("resource_person_assignment")
-        
+
         # Create binary variables for each valid resource-person pair
         X = {}
         for r, p in resources_persons:
             r_idx = resource_index[r]
             p_idx = person_index[p]
             X[(r_idx, p_idx)] = m.add_var(var_type=BINARY)
-        
+
         # Create binary variables for each person
         Y = [m.add_var(var_type=BINARY) for _ in persons]
-        
+
         # Set the objective to maximize the total weight (value) of selected persons
         m.objective = maximize(xsum(Y[person_index[p]] * w_p[p] for p in persons))
-        
+
         # Add constraints: sum of X[r, p] for all resources r must be at least Y[p] for each person p
         for p in persons:
             p_idx = person_index[p]
-            m += xsum(X[(r_idx, p_idx)] for r_idx, p_idx2 in X.keys() if p_idx2 == p_idx) >= Y[p_idx]
-        
+            m += (
+                xsum(X[(r_idx, p_idx)] for r_idx, p_idx2 in X.keys() if p_idx2 == p_idx)
+                >= Y[p_idx]
+            )
+
         # Add constraints: each resource can be assigned to at most one person
         for r in resources:
             r_idx = resource_index[r]
-            m += xsum(X[(r_idx, p_idx)] for r_idx2, p_idx in X.keys() if r_idx2 == r_idx) <= 1
-        
+            m += (
+                xsum(X[(r_idx, p_idx)] for r_idx2, p_idx in X.keys() if r_idx2 == r_idx)
+                <= 1
+            )
+
         # Optimize the model
         m.optimize()
-        
+
         # Extract the selected persons and their assigned resources
         selected_persons = [p for p in persons if Y[person_index[p]].x >= 0.99]
-        assigned_resources = [(resources[r_idx], persons[p_idx]) for (r_idx, p_idx) in X.keys() if X[(r_idx, p_idx)].x >= 0.99]
-        
-        return selected_persons, assigned_resources
+        assigned_resources = [
+            (resources[r_idx], persons[p_idx])
+            for (r_idx, p_idx) in X.keys()
+            if X[(r_idx, p_idx)].x >= 0.99
+        ]
 
+        return selected_persons, assigned_resources
 
     def get_pyreason_bool(self, python_bool: bool) -> str:
         return "1,1" if python_bool else "0,0"

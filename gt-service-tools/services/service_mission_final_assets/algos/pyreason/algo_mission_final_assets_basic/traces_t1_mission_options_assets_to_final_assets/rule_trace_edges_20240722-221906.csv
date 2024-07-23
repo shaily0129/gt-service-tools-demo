@@ -1,0 +1,16 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,"('Leland Stottlemeyer', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Leland Stottlemeyer', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Leland Stottlemeyer', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Leland Stottlemeyer', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Leland Stottlemeyer', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Jake Peralta', '30.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Jake Peralta', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Jake Peralta', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Jake Peralta', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Leland Stottlemeyer', 'Black hawk HH60M')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Leland Stottlemeyer', 'Chinook CH47')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Jake Peralta', 'Ambulance M997A3')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,3,"('Leland Stottlemeyer', 'Black hawk HH60M')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Leland Stottlemeyer', 'Black hawk HH60M')]"
+1,3,"('Leland Stottlemeyer', 'Chinook CH47')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Leland Stottlemeyer', 'Chinook CH47')]"
+1,3,"('Jake Peralta', 'Ambulance M997A3')",final_asset,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Jake Peralta', 'Ambulance M997A3')]"

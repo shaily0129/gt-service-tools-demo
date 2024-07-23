@@ -1,0 +1,2 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To
+0,0,string,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
