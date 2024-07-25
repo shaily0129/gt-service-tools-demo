@@ -1,0 +1,10 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,Adrian,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Natalie,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Truck M1165,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH99,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Black hawk HH60M,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Ambulance M997A3,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Chinook CH47,type_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,Adrian,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Adrian', 'Black hawk HH60M'), ('Adrian', 'Chinook CH47'), ('Adrian', 'Chinook CH99'), ('Adrian', 'Truck M1165'), ('Adrian', 'Ambulance M997A3')]"
+0,1,Natalie,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Natalie', 'Black hawk HH60M'), ('Natalie', 'Chinook CH47')]"

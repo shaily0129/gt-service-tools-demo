@@ -1,0 +1,27 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To
+0,0,expectant,triage_category_id-2,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,expectant,type_triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,immediate,triage_category_id-3,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,immediate,type_triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,urgent,triage_category_id-4,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,urgent,type_triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,delayed,triage_category_id-5,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,delayed,type_triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,minor,triage_category_id-6,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,minor,type_triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,uninjured,triage_category_id-7,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,uninjured,type_triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,0,priority,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,1,priority,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,2,priority,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,3,priority,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,4,priority,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,5,priority,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,6,priority,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,patient_gdfsg,casualty_id-2,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,patient_gdfsg,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,patient_gdfsg,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,patient_gdfsg,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,patient_gdfsg,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,patient_gdfsg,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,patient_gdfsg,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact

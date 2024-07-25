@@ -1,0 +1,23 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('Unknown', 'immediate')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Unknown', '0')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '0')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '0')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '1')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '1')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '1')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '2')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '2')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '2')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '3')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '3')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '3')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '4')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '4')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '4')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '5')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '5')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '5')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '6')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '6')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,"('Unknown', '6')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact

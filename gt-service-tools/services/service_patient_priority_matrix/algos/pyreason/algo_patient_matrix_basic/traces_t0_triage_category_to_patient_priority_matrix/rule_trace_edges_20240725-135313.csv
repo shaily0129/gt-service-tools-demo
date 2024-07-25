@@ -1,0 +1,26 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3,Clause-4
+0,0,"('tina', 'expectant')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,
+0,0,"('tina', '0')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '0')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '0')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '1')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '1')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '1')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '2')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '2')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '2')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '3')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '3')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '3')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '4')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '4')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '4')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '5')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '5')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '5')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '6')",medevac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '6')",evac_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,0,"('tina', '6')",resupply_priority,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,,,
+0,1,"('tina', '3')",medevac_priority,"[0.0,0.0]","[1.0,1.0]",rule_20,"[('tina', 'expectant')]",['expectant'],"[('tina', '3')]",['3']
+0,1,"('tina', '0')",evac_priority,"[0.0,0.0]","[1.0,1.0]",rule_29,"[('tina', 'expectant')]",['expectant'],"[('tina', '0')]",['0']
+0,1,"('tina', '0')",resupply_priority,"[0.0,0.0]","[1.0,1.0]",rule_35,"[('tina', 'expectant')]",['expectant'],"[('tina', '0')]",['0']
