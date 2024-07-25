@@ -8,6 +8,7 @@ from services.models.ModelTriageScore import TriageScore
 from services.models.ModelMissionFinalAssets import MissionFinalAssets
 from services.models.ModelPatientMatrix import PatientMatrix
 from services.models.ModelMissionFinalCFs import MissionFinalCFs
+from services.models.ModelMissionOptionsAssets import MissionOptionsAssets
 
 
 class InteractionOption(BaseModel):
@@ -79,3 +80,11 @@ class FinalAssetInteractionRequest1(BaseModel):
     interactions: Optional[List[Interaction]] = None
     complete: Optional[bool] = False
     final_asset: Optional[List[MissionFinalCFs]] = None
+
+
+class MissionOptionsAssetsInteractionRequest(BaseModel):
+    request_id: str
+    params: List[Dict]  # Adjusted to expect a list of dictionaries
+    interactions: Optional[List[Interaction]] = None
+    complete: Optional[bool] = False
+    final_asset: Optional[List[MissionOptionsAssets]] = None
