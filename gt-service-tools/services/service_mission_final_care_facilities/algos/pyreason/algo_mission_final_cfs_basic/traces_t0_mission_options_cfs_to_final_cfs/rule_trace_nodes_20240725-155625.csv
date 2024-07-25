@@ -1,0 +1,6 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,Trudy Monk,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Noble Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Battlefield Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Young hearts Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,Trudy Monk,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Trudy Monk', 'Battlefield Medical Center'), ('Trudy Monk', 'Noble Medical Center'), ('Trudy Monk', 'Young hearts Medical Center')]"

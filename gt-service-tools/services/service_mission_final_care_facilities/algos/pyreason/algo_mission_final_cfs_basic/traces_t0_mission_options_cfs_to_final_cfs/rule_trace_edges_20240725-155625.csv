@@ -1,0 +1,5 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('Trudy Monk', '13.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact

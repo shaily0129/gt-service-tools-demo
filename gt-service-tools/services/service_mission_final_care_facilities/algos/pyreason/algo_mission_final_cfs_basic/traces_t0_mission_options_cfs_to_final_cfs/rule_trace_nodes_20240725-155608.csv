@@ -1,0 +1,8 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,Sharona Fleming,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Randy Disher,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Noble Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Battlefield Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Young hearts Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,Sharona Fleming,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Sharona Fleming', 'Battlefield Medical Center')]"
+0,1,Randy Disher,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Randy Disher', 'Noble Medical Center'), ('Randy Disher', 'Young hearts Medical Center')]"

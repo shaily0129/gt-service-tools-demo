@@ -1,0 +1,10 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,"('Adrian Monk', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Adrian Monk', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Natalie Tieger', '10.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Natalie Tieger', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,"('Natalie Tieger', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Adrian Monk', 'Battlefield Medical Center')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,2,"('Natalie Tieger', 'Noble Medical Center')",mlp_optimized,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+1,3,"('Adrian Monk', 'Battlefield Medical Center')",final_cf,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Adrian Monk', 'Battlefield Medical Center')]"
+1,3,"('Natalie Tieger', 'Noble Medical Center')",final_cf,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Natalie Tieger', 'Noble Medical Center')]"

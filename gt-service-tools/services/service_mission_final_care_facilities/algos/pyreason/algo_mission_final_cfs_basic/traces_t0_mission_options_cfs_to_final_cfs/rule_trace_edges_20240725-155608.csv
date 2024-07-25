@@ -1,0 +1,6 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('Sharona Fleming', '40.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', '43.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact

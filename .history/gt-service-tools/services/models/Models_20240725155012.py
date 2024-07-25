@@ -7,7 +7,7 @@ from services.models.ModelTriageCategory import TriageCategory
 from services.models.ModelTriageScore import TriageScore
 from services.models.ModelMissionFinalAssets import MissionFinalAssets
 from services.models.ModelPatientMatrix import PatientMatrix
-from services.models.ModelMissionFinalCFs import MissionFinalCFs
+from services.models.ModelMissionOptionsCFs import MissionOptionsCFs
 
 
 class InteractionOption(BaseModel):

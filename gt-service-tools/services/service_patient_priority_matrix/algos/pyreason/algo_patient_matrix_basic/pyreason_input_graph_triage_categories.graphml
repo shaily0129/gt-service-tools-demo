@@ -78,7 +78,7 @@
   <data key="evac_needed">0,0</data>
   <data key="resupply_needed">0,0</data>
 </node>
-<edge source="Unknown" target="immediate">
+<edge source="Unknown" target="minor">
   <data key="triage_category">1,1</data>
 </edge>
 <edge source="Unknown" target="0">

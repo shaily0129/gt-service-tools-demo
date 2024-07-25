@@ -1,0 +1,10 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,Adrian Monk,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Natalie Tieger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Jake Peralta,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Noble Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Battlefield Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Young hearts Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,Adrian Monk,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Adrian Monk', 'Battlefield Medical Center'), ('Adrian Monk', 'Noble Medical Center')]"
+0,1,Natalie Tieger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Natalie Tieger', 'Battlefield Medical Center'), ('Natalie Tieger', 'Young hearts Medical Center')]"
+0,1,Jake Peralta,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Jake Peralta', 'Noble Medical Center'), ('Jake Peralta', 'Young hearts Medical Center')]"
