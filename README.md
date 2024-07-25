@@ -1,14 +1,13 @@
 # Testing API 
 
-- Run the file app_triageScore.py located at `gt-service-tools`
+- Run the file app.py located at `gt-service-tools`
   
-![image](https://github.com/user-attachments/assets/a259e447-a97e-4830-99d1-69cf5b6352c2)
 
 - The application will be running at `http://0.0.0.0:8002/docs`
 - /tools/triage
   ```shell
   {
-    "request_id": "demo123",
+    "request_id": "demo1",
     "patients": [
         {
             "patient_id": "patient1",
@@ -47,4 +46,66 @@
   ```
   - Make sure to add patient_id that already existed else empty list
   - The result is displayed based on highest triage score
+
+- /tools/triage_category
+  ```shell
+  { "request_id": "demo1", "params": {"name":"Ted","triage_score":"78"} }
+  ```
+  
+- /tools/patient_matrix
+  ```shell
+  {
+  "patient_id": "demo1",
+  "params": {
+    "category": "minor"
+   }
+  }
+  ```
+  
+- /tools/final_asset
+  ```shell
+    {
+      "request_id": "demo1",
+      "params": [
+        {
+          "patient_name": "Adrian Monk",
+          "assets_possible": ["Black hawk HH60M", "Chinook CH47", "Chinook CH99", "Truck M1165", "Ambulance M997A3"],
+          "triage_score": 20
+        },
+        {
+          "patient_name": "Natalie Tieger",
+          "assets_possible": ["Black hawk HH60M", "Chinook CH47", "Chinook CH99", "Truck M1165"],
+          "triage_score": 10
+        },
+        {
+          "patient_name": "Leland Stottlemeyer",
+          "assets_possible": ["Black hawk HH60M", "Chinook CH47", "Chinook CH99", "Truck M1165"],
+          "triage_score": 20
+        }
+      ]
+    }
+  ```
+
+- /tools/final_cf
+  ```shell
+    {
+      "request_id": "demo1",
+      "params": [
+        {
+          "patient_name": "Adrian Monk",
+          "care_facilities_possible": ["Battlefield Medical Center", "Noble Medical Center", "Young hearts Medical Center"],
+          "triage_score": 20.0
+        },
+        {
+          "patient_name": "Natalie Tieger",
+          "care_facilities_possible": ["Battlefield Medical Center", "Noble Medical Center", "Young hearts Medical Center"],
+          "triage_score": 10.0
+        }
+      ]
+    }
+    
+
+  ```
+  
+
 
