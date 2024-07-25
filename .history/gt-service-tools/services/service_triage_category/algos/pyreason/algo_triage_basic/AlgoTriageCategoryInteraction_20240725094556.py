@@ -114,7 +114,7 @@ class TriageCategoryBasic(Triage):
         self.write_graphml(nx_graph=graph, graphml_path=graphml_path)
         rules_path = os.path.join(current_script_directory, rules_path)
 
-        pr.reset()
+                pr.reset()
         pr.reset_rules()
         pr.settings.verbose = False
         pr.settings.atom_trace = True

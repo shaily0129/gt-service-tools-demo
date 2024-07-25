@@ -32,9 +32,7 @@ class RedisManager:
         self.redis_host = os.getenv("redis_host")
         self.redis_port = int(os.getenv("redis_host_port"))
         self.redis_password = os.getenv("redis_host_password")
-        self.redis_client = self.__connect_to_redis(
-            host=self.redis_host, port=self.redis_port, password=self.redis_password
-        )
+        self.redis_client = self.__connect_to_redis(host=self.redis_host, port=self.redis_port, password=self.redis_password)
 
     def get_keys(self, pattern="*"):
         # Get all keys that match the pattern
@@ -52,7 +50,7 @@ class RedisManager:
         # keys = redis_client.keys('*')
 
         # Get all keys
-        keys = self.redis_client.keys("*")
+        keys = self.redis_client.keys('*')
         values = self.redis_client.mget(keys)
 
         all_values = {key: value for key, value in zip(keys, values)}
@@ -70,7 +68,7 @@ class RedisManager:
 
         # Continuously listen for messages
         for message in self.redis_client.listen():
-            if message["type"] == "message":
+            if message['type'] == 'message':
                 self.message_handler(message)
 
     def publish_to_redis_channel(self, channel_name, message):
