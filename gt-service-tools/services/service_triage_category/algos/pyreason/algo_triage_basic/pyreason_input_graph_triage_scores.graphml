@@ -444,329 +444,329 @@
   <data key="triage_category_id">7</data>
   <data key="type_triage_category_uninjured">1,1</data>
 </node>
-<node id="lilly">
+<node id="tedyy">
   <data key="casualty_id">2</data>
   <data key="type_casualty">1,1</data>
 </node>
-<edge source="lilly" target="expectant">
+<edge source="tedyy" target="expectant">
   <data key="triage_category">0,1</data>
 </edge>
-<edge source="lilly" target="immediate">
+<edge source="tedyy" target="immediate">
   <data key="triage_category">0,1</data>
 </edge>
-<edge source="lilly" target="urgent">
+<edge source="tedyy" target="urgent">
   <data key="triage_category">0,1</data>
 </edge>
-<edge source="lilly" target="delayed">
+<edge source="tedyy" target="delayed">
   <data key="triage_category">0,1</data>
 </edge>
-<edge source="lilly" target="minor">
+<edge source="tedyy" target="minor">
   <data key="triage_category">0,1</data>
 </edge>
-<edge source="lilly" target="uninjured">
+<edge source="tedyy" target="uninjured">
   <data key="triage_category">0,1</data>
 </edge>
-<edge source="lilly" target="0">
+<edge source="tedyy" target="0">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="1">
+<edge source="tedyy" target="1">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="2">
+<edge source="tedyy" target="2">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="3">
+<edge source="tedyy" target="3">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="4">
+<edge source="tedyy" target="4">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="5">
+<edge source="tedyy" target="5">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="6">
+<edge source="tedyy" target="6">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="7">
+<edge source="tedyy" target="7">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="8">
+<edge source="tedyy" target="8">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="9">
+<edge source="tedyy" target="9">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="10">
+<edge source="tedyy" target="10">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="11">
+<edge source="tedyy" target="11">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="12">
+<edge source="tedyy" target="12">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="13">
+<edge source="tedyy" target="13">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="14">
+<edge source="tedyy" target="14">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="15">
+<edge source="tedyy" target="15">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="16">
+<edge source="tedyy" target="16">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="17">
+<edge source="tedyy" target="17">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="18">
+<edge source="tedyy" target="18">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="19">
+<edge source="tedyy" target="19">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="20">
+<edge source="tedyy" target="20">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="21">
+<edge source="tedyy" target="21">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="22">
+<edge source="tedyy" target="22">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="23">
+<edge source="tedyy" target="23">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="24">
+<edge source="tedyy" target="24">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="25">
+<edge source="tedyy" target="25">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="26">
+<edge source="tedyy" target="26">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="27">
+<edge source="tedyy" target="27">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="28">
+<edge source="tedyy" target="28">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="29">
+<edge source="tedyy" target="29">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="30">
+<edge source="tedyy" target="30">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="31">
+<edge source="tedyy" target="31">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="32">
+<edge source="tedyy" target="32">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="33">
+<edge source="tedyy" target="33">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="34">
+<edge source="tedyy" target="34">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="35">
+<edge source="tedyy" target="35">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="36">
+<edge source="tedyy" target="36">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="37">
+<edge source="tedyy" target="37">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="38">
+<edge source="tedyy" target="38">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="39">
+<edge source="tedyy" target="39">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="40">
+<edge source="tedyy" target="40">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="41">
+<edge source="tedyy" target="41">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="42">
+<edge source="tedyy" target="42">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="43">
+<edge source="tedyy" target="43">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="44">
+<edge source="tedyy" target="44">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="45">
+<edge source="tedyy" target="45">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="46">
+<edge source="tedyy" target="46">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="47">
+<edge source="tedyy" target="47">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="48">
+<edge source="tedyy" target="48">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="49">
+<edge source="tedyy" target="49">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="50">
+<edge source="tedyy" target="50">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="51">
+<edge source="tedyy" target="51">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="52">
+<edge source="tedyy" target="52">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="53">
+<edge source="tedyy" target="53">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="54">
+<edge source="tedyy" target="54">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="55">
+<edge source="tedyy" target="55">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="56">
+<edge source="tedyy" target="56">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="57">
+<edge source="tedyy" target="57">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="58">
+<edge source="tedyy" target="58">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="59">
+<edge source="tedyy" target="59">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="60">
+<edge source="tedyy" target="60">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="61">
+<edge source="tedyy" target="61">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="62">
+<edge source="tedyy" target="62">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="63">
+<edge source="tedyy" target="63">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="64">
+<edge source="tedyy" target="64">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="65">
+<edge source="tedyy" target="65">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="66">
+<edge source="tedyy" target="66">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="67">
+<edge source="tedyy" target="67">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="68">
+<edge source="tedyy" target="68">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="69">
+<edge source="tedyy" target="69">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="70">
+<edge source="tedyy" target="70">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="71">
+<edge source="tedyy" target="71">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="72">
+<edge source="tedyy" target="72">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="73">
+<edge source="tedyy" target="73">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="74">
+<edge source="tedyy" target="74">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="75">
+<edge source="tedyy" target="75">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="76">
+<edge source="tedyy" target="76">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="77">
+<edge source="tedyy" target="77">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="78">
+<edge source="tedyy" target="78">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="79">
+<edge source="tedyy" target="79">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="80">
+<edge source="tedyy" target="80">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="81">
+<edge source="tedyy" target="81">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="82">
+<edge source="tedyy" target="82">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="83">
+<edge source="tedyy" target="83">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="84">
+<edge source="tedyy" target="84">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="85">
+<edge source="tedyy" target="85">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="86">
+<edge source="tedyy" target="86">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="87">
+<edge source="tedyy" target="87">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="88">
+<edge source="tedyy" target="88">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="89">
+<edge source="tedyy" target="89">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="90">
+<edge source="tedyy" target="90">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="91">
+<edge source="tedyy" target="91">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="92">
+<edge source="tedyy" target="92">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="93">
+<edge source="tedyy" target="93">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="94">
+<edge source="tedyy" target="94">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="95">
+<edge source="tedyy" target="95">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="96">
+<edge source="tedyy" target="96">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="97">
+<edge source="tedyy" target="97">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="98">
+<edge source="tedyy" target="98">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="99">
+<edge source="tedyy" target="99">
   <data key="triage_score">0,1</data>
 </edge>
-<edge source="lilly" target="100">
+<edge source="tedyy" target="100">
   <data key="triage_score">0,1</data>
 </edge>
 </graph></graphml>
