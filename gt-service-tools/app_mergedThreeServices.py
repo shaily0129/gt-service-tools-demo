@@ -1,21 +1,38 @@
 import json
-from typing import Dict, List, Optional
+from typing import Dict, List
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request, Body
 from pydantic import BaseModel
 from caching.CacheRedis import RedisManager
+from services.models.Models import (
+    FinalAssetInteractionRequest,
+    TriageInteractionRequest,
+    TriageInteractionRequest1,
+)
+from services.service_triage_category.algos.pyreason.algo_triage_basic.AlgoFinalAssetInteraction import (
+    FinalAssetInteraction,
+)
 from services.service_triage_category.algos.pyreason.algo_triage_basic.AlgoTriageScoreInteraction import (
     TriageScoreInteraction,
 )
 from services.service_triage_category.algos.pyreason.algo_triage_basic.AlgoTriageCategoryInteraction import (
     TriageCategoryBasic,
 )
-from services.models.Models import TriageInteractionRequest, TriageInteractionRequest1
 from services.service_triage.factory.FactoryAlgoTriage import (
     Threshold,
-    TriageFactory,
 )
 from utils.Utils import load_env_file
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+app = FastAPI(
+    title="ASU Tools",
+    description="Demo of using interactive tools",
+    version="0.0.1",
+)
 
 
 class PatientParams(BaseModel):
@@ -59,11 +76,41 @@ thresholds_data_algo3 = {
     "rr": Threshold(min_value=0, max_value=100),
 }
 
-app = FastAPI(
-    title="ASU Tools",
-    description="Demo of using interactive tools",
-    version="0.0.1",
-)
+
+@app.post("/tools/final_asset", tags=["asset"])
+async def rate_response(
+    request: Request, asset: FinalAssetInteractionRequest
+) -> FinalAssetInteractionRequest:
+    try:
+        # Step 1. Setup Caching Manager
+        load_env_file("dev.env")
+        caching_manager = RedisManager()
+        key = f"tools-asset-{asset.request_id}"
+
+        # Clear cache before processing the request
+        caching_manager.delete(key)
+
+        # Step 2. Check for new or complete interaction request
+        cached_asset_json = caching_manager.get_json(key)
+        if cached_asset_json is None:
+            caching_manager.save_json(key, asset.json())
+        else:
+            cached_asset = FinalAssetInteractionRequest(**cached_asset_json)
+            if cached_asset.complete:
+                return cached_asset
+
+        # Step 3. Interaction request
+        final_asset_interaction = FinalAssetInteraction()
+        asset = final_asset_interaction.run_final_asset_algo(
+            asset_interaction_request=asset
+        )
+        caching_manager.save_json(key, asset.json())
+
+        return asset
+
+    except Exception as e:
+        print(e)
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @app.post("/tools/triage", tags=["Triage"])

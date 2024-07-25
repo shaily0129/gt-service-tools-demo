@@ -40,19 +40,19 @@
 </node>
 <node id="84.0"/>
 <node id="82.0"/>
-<node id="Ambulance M997A3">
-  <data key="type_asset">1,1</data>
-</node>
-<node id="Chinook CH99">
+<node id="Truck M1165">
   <data key="type_asset">1,1</data>
 </node>
 <node id="Chinook CH47">
   <data key="type_asset">1,1</data>
 </node>
-<node id="Truck M1165">
+<node id="Ambulance M997A3">
   <data key="type_asset">1,1</data>
 </node>
 <node id="Black hawk HH60M">
+  <data key="type_asset">1,1</data>
+</node>
+<node id="Chinook CH99">
   <data key="type_asset">1,1</data>
 </node>
 <edge source="Adrian" target="20.0">

@@ -1,0 +1,40 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('Adrian', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie', '10.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', '30.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Fleming', '40.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Fleming', '82.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Fleming', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Fleming', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Fleming', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Disher', '43.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Disher', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Disher', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy', '13.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Kroger', '95.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Kroger', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Kroger', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Kroger', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Kroger', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Kroger', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie', '84.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie', 'Black hawk HH60M')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie', 'Chinook CH47')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie', 'Chinook CH99')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie', 'Truck M1165')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie', 'Ambulance M997A3')",possible_asset,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
