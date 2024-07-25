@@ -10,7 +10,7 @@ load_env_file("dev.env")
 caching_manager = RedisManager()
 
 # Step1 - Define initial parameters
-name = "demo66"
+name = "demo5"
 
 # Step 2 - Create BookingInteractionRequest object
 KEY = f"triage-category-{name.lower().replace(' ', '-')}"

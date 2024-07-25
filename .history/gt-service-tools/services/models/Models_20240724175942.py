@@ -37,11 +37,9 @@ class BookingInteractionRequest(InteractionRequest):
 #     patient_id: Optional[str] = None
 #     triage_score: Optional[TriageScore] = None
 
-
 class TriageInteractionRequest(InteractionRequest):
     patient_id: str  # Mandatory field
     triage_score: Optional[TriageScore] = None
-
 
 class TriageInteractionRequest1(InteractionRequest):
     patient_id: Optional[str] = None

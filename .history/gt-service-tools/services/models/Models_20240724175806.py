@@ -47,6 +47,9 @@ class TriageInteractionRequest1(InteractionRequest):
     patient_id: Optional[str] = None
     triage_category: Optional[TriageCategory] = None
 
+    class Config:
+        orm_mode = True
+
 
 class EvacStrandedPersonnelInteractionRequest(InteractionRequest):
     booking_id: Optional[str] = None
