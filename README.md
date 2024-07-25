@@ -1,5 +1,7 @@
 # Testing API 
 
+- 5 web-enabled services up and running so far!
+
 - Run the file app.py located at `gt-service-tools`
   
 
