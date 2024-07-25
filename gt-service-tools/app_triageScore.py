@@ -1,3 +1,5 @@
+import json
+from typing import Dict, List, Union, Optional
 import uvicorn
 from fastapi import FastAPI, HTTPException, Request, Body
 from pydantic import BaseModel
@@ -14,9 +16,22 @@ from services.service_triage.factory.FactoryAlgoTriage import (
 from utils.Utils import load_env_file
 
 
+class PatientParams(BaseModel):
+    patient_id: str  # Mandatory field
+    params: dict
+
+
+class PatientRecord(BaseModel):
+    request_id: str
+    patient_id: str
+    patient_name: str
+    params: dict
+    triage_score: Optional[Dict] = None
+
+
 class TriageRequestBody(BaseModel):
     request_id: str
-    params: dict
+    patients: List[PatientParams]
 
 
 # Define thresholds_data_algo3
@@ -58,37 +73,86 @@ app = FastAPI(
 
 
 @app.post("/tools/triage", tags=["Triage"])
-async def rate_response(
-    request: Request, body: TriageRequestBody = Body(...)
-) -> TriageInteractionRequest:
+async def rate_response(request: Request, body: TriageRequestBody = Body(...)) -> dict:
     try:
         # Step 1. Setup Caching Manager
         load_env_file("dev.env")
         caching_manager = RedisManager()
-        key = f"tools-triage-{body.request_id}"
 
-        # Create TriageInteractionRequest from request body
-        triage_interaction_request = TriageInteractionRequest(
-            request_id=body.request_id, params=body.params
+        results = []
+        for patient in body.patients:
+            key = f"tools-triage-{body.request_id}-{patient.patient_id}"
+            # Create TriageInteractionRequest for each patient
+            triage_interaction_request = TriageInteractionRequest(
+                request_id=body.request_id,
+                patient_id=patient.patient_id,
+                params=patient.params,
+            )
+
+            # Step 2. Check for new or complete interaction request
+            cached_bir_json = caching_manager.get_json(key)
+            if cached_bir_json is None:
+                caching_manager.save_json(key, triage_interaction_request.json())
+            else:
+                cached_bir = TriageInteractionRequest(**cached_bir_json)
+                if cached_bir.complete:
+                    results.append(cached_bir)
+                    continue
+
+            # Step 3. Interaction request is still WIP, so run the triage algorithm and cache result
+            bir = TriageScoreInteraction(
+                thresholds=thresholds_data_algo3
+            ).run_triage_algo(triage_interaction_request=triage_interaction_request)
+
+            # Step 4. Save the result and return it
+            caching_manager.save_json(key, bir.json())
+            results.append(bir)
+
+        # Sort results by score
+        sorted_results = sorted(
+            results, key=lambda x: x.triage_score.score, reverse=True
         )
 
-        # Step 2. Check for new or complete interaction request
-        cached_bir_json = caching_manager.get_json(key)
-        if cached_bir_json is None:
-            caching_manager.save_json(key, triage_interaction_request.json())
-        else:
-            cached_bir = TriageInteractionRequest(**cached_bir_json)
-            if cached_bir.complete:
-                return cached_bir
+        return {"results": sorted_results}
 
-        # Step 3. Interaction request is still WIP, so run the triage algorithm and cache result
-        bir = TriageScoreInteraction(thresholds=thresholds_data_algo3).run_triage_algo(
-            triage_interaction_request=triage_interaction_request
+    except Exception as e:
+        print(e)
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/tools/triage/scores", tags=["Triage"])
+async def get_patient_scores(
+    request: Request, patient_ids: List[str] = Body(...)
+) -> dict:
+    try:
+        load_env_file("dev.env")
+        caching_manager = RedisManager()
+
+        results = []
+        for patient_id in patient_ids:
+            keys = caching_manager.get_keys(f"tools-triage-*-{patient_id}")
+            if not keys:
+                continue
+
+            # Assume the latest entry is the one we want if there are multiple
+            key = keys[-1]
+            cached_patient_json = caching_manager.get_json(key)
+
+            cached_patient_dict = json.loads(cached_patient_json)
+            cached_patient = TriageInteractionRequest(**cached_patient_dict)
+            patient_record = {
+                "patient_id": cached_patient.patient_id,
+                "triage_score": cached_patient.triage_score,
+                "algo_name": cached_patient.triage_score.algo_name,
+            }
+            results.append(patient_record)
+
+        # Sort results by score in decreasing order
+        sorted_results = sorted(
+            results, key=lambda x: x["triage_score"].score, reverse=True
         )
 
-        # Step 4. Save the result and return it
-        caching_manager.save_json(key, bir.json())
-        return bir
+        return {"patients": sorted_results}
 
     except Exception as e:
         print(e)

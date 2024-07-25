@@ -16,25 +16,32 @@ class BasicTriage(Triage):
         score = 0.0
 
         if not record:
-            return TriageScore(score=0.0, rationale=rationale_records, datetime_seconds=int(datetime.now().timestamp()),
-                               algo_name="BasicTriage")
-
-
+            return TriageScore(
+                score=0.0,
+                rationale=rationale_records,
+                datetime_seconds=int(datetime.now().timestamp()),
+                algo_name="BasicTriage",
+            )
 
         for vital_name, threshold in self.thresholds.items():
             if vital_name in record:
                 value = record[vital_name]
                 if value > threshold.max_value:
                     score += 5.0
-                    rationale_records.append(RationaleRecord(vital=Vital(name=vital_name, value=value), score=5.0,
-                                                             threshold=threshold))
+                    rationale_records.append(
+                        RationaleRecord(
+                            vital=Vital(name=vital_name, value=value),
+                            score=5.0,
+                            threshold=threshold,
+                        )
+                    )
                 elif value > threshold.max_value:
                     score += 3.0
                     rationale_records.append(
                         RationaleRecord(
                             vital=Vital(name=vital_name, value=value),
                             score=3.0,
-                            threshold=threshold
+                            threshold=threshold,
                         )
                     )
                 else:
@@ -43,10 +50,9 @@ class BasicTriage(Triage):
                         RationaleRecord(
                             vital=Vital(name=vital_name, value=value),
                             score=1.0,
-                            threshold=threshold
+                            threshold=threshold,
                         )
                     )
-
 
         # Return the TriageScore with the total score, rationale, datetime, and algorithm name
         return TriageScore(
@@ -54,5 +60,5 @@ class BasicTriage(Triage):
             algo_name="BasicTriageAlgo1",
             score=score,
             confidence=1,
-            rationale=rationale_records
+            rationale=rationale_records,
         )

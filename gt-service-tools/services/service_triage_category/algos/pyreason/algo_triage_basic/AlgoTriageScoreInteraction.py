@@ -182,7 +182,8 @@ class TriageScoreInteraction(Triage):
 
         # Cache result
         caching_manager = RedisManager()
-        key = f"tools-triage-{triage_interaction_request.request_id}"
+        # key = f"tools-triage-{triage_interaction_request.request_id}"
+        key = f"tools-triage-{triage_interaction_request.request_id}-{triage_interaction_request.patient_id}"
         caching_manager.save_json(key, triage_interaction_request.json())
 
         return triage_interaction_request

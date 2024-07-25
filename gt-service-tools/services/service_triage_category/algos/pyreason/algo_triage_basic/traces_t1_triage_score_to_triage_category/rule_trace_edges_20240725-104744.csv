@@ -1,0 +1,3 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3,Clause-4,Clause-5
+1,1,"('tedt', '6')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,2,"('tedt', 'expectant')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('tedt', '6')]",['tedt'],['6'],"[('tedt', 'expectant')]",['expectant']

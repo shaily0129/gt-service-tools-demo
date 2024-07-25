@@ -16,10 +16,12 @@ class BasicTriage2(Triage):
         score = 0.0
 
         if not record:
-            return TriageScore(score=0.0, rationale=rationale_records, datetime_seconds=int(datetime.now().timestamp()),
-                               algo_name="BasicTriage")
-
-
+            return TriageScore(
+                score=0.0,
+                rationale=rationale_records,
+                datetime_seconds=int(datetime.now().timestamp()),
+                algo_name="BasicTriage",
+            )
 
         for vital_name, threshold in self.thresholds.items():
             if vital_name in record:
@@ -29,10 +31,13 @@ class BasicTriage2(Triage):
                     if value < threshold.min_value:
                         score += 50.0
 
-                        rationale_records.append(RationaleRecord(vital=Vital(name=vital_name, value=value), score=5.0,
-                                                             threshold=threshold))
-
-
+                        rationale_records.append(
+                            RationaleRecord(
+                                vital=Vital(name=vital_name, value=value),
+                                score=5.0,
+                                threshold=threshold,
+                            )
+                        )
 
         # Return the TriageScore with the total score, rationale, datetime, and algorithm name
         return TriageScore(
@@ -40,5 +45,5 @@ class BasicTriage2(Triage):
             algo_name="BasicTriageAlgo2",
             score=score,
             confidence=1,
-            rationale=rationale_records
+            rationale=rationale_records,
         )
