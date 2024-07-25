@@ -7,7 +7,7 @@
 - /tools/triage
   ```shell
   {
-    "request_id": "demo123",
+    "request_id": "demo1",
     "patients": [
         {
             "patient_id": "patient1",
@@ -84,6 +84,27 @@
         }
       ]
     }
+  ```
+
+- /tools/final_cf
+  ```shell
+    {
+      "request_id": "demo1",
+      "params": [
+        {
+          "patient_name": "Adrian Monk",
+          "care_facilities_possible": ["Battlefield Medical Center", "Noble Medical Center", "Young hearts Medical Center"],
+          "triage_score": 20.0
+        },
+        {
+          "patient_name": "Natalie Tieger",
+          "care_facilities_possible": ["Battlefield Medical Center", "Noble Medical Center", "Young hearts Medical Center"],
+          "triage_score": 10.0
+        }
+      ]
+    }
+    
+
   ```
   
 
